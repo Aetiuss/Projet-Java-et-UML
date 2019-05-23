@@ -142,9 +142,5 @@
       <id>CESI</id>
       <url>https://www.cesi.fr</url>
     </site>
-	  <repository>
-		  <id>Projet Java UML Groupe 2</id>
-		  <url>https://github.com/Aetiuss/Projet-Java-et-UML</url>
-	  </repository>
   </distributionManagement>
 </project>
