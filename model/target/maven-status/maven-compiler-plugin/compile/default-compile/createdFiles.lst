@@ -1,0 +1,5 @@
+model\Model.class
+model\DAOHelloWorld.class
+model\DBConnection.class
+model\DBProperties.class
+model\DAOEntity.class

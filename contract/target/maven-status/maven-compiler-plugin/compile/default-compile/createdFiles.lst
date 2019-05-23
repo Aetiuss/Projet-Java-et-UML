@@ -1,0 +1,4 @@
+contract\ControllerOrder.class
+contract\IView.class
+contract\IModel.class
+contract\IController.class
