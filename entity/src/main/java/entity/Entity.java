@@ -1,6 +1,6 @@
 package entity;
 
-import contract.IGravity;
+import contract.IBehaviour;
 
 /**
  * The Class Entity.
@@ -10,7 +10,7 @@ import contract.IGravity;
 public abstract class Entity
 {
     
-    private IGravity gravity;
-    public Entity(IGravity gravity) {}
+    private IBehaviour behaviour;
+    public Entity(IBehaviour gravity) {}
     
 }

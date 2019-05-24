@@ -1,11 +1,11 @@
 package entity;
 
-import contract.IGravity;
+import contract.IBehaviour;
 
 public class Rock extends Obstacles
 {
     
-    public Rock(IGravity gravity)
+    public Rock(IBehaviour gravity)
     {
         super(gravity);
     }

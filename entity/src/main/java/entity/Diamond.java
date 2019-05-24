@@ -1,11 +1,11 @@
 package entity;
 
-import contract.IGravity;
+import contract.IBehaviour;
 
 public class Diamond extends Entity
 {
     
-    public Diamond(IGravity gravity)
+    public Diamond(IBehaviour gravity)
     {
         super(gravity);
     }

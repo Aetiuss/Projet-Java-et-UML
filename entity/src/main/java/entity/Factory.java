@@ -5,27 +5,27 @@ public class Factory
     
     public Diamond getDiamond()
     {
-        return new Diamond(new GravityTrue());
+        return new Diamond(new BehaviourCollectable());
     }
     public Player getPlayer()
     {
-        return new Player(new GravityFalse());
+        return new Player(new BehaviourImmovable());
     }
     public Ennemy getEnnemy()
     {
-        return new Ennemy(new GravityFalse());
+        return new Ennemy(new BehaviourImmovable());
     }
     public Rock getRock()
     {
-        return new Rock(new GravityFalse());
+        return new Rock(new BehaviourImmovable());
     }
     public FallingRock getFallingRock()
     {
-        return new FallingRock(new GravityTrue());
+        return new FallingRock(new BehaviourMovable());
     }
     public Wall getWall()
     {
-        return new Wall(new GravityFalse());
+        return new Wall(new BehaviourImmovable());
     }
     
 }

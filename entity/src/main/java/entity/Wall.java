@@ -1,11 +1,11 @@
 package entity;
 
-import contract.IGravity;
+import contract.IBehaviour;
 
 public class Wall extends Obstacles
 {
     
-    public Wall(IGravity gravity)
+    public Wall(IBehaviour gravity)
     {
         super(gravity);
     }
