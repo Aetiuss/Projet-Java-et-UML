@@ -10,10 +10,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * The Class DAOMap.
- * Used to get the map from a distant or local DB using the "../../resources/model.properties" files to get database log in.
+ * Use to load the map from a distant or local DB.
+ * Used to load the map from a distant or local DB using the "../../resources/model.properties" files to get database log in.
  *
  * @author Théo Weimann
+ * @version 1.0
  */
 
 class DAOMap {

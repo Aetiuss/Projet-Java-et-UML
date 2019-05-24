@@ -8,6 +8,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
+ * Contain some tests concerning the DAOMap class.
  * @author Théo Weimann
  */
 public class DAOMapTest {
