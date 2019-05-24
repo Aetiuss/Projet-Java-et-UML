@@ -2,209 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3093acad-7987-4206-8243-73340f1051fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contract/target/classes/contract/ControllerOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/classes/contract/IController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/classes/contract/IModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/classes/contract/IView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/contract-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/css/maven-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/css/maven-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/css/print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/dependencies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/dependency-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/distribution-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/images/close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/images/collapsed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/images/expanded.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/images/external.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/images/icon_error_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/images/icon_info_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/images/icon_success_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/images/icon_warning_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/images/logos/build-by-maven-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/images/logos/build-by-maven-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/images/logos/maven-feather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/images/newwindow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/plugin-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/plugins.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/project-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/target/site/project-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/classes/controller/Controller$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/classes/controller/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/controller-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/css/maven-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/css/maven-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/css/print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/dependencies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/dependency-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/distribution-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/images/close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/images/collapsed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/images/expanded.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/images/external.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/images/icon_error_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/images/icon_info_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/images/icon_success_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/images/icon_warning_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/images/logos/build-by-maven-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/images/logos/build-by-maven-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/images/logos/maven-feather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/images/newwindow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/plugin-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/plugins.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/project-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/target/site/project-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/classes/entity/Entity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/classes/entity/HelloWorld.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/entity-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/css/maven-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/css/maven-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/css/print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/dependencies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/dependency-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/distribution-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/images/close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/images/collapsed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/images/expanded.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/images/external.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/images/icon_error_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/images/icon_info_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/images/icon_success_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/images/icon_warning_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/images/logos/build-by-maven-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/images/logos/build-by-maven-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/images/logos/maven-feather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/images/newwindow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/plugin-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/plugins.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/project-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity/target/site/project-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/classes/main/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/main-0.0.1-SNAPSHOT-shaded.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/main-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/original-main-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/css/maven-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/css/maven-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/css/print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/dependencies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/dependency-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/distribution-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/images/close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/images/collapsed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/images/expanded.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/images/external.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/images/icon_error_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/images/icon_info_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/images/icon_success_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/images/icon_warning_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/images/logos/build-by-maven-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/images/logos/build-by-maven-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/images/logos/maven-feather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/images/newwindow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/plugin-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/plugins.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/project-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/target/site/project-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/classes/jpublankproject.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/classes/model.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/classes/model/DAOEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/classes/model/DAOHelloWorld.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/classes/model/DBConnection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/classes/model/DBProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/classes/model/Model.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/model-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/css/maven-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/css/maven-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/css/print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/dependencies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/dependency-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/distribution-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/images/close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/images/collapsed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/images/expanded.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/images/external.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/images/icon_error_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/images/icon_info_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/images/icon_success_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/images/icon_warning_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/images/logos/build-by-maven-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/images/logos/build-by-maven-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/images/logos/maven-feather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/images/newwindow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/plugin-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/plugins.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/project-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/site/project-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/surefire-reports/TEST-model.ModelTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/surefire-reports/model.ModelTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/target/test-classes/model/ModelTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/distribution-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/staging/contract/distribution-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/staging/controller/distribution-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/staging/distribution-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/staging/entity/distribution-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/staging/main/distribution-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/staging/model/distribution-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/staging/view/distribution-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/classes/view/View.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/classes/view/ViewFrame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/classes/view/ViewPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/css/maven-base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/css/maven-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/css/print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/dependencies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/dependency-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/distribution-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/images/close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/images/collapsed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/images/expanded.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/images/external.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/images/icon_error_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/images/icon_info_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/images/icon_success_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/images/icon_warning_sml.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/images/logos/build-by-maven-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/images/logos/build-by-maven-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/images/logos/maven-feather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/images/newwindow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/plugin-management.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/plugins.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/project-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/site/project-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/target/view-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contract/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/contract/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/controller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagram/jpublankproject.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/diagram/jpublankproject.vpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagram/jpublankproject.vux" beforeDir="false" afterPath="$PROJECT_DIR$/diagram/jpublankproject.vux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/target/entity-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/entity-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/target/main-0.0.1-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/main/target/main-0.0.1-SNAPSHOT-shaded.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/target/main-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/main/target/main-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/target/original-main-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/main/target/original-main-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/resources/model.properties" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/resources/model.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/classes/model.properties" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/classes/model.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/surefire-reports/TEST-model.ModelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/surefire-reports/TEST-model.ModelTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/surefire-reports/model.ModelTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/surefire-reports/model.ModelTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" afterDir="false" />
@@ -271,15 +87,6 @@
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependency-convergence.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-convergence.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/modules.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugin-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/surefire-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/surefire-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/testapidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/allclasses-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/testapidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/allclasses-noframe.html" afterDir="false" />
@@ -295,6 +102,30 @@
       <change beforePath="$PROJECT_DIR$/target/site/testapidocs/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/model/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/testapidocs/model/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/model/package-use.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/testapidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/model/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/model/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/contract/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/contract/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/contract/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/contract/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/controller/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/controller/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/controller/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/entity/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/entity/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/entity/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/entity/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/main/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/main/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/main/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/main/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/model/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/model/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/view/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/view/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/view/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/view/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/staging/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/allclasses-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/staging/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/allclasses-noframe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/staging/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/constant-values.html" afterDir="false" />
@@ -361,50 +192,6 @@
       <change beforePath="$PROJECT_DIR$/target/staging/apidocs/view/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/view/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/staging/apidocs/view/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/view/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/staging/apidocs/view/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/view/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/contract/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/contract/dependencies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/contract/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/contract/dependency-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/contract/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/contract/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/contract/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/contract/plugin-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/contract/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/contract/plugins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/contract/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/contract/project-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/contract/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/contract/project-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/controller/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/controller/dependencies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/controller/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/controller/dependency-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/controller/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/controller/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/controller/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/controller/plugin-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/controller/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/controller/plugins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/controller/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/controller/project-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/controller/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/controller/project-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/dependencies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/dependency-convergence.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/dependency-convergence.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/dependency-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/entity/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/entity/dependencies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/entity/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/entity/dependency-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/entity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/entity/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/entity/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/entity/plugin-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/entity/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/entity/plugins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/entity/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/entity/project-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/entity/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/entity/project-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/main/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/main/dependencies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/main/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/main/dependency-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/main/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/main/plugin-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/main/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/main/plugins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/main/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/main/project-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/main/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/main/project-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/model/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/model/dependencies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/model/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/model/dependency-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/model/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/model/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/model/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/model/plugin-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/model/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/model/plugins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/model/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/model/project-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/model/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/model/project-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/modules.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/plugin-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/plugins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/project-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/project-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/staging/surefire-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/surefire-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/allclasses-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/allclasses-noframe.html" afterDir="false" />
@@ -420,15 +207,32 @@
       <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/model/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/model/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/model/package-use.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/view/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/view/dependencies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/view/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/view/dependency-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/view/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/view/plugin-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/view/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/view/plugins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/view/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/view/project-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/staging/view/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/view/project-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref-test/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref-test/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref-test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref-test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref-test/model/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref-test/model/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref-test/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref-test/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref-test/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref-test/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref-test/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref-test/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref-test/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref-test/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/contract/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/contract/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/contract/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/contract/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/controller/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/controller/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/controller/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/entity/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/entity/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/entity/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/entity/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/main/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/main/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/main/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/main/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/model/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/model/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/view/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/view/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/view/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/view/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/view/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
-    <ignored path="model/src/main/resources/model.properties" />
     <manually-removed-from-ignored>
       <directory path="$PROJECT_DIR$/contract/target/maven-status/" />
       <directory path="$PROJECT_DIR$/main/target/site/" />
@@ -501,8 +305,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1123">
-              <caret line="145" column="10" selection-start-line="145" selection-start-column="10" selection-end-line="145" selection-end-column="10" />
+            <state relative-caret-position="246">
+              <caret line="135" column="21" lean-forward="true" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/src/main/java/view/View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1037">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -511,7 +324,25 @@
         <entry file="file://$PROJECT_DIR$/model/src/main/resources/model.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/src/main/java/view/ViewPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/src/main/java/view/ViewFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="54" column="37" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -524,12 +355,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/model/src/main/resources/model.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/model/.gitignore" />
         <option value="$PROJECT_DIR$/main/.gitignore" />
         <option value="$PROJECT_DIR$/model/src/main/resources/.gitignore" />
+        <option value="$PROJECT_DIR$/view/src/main/java/view/ViewFrame.java" />
+        <option value="$PROJECT_DIR$/model/src/main/resources/model.properties" />
       </list>
     </option>
   </component>
@@ -554,26 +386,15 @@
           <item name="Master POM" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Master POM" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Master POM" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="site" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -581,8 +402,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -590,10 +409,38 @@
               <item name="masterpom" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="masterpom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="masterpom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="masterpom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="masterpom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -602,13 +449,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/model/src/main/resources/model.properties" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Strategy Pattern" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="settings.editor.selected.configurable" value="file.status.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -630,6 +480,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -642,6 +512,7 @@
       <updated>1558537553319</updated>
       <workItem from="1558537554605" duration="824000" />
       <workItem from="1558595089191" duration="2918000" />
+      <workItem from="1558599216437" duration="6436000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1558537892456</created>
@@ -668,40 +539,41 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3742000" />
+    <option name="totallyTimeSpent" value="10178000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.20149253" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.2562039" />
       <window_info id="Structure" order="1" sideWeight="0.5005513" side_tool="true" weight="0.20149253" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3296582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4138929" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.4002205" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.39942113" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Key Promoter X" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.5969148" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3296" />
+      <window_info anchor="right" id="Key Promoter X" order="9" weight="0.3296" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -766,45 +638,77 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a7ad99d9-6858-4bb6-86ad-475a8bfed81a/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/resources/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/view/.gitignore" />
     <entry file="file://$PROJECT_DIR$/main/.classpath">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entity/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/resources/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/entity/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/model/src/main/resources/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml" />
     <entry file="file://$PROJECT_DIR$/.idea/dataSources.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/814b6629-c4f9-4f33-999c-d9c7db1fc0f8/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/main/java/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/DBProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+          <folding>
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/src/main/java/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1037">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/src/main/java/view/ViewPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/src/main/java/view/ViewFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="54" column="37" lean-forward="true" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1123">
-          <caret line="145" column="10" selection-start-line="145" selection-start-column="10" selection-end-line="145" selection-end-column="10" />
+        <state relative-caret-position="246">
+          <caret line="135" column="21" lean-forward="true" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/resources/model.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
