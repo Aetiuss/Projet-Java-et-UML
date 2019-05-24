@@ -1,7 +1,5 @@
 package entity;
 
-import contract.IBehaviour;
-
 public class BehaviourMovable implements IBehaviour
 {
     

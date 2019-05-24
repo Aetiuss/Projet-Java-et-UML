@@ -1,7 +1,4 @@
 package entity;
-
-import contract.IBehaviour;
-
 /**
  * The Class Entity.
  *

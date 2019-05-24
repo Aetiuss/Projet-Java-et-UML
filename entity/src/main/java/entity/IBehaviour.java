@@ -1,4 +1,4 @@
-package contract;
+package entity;
 
 public interface IBehaviour
 {
