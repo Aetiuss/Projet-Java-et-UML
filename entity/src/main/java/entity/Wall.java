@@ -3,9 +3,9 @@ package entity;
 public class Wall extends Obstacles
 {
     
-    public Wall(IBehaviour gravity)
+    public Wall(IBehaviour behaviour)
     {
-        super(gravity);
+        super(behaviour);
     }
     
 }

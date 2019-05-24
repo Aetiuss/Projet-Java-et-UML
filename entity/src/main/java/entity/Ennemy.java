@@ -3,9 +3,9 @@ package entity;
 public class Ennemy extends Entity
 {
     
-    public Ennemy(IBehaviour gravity)
+    public Ennemy(IBehaviour behaviour)
     {
-        super(gravity);
+        super(behaviour);
     }
     
 }

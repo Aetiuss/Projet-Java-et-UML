@@ -3,9 +3,9 @@ package entity;
 public abstract class Obstacles extends Entity
 {
     
-    public Obstacles(IBehaviour gravity)
+    public Obstacles(IBehaviour behaviour)
     {
-        super(gravity);
+        super(behaviour);
     }
     
 }

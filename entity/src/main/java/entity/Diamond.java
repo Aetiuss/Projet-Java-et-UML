@@ -3,9 +3,9 @@ package entity;
 public class Diamond extends Entity
 {
     
-    public Diamond(IBehaviour gravity)
+    public Diamond(IBehaviour behaviour)
     {
-        super(gravity);
+        super(behaviour);
     }
     
 }

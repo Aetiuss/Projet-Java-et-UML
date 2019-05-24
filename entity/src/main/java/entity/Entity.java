@@ -8,7 +8,7 @@ public abstract class Entity
 {
     
     private IBehaviour behaviour;
-    public Entity(IBehaviour gravity) {}
+    public Entity(IBehaviour behaviour) {}
     public Entity() {}
     
 }

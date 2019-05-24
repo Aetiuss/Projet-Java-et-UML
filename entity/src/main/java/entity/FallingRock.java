@@ -3,9 +3,9 @@ package entity;
 public class FallingRock extends Obstacles
 {
     
-    public FallingRock(IBehaviour gravity)
+    public FallingRock(IBehaviour behaviour)
     {
-        super(gravity);
+        super(behaviour);
     }
     
 }
