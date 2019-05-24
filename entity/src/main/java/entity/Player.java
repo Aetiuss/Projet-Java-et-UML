@@ -3,9 +3,16 @@ package entity;
 public class Player extends Entity
 {
     
-    public Player(IBehaviour gravity)
+    private static Player ourInstance = new Player(new BehaviourImmovable());
+    
+    public static Player getInstance()
     {
-        super(gravity);
+        return ourInstance;
+    }
+    
+    private Player(IBehaviour behaviour)
+    {
+        super(behaviour);
     }
     
 }

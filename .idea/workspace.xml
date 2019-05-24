@@ -2,9 +2,228 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3093acad-7987-4206-8243-73340f1051fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/entity/src/main/java/entity/HelloWorld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/src/main/java/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/entity/src/main/java/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/src/main/java/entity/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/entity/src/main/java/entity/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/src/main/java/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/entity/src/main/java/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/contract/ControllerOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/contract/ControllerOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/contract/IController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/contract/IController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/contract/IModel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/contract/IModel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/contract/IView.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/contract/IView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/contract/class-use/ControllerOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/contract/class-use/ControllerOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/contract/class-use/IController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/contract/class-use/IController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/contract/class-use/IModel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/contract/class-use/IModel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/contract/class-use/IView.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/contract/class-use/IView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/contract/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/contract/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/contract/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/contract/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/contract/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/contract/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/contract/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/contract/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/controller/Controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/controller/Controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/controller/class-use/Controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/controller/class-use/Controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/controller/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/controller/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/controller/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/controller/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/controller/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/controller/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/controller/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/BehaviourCollectable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/BehaviourCollectable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/BehaviourImmovable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/BehaviourImmovable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/BehaviourMovable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/BehaviourMovable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/Diamond.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/Diamond.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/Ennemy.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/Ennemy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/Entity.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/Entity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/Factory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/Factory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/FallingRock.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/FallingRock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/HelloWorld.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/HelloWorld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/IBehaviour.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/IBehaviour.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/Obstacles.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/Obstacles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/Player.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/Player.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/Rock.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/Rock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/Wall.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/Wall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/BehaviourCollectable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/BehaviourCollectable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/BehaviourImmovable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/BehaviourImmovable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/BehaviourMovable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/BehaviourMovable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Diamond.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Diamond.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Ennemy.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Ennemy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Entity.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Entity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Factory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Factory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/FallingRock.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/FallingRock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/HelloWorld.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/HelloWorld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/IBehaviour.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/IBehaviour.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Obstacles.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Obstacles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Player.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Player.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Rock.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Rock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Wall.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/class-use/Wall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/entity/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/entity/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/main/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/main/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/main/class-use/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/main/class-use/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/main/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/main/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/main/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/main/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/main/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/main/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/main/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/main/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/DAOEntity.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/DAOEntity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/DAOHelloWorld.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/DAOHelloWorld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/DBConnection.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/DBConnection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/DBProperties.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/DBProperties.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/Model.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/Model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/class-use/DAOEntity.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/class-use/DAOEntity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/class-use/DAOHelloWorld.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/class-use/DAOHelloWorld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/class-use/DBConnection.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/class-use/DBConnection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/class-use/DBProperties.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/class-use/DBProperties.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/class-use/Model.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/class-use/Model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/model/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/model/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/View.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/View.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/ViewFrame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/ViewFrame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/ViewPanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/ViewPanel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/class-use/View.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/class-use/View.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/class-use/ViewFrame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/class-use/ViewFrame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/class-use/ViewPanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/class-use/ViewPanel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/view/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/view/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/surefire-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/surefire-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/model/ModelTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/model/ModelTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/model/class-use/ModelTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/model/class-use/ModelTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/model/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/model/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/model/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/model/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/model/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/testapidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/testapidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/entity/Factory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/entity/Factory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/entity/Player.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/entity/Player.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/contract/ControllerOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/contract/ControllerOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/contract/IController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/contract/IController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/contract/IModel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/contract/IModel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/contract/IView.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/contract/IView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/contract/class-use/ControllerOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/contract/class-use/ControllerOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/contract/class-use/IController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/contract/class-use/IController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/contract/class-use/IModel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/contract/class-use/IModel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/contract/class-use/IView.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/contract/class-use/IView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/contract/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/contract/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/contract/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/contract/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/contract/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/contract/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/contract/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/contract/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/controller/Controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/controller/Controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/controller/class-use/Controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/controller/class-use/Controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/controller/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/controller/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/controller/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/controller/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/controller/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/controller/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/controller/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/BehaviourCollectable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/BehaviourCollectable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/BehaviourImmovable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/BehaviourImmovable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/BehaviourMovable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/BehaviourMovable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/Diamond.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/Diamond.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/Ennemy.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/Ennemy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/Entity.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/Entity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/Factory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/Factory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/FallingRock.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/FallingRock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/HelloWorld.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/HelloWorld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/IBehaviour.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/IBehaviour.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/Obstacles.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/Obstacles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/Player.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/Player.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/Rock.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/Rock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/Wall.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/Wall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/BehaviourCollectable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/BehaviourCollectable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/BehaviourImmovable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/BehaviourImmovable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/BehaviourMovable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/BehaviourMovable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Diamond.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Diamond.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Ennemy.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Ennemy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Entity.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Entity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Factory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Factory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/FallingRock.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/FallingRock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/HelloWorld.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/HelloWorld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/IBehaviour.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/IBehaviour.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Obstacles.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Obstacles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Player.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Player.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Rock.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Rock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Wall.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/class-use/Wall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/entity/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/entity/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/main/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/main/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/main/class-use/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/main/class-use/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/main/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/main/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/main/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/main/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/main/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/main/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/main/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/main/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/model/DAOEntity.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/model/DAOEntity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/model/DAOHelloWorld.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/model/DAOHelloWorld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/model/DBConnection.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/model/DBConnection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/model/DBProperties.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/model/DBProperties.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/model/Model.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/model/Model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/model/class-use/DAOEntity.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/model/class-use/DAOEntity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/model/class-use/DAOHelloWorld.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/model/class-use/DAOHelloWorld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/model/class-use/DBConnection.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/model/class-use/DBConnection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/model/class-use/DBProperties.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/model/class-use/DBProperties.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/model/class-use/Model.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/model/class-use/Model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/model/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/model/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/model/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/model/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/model/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/view/View.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/view/View.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/view/ViewFrame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/view/ViewFrame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/view/ViewPanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/view/ViewPanel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/view/class-use/View.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/view/class-use/View.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/view/class-use/ViewFrame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/view/class-use/ViewFrame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/view/class-use/ViewPanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/view/class-use/ViewPanel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/view/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/view/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/view/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/view/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/view/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/view/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/apidocs/view/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/apidocs/view/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/contract/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/contract/dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/controller/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/controller/dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/main/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/main/dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/model/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/model/dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/surefire-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/surefire-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/model/ModelTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/model/ModelTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/model/class-use/ModelTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/model/class-use/ModelTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/model/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/model/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/model/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/model/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/model/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/testapidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/testapidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/view/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/view/dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/entity/Factory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/entity/Factory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/staging/xref/entity/Player.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/staging/xref/entity/Player.html" afterDir="false" />
     </list>
     <manually-removed-from-ignored>
       <directory path="$PROJECT_DIR$/contract/target/maven-status/" />
@@ -87,8 +306,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Factory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,6 +336,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,15 +349,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contract/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -156,11 +389,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Entity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -172,6 +405,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Singleton" />
       </list>
     </option>
   </component>
@@ -203,7 +437,6 @@
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/GravityFalse.java" />
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/Collectables.java" />
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/BehaviourFalse.java" />
-        <option value="$PROJECT_DIR$/entity/src/main/java/entity/Factory.java" />
         <option value="$PROJECT_DIR$/contract/src/main/java/contract/IBehaviour.java" />
         <option value="$PROJECT_DIR$/view/pom.xml" />
         <option value="$PROJECT_DIR$/entity/pom.xml" />
@@ -214,11 +447,12 @@
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/Ennemy.java" />
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/FallingRock.java" />
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/Obstacles.java" />
-        <option value="$PROJECT_DIR$/entity/src/main/java/entity/Player.java" />
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/Rock.java" />
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/Wall.java" />
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/HelloWorld.java" />
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/Entity.java" />
+        <option value="$PROJECT_DIR$/entity/src/main/java/entity/Player.java" />
+        <option value="$PROJECT_DIR$/entity/src/main/java/entity/Factory.java" />
       </list>
     </option>
   </component>
@@ -266,17 +500,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="masterpom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -355,7 +579,7 @@
       <updated>1558537553319</updated>
       <workItem from="1558537554605" duration="824000" />
       <workItem from="1558595089191" duration="2918000" />
-      <workItem from="1558599216437" duration="12581000" />
+      <workItem from="1558599216437" duration="14128000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1558537892456</created>
@@ -413,17 +637,39 @@
       <option name="project" value="LOCAL" />
       <updated>1558688398601</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="corrected missing HelloWorld class.">
+      <created>1558688943496</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558688943496</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added diagrammes">
+      <created>1558689148487</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1558689148487</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16323000" />
+    <option name="totallyTimeSpent" value="17870000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.20373334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.20373334" />
       <window_info id="Structure" order="1" sideWeight="0.5005513" side_tool="true" weight="0.20149253" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,7 +683,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296582" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.39911798" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
@@ -505,7 +751,9 @@
     <MESSAGE value="mistake correction" />
     <MESSAGE value="added new behaviours to entities." />
     <MESSAGE value="corrected cyclic dependency issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected cyclic dependency issues" />
+    <MESSAGE value="corrected missing HelloWorld class." />
+    <MESSAGE value="added diagrammes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added diagrammes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -653,27 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#72#73#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/IBehaviour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -682,27 +909,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Obstacles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Rock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Wall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
@@ -737,13 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/FallingRock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
@@ -754,7 +953,56 @@
     <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/FallingRock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Rock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Wall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

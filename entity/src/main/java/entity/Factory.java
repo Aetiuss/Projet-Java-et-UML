@@ -9,7 +9,7 @@ public class Factory
     }
     public Player getPlayer()
     {
-        return new Player(new BehaviourImmovable());
+        return Player.getInstance();
     }
     public Ennemy getEnnemy()
     {
