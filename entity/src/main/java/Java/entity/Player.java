@@ -18,24 +18,37 @@ public class Player extends Entity
         ourInstance.y = y;
         return ourInstance;
     }
-    private void moveUp()
+
+    /*
+    Move the player Up by incrementing y
+     */
+    public void moveUp()
     {
-    
+        ourInstance.y++;
     }
-    
-    private void moveDown()
+
+    /*
+    Move the player Up by decrementing y
+     */
+    public void moveDown()
     {
-    
+        ourInstance.y--;
     }
-    
-    private void moveRight()
+
+    /*
+    Move the player Up by incrementing x
+     */
+    public void moveLeft()
     {
-    
+        ourInstance.x--;
     }
-    
-    private void moveLeft()
+
+    /*
+        Move the player Up by decrementing x
+    */
+    public void moveRight()
     {
-    
+        ourInstance.x++;
     }
     
 }
