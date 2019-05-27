@@ -9,45 +9,14 @@ import Java.entity.*;
  * @version 1.0
  */
 public class Map {
+    private static Map instance = new Map();
     private int height;
     private int width;
     private Entity[][] map;
 
-    /**
-     * Build the map attributes and instantiate all the Java.entity.
-     *
-     * @param height Define the height of the map, the number of Java.entity on the X axis.
-     * @param width  Define the width of the map, the number of Java.entity on the Y axis.
-     * @param map    The 2 dimension table containing all instances of the Java.entity of the map.
-     */
-    public Map(int height, int width, char[][] spriteTab) {
-        this.height = height;
-        this.width = width;
-        Entity[][] map = new Entity[height][width];
-        for (int i = 0; i < height; i++) {
-            for (int j = 0; j < height; j++) {
-                switch (spriteTab[i][j]) {
-                    case 'w':
-                        map[i][j] = new Wall(i, j);
-                    case 'r':
-                        map[i][j] = new Rock(i, j);
-                    case 'd':
-                        map[i][j] = new Diamond(i, j);
-                    case 'v':
-                        map[i][j] = null;
-                    case 'f':
-                        map[i][j] = new FallingRock(i, j);
-                    case 'm':
-                        map[i][j] = new Ennemy(i, j);
-                    case 'p':
-                        map[i][j] = Player.getInstance(i, j);
-                    case 'e':
-                        map[i][j] = new Exit(i, j);
-                }
-            }
-        }
 
-        this.map = map;
+    public static Map getInstance() {
+        return instance;
     }
 
     /**
@@ -57,6 +26,39 @@ public class Map {
      */
     public int getHeight() {
         return height;
+    }
+
+    private void setHeight(int height) {
+        this.height = height;
+    }
+
+    private void setWidth(int width) {
+        this.width = width;
+    }
+
+    private void setMap(char[][] spriteTab) {
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < height; j++) {
+                switch (spriteTab[i][j]) {
+                    case 'w':
+                        this.map[i][j] = new Wall(i,j);
+                    case 'r':
+                        this.map[i][j] = new Rock(i,j);
+                    case 'd':
+                        this.map[i][j] = new Diamond(i,j);
+                    case 'v':
+                        this.map[i][j] = null;
+                    case 'f':
+                        this.map[i][j] = new FallingRock(i,j);
+                    case 'm':
+                        this.map[i][j] = new Ennemy(i,j);
+                    case 'p':
+                        this.map[i][j] = Player.getInstance(i,j);
+                    case 'e':
+                        this.map[i][j] = new Exit(i,j);
+                }
+            }
+        }
     }
 
     /**
@@ -76,4 +78,11 @@ public class Map {
     public Entity[][] getMap() {
         return map;
     }
+    public void changeMap(int height, int width, char spriteTab[][]){
+        setWidth(width);
+        setHeight(height);
+        this.map = new Entity[height][width];
+        setMap(spriteTab);
+    }
+
 }

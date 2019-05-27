@@ -1,7 +1,5 @@
 package model;
 
-import Java.entity.BehaviourImmovable;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -9,6 +7,7 @@ import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.HashMap;
 
 /**
  * Use to load the map from a distant or local DB.
@@ -32,52 +31,64 @@ class DAOMap {
      */
     private int height;
 
+    private char[][] charTab;
 
     /**
      * @param connection
-     * @param id
      */
-    public DAOMap(final Connection connection, final int id) {
+    public DAOMap(final Connection connection) {
         this.connection = connection;
-        new Map(this.height, this.width, this.readFromDB(id));
     }
 
-    /**
-     * @param connection
-     * @param fileName
-     */
-    public DAOMap(final Connection connection, String fileName) throws Exception {
-        int id;
-        this.connection = connection;
-        id = getLastMapID();
-        addToDB(id, this.height, this, readFromFile(fileName));
-        new Map(this.height, this.width, this.readFromDB(id));
-    }
-
-    public void addToDB(int id, int height, int width, char[][] spriteChar) throws SQLException {
-        final String sqlAddMapElement = "{call addMapElement(?,?,?,?)}";
-        final String sqlAddMapInfomation = "{call addMapInformation(?,?,?)}";
-        final CallableStatement callAddMapInformation = this.connection.prepareCall(sqlAddMapInfomation);
-        callAddMapInformation.setString(1, "NULL");
-        callAddMapInformation.setInt(2, this.height);
-        callAddMapInformation.setInt(3, this.width);
+    public void addToDB(String filePath) throws Exception {
+        aquireFromFile(filePath);
+        final String sqlAddMapElement = "{call addNewObject(?,?,?,?)}";
+        final String sqlAddMapInfomation = "{call addNewMap(?,?,?,?)}";
+        final CallableStatement callAddMapInformation= this.connection.prepareCall(sqlAddMapInfomation);
+        int id = getLastMapID() + 1;
+        callAddMapInformation.setInt(1, id);
+        callAddMapInformation.setString(2, "NULL");
+        callAddMapInformation.setInt(3, this.height);
+        callAddMapInformation.setInt(4, this.width);
         callAddMapInformation.execute();
-        for (int i = 0; i < height; i++) {
-            for (int j = 0; j < height; j++) {
+        for (int i = 0; i < this.width; i++) {
+            for (int j = 0; j < this.height; j++) {
                 final CallableStatement callAddMapElement = this.connection.prepareCall(sqlAddMapElement);
                 callAddMapElement.setInt(1, id);
-                //spriteChar[i][j];
-                callAddMapElement.setInt();
+                switch (charTab[i][j]){
+                    case 'w':
+                        callAddMapElement.setInt(2,1);
+                        break;
+                    case 'r':
+                        callAddMapElement.setInt(2,2);
+                        break;
+                    case 'v':
+                        callAddMapElement.setInt(2,3);
+                        break;
+                    case 'f':
+                        callAddMapElement.setInt(2,4);
+                        break;
+                    case 'm':
+                        callAddMapElement.setInt(2,5);
+                        break;
+                    case 'p':
+                        callAddMapElement.setInt(2,6);
+                        break;
+                    case 'e':
+                        callAddMapElement.setInt(2,7);
+                        break;
+                    case 'd':
+                        callAddMapElement.setInt(2,8);
+                        break;
+                }
                 callAddMapElement.setInt(3, i);
-                callAddMapElement.setInt(4, i);
-
+                callAddMapElement.setInt(4, j);
                 callAddMapElement.execute();
-                // RECUP LES ID DES SPRITES DANS LA TABLE SPRITE ET LES LINKER DANS LA REQUETE
             }
         }
     }
 
-    public int getLastMapID() throws Exception {
+    private int getLastMapID() {
         try {
             final String sql = "{call getLastID()}";
             final CallableStatement call = this.connection.prepareCall(sql);
@@ -97,23 +108,19 @@ class DAOMap {
      * @return
      * @throws Exception
      */
-    public char[][] readFromFile(final String pathToFile) throws Exception {
-        int j;
+    public void aquireFromFile(final String pathToFile) throws Exception {
         File file = new File(pathToFile);
         BufferedReader br = new BufferedReader(new FileReader(file));
-        height = Integer.parseInt(br.readLine());
-        width = Integer.parseInt(br.readLine());
-        char[][] charTab = new char[this.height][this.width];
+        this.height = Integer.parseInt(br.readLine());
+        this.width = Integer.parseInt(br.readLine());
+        this.charTab = new char[this.width][this.height];
         String line;
-        for (int i = 0; i < this.height; i++) {
+        for (int i = 0; i < this.width; i++) {
             line = br.readLine();
-            j = 0;
-            for (char sprite : line.toCharArray()) {
-                charTab[i][j] = sprite;
-                j++;
+            for (int j = 0; j < this.height ; j++) {
+                this.charTab[i][j] = line.toCharArray()[j];
             }
         }
-        return charTab;
     }
 
     /**
@@ -122,8 +129,8 @@ class DAOMap {
      * @param id The id of the map you want to import.
      * @return The map that you asked for by her ID
      */
-    public char[][] readFromDB(final int id) {
-        this.setSizeFromDB(id);
+    public char[][] aquireFromDB(final int id) {
+        this.acquireDimensionFromDB(id);
         char[][] map = new char[this.width][this.height];
         try {
             final String sql = "{call getMap(?)}";
@@ -150,8 +157,7 @@ class DAOMap {
      *
      * @param id The id of the map you want to import.
      */
-    private void setSizeFromDB(final int id) {
-
+    private void acquireDimensionFromDB(final int id) {
         try {
             final String sql = "{call getDimension(?)}";
             final CallableStatement call = this.connection.prepareCall(sql);
@@ -168,21 +174,4 @@ class DAOMap {
         }
     }
 
-    /**
-     * Getter of width.
-     *
-     * @return Return the width parameter of a DAO Object.
-     */
-    public int getWidth() {
-        return width;
-    }
-
-    /**
-     * Getter of height.
-     *
-     * @return Return the height parameter of a DAO Object.
-     */
-    public int getHeight() {
-        return height;
-    }
 }
