@@ -1,33 +1,17 @@
 package model;
 
-import java.sql.SQLException;
-import java.util.Observable;
-
-import Java.entity.HelloWorld;
 import contract.IModel;
 
+import java.util.Observable;
+
 /**
- * The Class Model.
- *
- * @author Jean-Aymeric Diet
+ * Model of the project contain all the basic information needed about data and their operations.
+ * @author Théo Weimann
+ * @version 1.0
  */
 public final class Model extends Observable implements IModel {
-
-	DAOMap yolo = new DAOMap(DBConnection.getInstance().getConnection());
-
-
-	@Override
-	public HelloWorld getHelloWorld() {
-		return null;
+	public Model() {
+		DAO.getInstance().aquireFromDB(1);
 	}
 
-	@Override
-	public void loadHelloWorld(String code) {
-
-	}
-
-	@Override
-	public Observable getObservable() {
-		return null;
-	}
 }
