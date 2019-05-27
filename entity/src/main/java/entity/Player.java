@@ -16,5 +16,22 @@ public class Player extends Entity
     {
         super();
     }
-    
+
+
+    private void moveUp(){
+
+    }
+
+    private void moveDown(){
+
+    }
+
+    private void moveRight(){
+
+    }
+
+    private void moveLeft(){
+
+    }
 }
+
