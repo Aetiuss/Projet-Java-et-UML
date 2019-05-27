@@ -3,28 +3,35 @@ package model;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.fail;
 
 /**
  * Contain some tests concerning the DAO class.
+ *
  * @author Théo Weimann
- * @version 1.1
+ * @version 1.2
  */
 public class DAOTest {
     private DAO dao;
-    private Map map;
+
     /**
-     * Instantiate a new DOAMap object.
+     * Get the instance of the DAO.
      */
     @Before
-    public void setUp() {
+    public void setup() {
         this.dao = DAO.getInstance();
-        this.map = Map.getInstance();
     }
 
+    /**
+     * Test the connection between the DAO and the database.
+     */
     @Test
-    public void mapLoadingTest() {
-        this.dao.aquireFromDB(1);
-        assertNotNull(this.map.getMap());
+    public void DBConnectionTest() {
+        try {
+            this.dao.acquireFromDB(1);
+        } catch (final Error e) {
+            fail();
+        }
     }
+
 }

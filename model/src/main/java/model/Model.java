@@ -11,7 +11,7 @@ import java.util.Observable;
  */
 public final class Model extends Observable implements IModel {
 	public Model() {
-		DAO.getInstance().aquireFromDB(1);
+		DAO.getInstance().acquireFromDB(1);
 	}
 
 }

@@ -1,7 +1,3 @@
-/**
- * @author Jean-Aymeric DIET jadiet@cesi.fr
- * @version 1.0
- */
 package main;
 
 import controller.Controller;
@@ -10,16 +6,14 @@ import view.View;
 
 /**
  * The Class Main.
- *
- * @author Jean-Aymeric Diet
+ * @author Théo Weimann
+ * @version 1.0
  */
 public abstract class Main {
 
     /**
      * The main method.
-     * Test du push pour la première fois
-     * @param args
-     *            the arguments
+     * @param args Main's argument.
      */
     public static void main(final String[] args) {
         final Model model = new Model();
