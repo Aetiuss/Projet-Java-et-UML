@@ -1,12 +1,11 @@
 package entity;
 
-import java.util.Observable;
-
 /**
  * The Class Entity.
  *
  * @author Jean-Aymeric Diet
  */
+
 public abstract class Entity
 {
     

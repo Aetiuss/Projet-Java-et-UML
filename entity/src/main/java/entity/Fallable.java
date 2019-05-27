@@ -5,6 +5,10 @@ public class Fallable
     
     boolean falling = false;
     Entity  entity;
+    public Fallable(Entity entity)
+    {
+        this.entity = entity;
+    }
     void fall()
     {
         entity.y--;
@@ -13,10 +17,6 @@ public class Fallable
     public void setFalling(boolean b)
     {
         falling = b;
-    }
-    public Fallable(Entity entity)
-    {
-        this.entity = entity;
     }
     
 }

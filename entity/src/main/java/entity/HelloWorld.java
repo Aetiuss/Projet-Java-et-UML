@@ -5,56 +5,62 @@ package entity;
  *
  * @author Jean-Aymeric Diet
  */
-public class HelloWorld extends  Entity {
+public class HelloWorld extends Entity
+{
     
-    /** The id. */
-    private int			id;
+    /**
+     * The id.
+     */
+    private int id;
     
-    /** The key. */
-    private String	key;
+    /**
+     * The key.
+     */
+    private String key;
     
-    /** The message. */
-    private String	message;
+    /**
+     * The message.
+     */
+    private String message;
+    
+    /**
+     * Instantiates a new hello world.
+     */
+    public HelloWorld()
+    {
+        this(0, "", "");
+    }
     
     /**
      * Instantiates a new hello world.
      *
-     * @param id
-     *          the id
-     * @param key
-     *          the key
-     * @param message
-     *          the message
+     * @param id      the id
+     * @param key     the key
+     * @param message the message
      */
-    public HelloWorld(final int id, final String key, final String message) {
+    public HelloWorld(final int id, final String key, final String message)
+    {
         this.setId(id);
         this.setKey(key);
         this.setMessage(message);
     }
-    
-    /**
-     * Instantiates a new hello world.
-     */
-    public HelloWorld() {
-        this(0, "", "");
-    }
-    
     /**
      * Gets the id.
      *
      * @return the id
      */
-    public int getId() {
+    public int getId()
+    {
         return this.id;
     }
     
     /**
      * Sets the id.
      *
-     * @param id
-     *          the new id
+     * @param id the new id
      */
-    public void setId(final int id) {
+    public void setId(final int id)
+    {
         this.id = id;
     }
     
@@ -63,17 +69,18 @@ public class HelloWorld extends  Entity {
      *
      * @return the key
      */
-    public String getKey() {
+    public String getKey()
+    {
         return this.key;
     }
     
     /**
      * Sets the key.
      *
-     * @param key
-     *          the new key
+     * @param key the new key
      */
-    public void setKey(final String key) {
+    public void setKey(final String key)
+    {
         this.key = key;
     }
     
@@ -82,17 +89,18 @@ public class HelloWorld extends  Entity {
      *
      * @return the message
      */
-    public String getMessage() {
+    public String getMessage()
+    {
         return this.message;
     }
     
     /**
      * Sets the message.
      *
-     * @param message
-     *          the new message
+     * @param message the new message
      */
-    public void setMessage(final String message) {
+    public void setMessage(final String message)
+    {
         this.message = message;
     }
     
