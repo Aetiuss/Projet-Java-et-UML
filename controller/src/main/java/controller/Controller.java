@@ -4,6 +4,7 @@ import contract.ControllerOrder;
 import contract.IController;
 import contract.IModel;
 import contract.IView;
+import entity.*;
 
 /**
  * The Class Controller.
@@ -15,6 +16,9 @@ public final class Controller implements IController {
 
 	/** The model. */
 	private IModel	model;
+	
+	/** The player. */
+	private Player player;
 
 	/**
 	 * Instantiates a new controller.
@@ -74,17 +78,17 @@ public final class Controller implements IController {
 	 */
 	public void orderPerform(final ControllerOrder controllerOrder) {
 		switch (controllerOrder) {
-			case English:
-				this.model.loadHelloWorld("GB");
+			case Up:
+				this.player.moveUp();
 				break;
-			case Francais:
-				this.model.loadHelloWorld("FR");
+			case Down:
+				this.player.moveDown();
 				break;
-			case Deutsch:
-				this.model.loadHelloWorld("DE");
+			case Left:
+				this.player.moveLeft();
 				break;
-			case Indonesia:
-				this.model.loadHelloWorld("ID");
+			case Right:
+				this.player.moveRight();
 				break;
 			default:
 				break;
