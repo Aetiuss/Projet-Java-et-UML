@@ -3,9 +3,9 @@ package entity;
 public class Exit extends Entity
 {
     
-    public Exit()
+    public Exit(int x, int y)
     {
-        super();
+        super(x, y);
     }
     
 }

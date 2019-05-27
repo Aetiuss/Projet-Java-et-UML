@@ -3,9 +3,9 @@ package entity;
 public class Wall extends Entity
 {
     
-    public Wall()
+    public Wall(int x, int y)
     {
-        super();
+        super(x, y);
     }
     
 }

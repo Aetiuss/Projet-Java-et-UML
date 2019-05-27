@@ -3,9 +3,9 @@ package entity;
 public class Rock extends Entity
 {
     
-    public Rock()
+    public Rock(int x, int y)
     {
-        super();
+        super(x, y);
     }
     
 }
