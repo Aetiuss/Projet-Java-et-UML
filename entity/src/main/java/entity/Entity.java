@@ -1,5 +1,7 @@
 package entity;
 
+import java.util.Observable;
+
 /**
  * The Class Entity.
  *
@@ -16,7 +18,6 @@ public abstract class Entity
         this.y = y;
     }
     public Entity()
-    {
-    }
+    {}
     
 }
