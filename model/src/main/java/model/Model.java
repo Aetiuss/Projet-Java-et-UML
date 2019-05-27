@@ -14,13 +14,13 @@ import entity.HelloWorld;
 public final class Model extends Observable implements IModel {
 
 	/** The helloWorld. */
-	private HelloWorld helloWorld;
+	private Map map;
 
 	/**
 	 * Instantiates a new model.
 	 */
 	public Model() {
-		this.helloWorld = new HelloWorld();
+		this.map = map.getInstance.changeMap();
 	}
 
 	/**
@@ -33,8 +33,8 @@ public final class Model extends Observable implements IModel {
 	 *
 	 * @see contract.IModel#getMessage()
 	 */
-	public HelloWorld getHelloWorld() {
-		return this.helloWorld;
+	public Map getHelloWorld() {
+		return this.map;
 	}
 
 	/**
@@ -44,7 +44,7 @@ public final class Model extends Observable implements IModel {
      *            the new hello world
      */
 	private void setHelloWorld(final HelloWorld helloWorld) {
-		this.helloWorld = helloWorld;
+		this.map = map.getInstance.changeMap();
 		this.setChanged();
 		this.notifyObservers();
 	}
@@ -62,7 +62,7 @@ public final class Model extends Observable implements IModel {
 	 */
 	public void loadHelloWorld(final String code) {
 		try {
-			final DAOHelloWorld daoHelloWorld = new DAOHelloWorld(DBConnection.getInstance().getConnection());
+			final DAOMap daoMap = new DAOMap(DBConnection.getInstance().getConnection(), 1);
 			this.setHelloWorld(daoHelloWorld.find(code));
 		} catch (final SQLException e) {
 			e.printStackTrace();

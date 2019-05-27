@@ -28,21 +28,21 @@ public class Map {
             for (int j = 0; j < height; j++) {
                 switch (spriteTab[i][j]) {
                     case 'w':
-                        map[i][j] = new Wall(new BehaviourImmovable());
+                        map[i][j] = new Wall(i, j);
                     case 'r':
-                        map[i][j] = new Rock(new BehaviourImmovable());
+                        map[i][j] = new Rock(i, j);
                     case 'd':
-                        map[i][j] = new Diamond(new BehaviourCollectable());
+                        map[i][j] = new Diamond(i, j);
                     case 'v':
                         map[i][j] = null;
                     case 'f':
-                        map[i][j] = new FallingRock(new BehaviourMovable());
+                        map[i][j] = new FallingRock(i, j);
                     case 'm':
-                        map[i][j] = new Ennemy(new BehaviourMovable());
+                        map[i][j] = new Ennemy(i, j);
                     case 'p':
-                        map[i][j] = Player.getInstance();
+                        map[i][j] = Player.getInstance(i, j);
                     case 'e':
-                        map[i][j] = new Exit(new BehaviourImmovable());
+                        map[i][j] = new Exit(i, j);
                 }
             }
         }
