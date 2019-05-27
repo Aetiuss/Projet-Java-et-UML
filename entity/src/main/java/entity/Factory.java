@@ -7,25 +7,29 @@ public class Factory
     {
         return new Diamond(x, y);
     }
-    public Player getPlayer()
+    public Player getPlayer(int x, int y)
     {
-        return Player.getInstance();
+        return Player.getInstance(x, y);
     }
-    public Ennemy getEnnemy()
+    public Ennemy getEnnemy(int x, int y)
     {
-        return new Ennemy();
+        return new Ennemy(x, y);
     }
-    public Rock getRock()
+    public Rock getRock(int x, int y)
     {
-        return new Rock();
+        return new Rock(x, y);
     }
     public FallingRock getFallingRock(int x, int y)
     {
         return new FallingRock(x, y);
     }
-    public Wall getWall()
+    public Wall getWall(int x, int y)
     {
-        return new Wall();
+        return new Wall(x, y);
+    }
+    public Exit getExit(int x, int y)
+    {
+        return new Exit(x, y);
     }
     
 }
