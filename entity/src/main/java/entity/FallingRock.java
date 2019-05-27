@@ -1,11 +1,14 @@
 package entity;
 
-public class FallingRock extends Obstacles
+public class FallingRock extends Entity
 {
-    
-    public FallingRock(IBehaviour behaviour)
+    Fallable fallable;
+    Pushable pushable;
+    public FallingRock(int x, int y)
     {
-        super(behaviour);
+        super(x, y);
+        fallable = new Fallable(this);
+        pushable = new Pushable(this);
     }
     
 }

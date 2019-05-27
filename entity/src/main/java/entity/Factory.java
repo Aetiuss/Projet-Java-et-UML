@@ -3,9 +3,9 @@ package entity;
 public class Factory
 {
     
-    public Diamond getDiamond()
+    public Diamond getDiamond(int x, int y)
     {
-        return new Diamond(new BehaviourCollectable());
+        return new Diamond(x, y);
     }
     public Player getPlayer()
     {
@@ -13,19 +13,19 @@ public class Factory
     }
     public Ennemy getEnnemy()
     {
-        return new Ennemy(new BehaviourImmovable());
+        return new Ennemy();
     }
     public Rock getRock()
     {
-        return new Rock(new BehaviourImmovable());
+        return new Rock();
     }
-    public FallingRock getFallingRock()
+    public FallingRock getFallingRock(int x, int y)
     {
-        return new FallingRock(new BehaviourMovable());
+        return new FallingRock(x, y);
     }
     public Wall getWall()
     {
-        return new Wall(new BehaviourImmovable());
+        return new Wall();
     }
     
 }

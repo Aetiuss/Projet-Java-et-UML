@@ -3,9 +3,11 @@ package entity;
 public class Diamond extends Entity
 {
     
-    public Diamond(IBehaviour behaviour)
+    Fallable fallable;
+    public Diamond(int x, int y)
     {
-        super(behaviour);
+        super(x, y);
+        fallable = new Fallable(this);
     }
     
 }

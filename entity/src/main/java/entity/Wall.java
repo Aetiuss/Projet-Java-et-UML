@@ -1,11 +1,11 @@
 package entity;
 
-public class Wall extends Obstacles
+public class Wall extends Entity
 {
     
-    public Wall(IBehaviour behaviour)
+    public Wall()
     {
-        super(behaviour);
+        super();
     }
     
 }
