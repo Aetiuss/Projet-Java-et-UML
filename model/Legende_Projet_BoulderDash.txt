@@ -1,0 +1,9 @@
+Légende map Java BoulderDash:
+w = wall
+r = rock/dirt
+v = void
+f = falling boulder<
+m = monster
+p = player
+e = exit
+d = diamond
