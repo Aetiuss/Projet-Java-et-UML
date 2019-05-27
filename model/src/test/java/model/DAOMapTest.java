@@ -1,27 +1,27 @@
 package model;
 
 import entity.Entity;
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
+import java.sql.SQLException;
 
 import static org.junit.Assert.*;
 
 /**
  * Contain some tests concerning the DAOMap class.
  * @author Théo Weimann
+ * @version 1.1
  */
 public class DAOMapTest {
     private DAOMap daoMap;
 
     /**
      * Instantiate a new DOAMap object.
-     *
-     * @throws Exception
      */
     @Before
-    public void setUp() throws Exception {
-        daoMap = new DAOMap(DBConnection.getInstance().getConnection());
+    public void setUp() {
+        daoMap = new DAOMap(DBConnection.getInstance().getConnection(), 1);
     }
 
 
@@ -73,8 +73,14 @@ public class DAOMapTest {
     @Test
     public void getSizeLoadTest() {
         int mapSize = 25;
-        assertEquals(mapSize, this.daoMap.getSizeX());
-        assertEquals(mapSize, this.daoMap.getSizeY());
+        assertEquals(mapSize, this.daoMap.getWidth());
+        assertEquals(mapSize, this.daoMap.getHeight());
     }
 
+    @Test
+    public void addTest() throws Exception {
+        int expectedHeight = 34;
+        int expectedWidth = 40;
+        assertNotNull(this.daoMap.add("Map1.txt"));
+    }
 }
