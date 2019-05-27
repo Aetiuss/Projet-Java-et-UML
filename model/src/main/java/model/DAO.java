@@ -155,7 +155,7 @@ public class DAO {
      */
     public void aquireFromDB(final int id) {
         this.acquireDimensionFromDB(id);
-        char[][] map = new char[this.width][this.height];
+        this.charTab = new char[this.width][this.height];
         try {
             final String sql = "{call getMap(?)}";
             final CallableStatement call = this.connection.prepareCall(sql);
@@ -164,7 +164,7 @@ public class DAO {
             final ResultSet resultSet = call.getResultSet();
             if (resultSet.first()) {
                 while (!resultSet.isAfterLast()) {
-                    map[resultSet.getInt(1) - 1][resultSet.getInt(2) - 1] = resultSet.getString(3).toCharArray()[0];
+                    this.charTab[resultSet.getInt(1)][resultSet.getInt(2)] = resultSet.getString(3).toCharArray()[0];
                     resultSet.next();
                 }
 

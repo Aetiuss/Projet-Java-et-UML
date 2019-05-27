@@ -64,25 +64,33 @@ public class Map {
      * @param spriteTab The 2dimensional char tab you want to transform in map
      */
     private void setMap(char[][] spriteTab) {
-        for (int i = 0; i < height; i++) {
-            for (int j = 0; j < height; j++) {
+        for (int i = 0; i < this.width; i++) {
+            for (int j = 0; j < this.height; j++) {
                 switch (spriteTab[i][j]) {
                     case 'w':
                         this.map[i][j] = new Wall(i,j);
+                        break;
                     case 'r':
                         this.map[i][j] = new Rock(i,j);
+                        break;
                     case 'd':
                         this.map[i][j] = new Diamond(i,j);
+                        break;
                     case 'v':
                         this.map[i][j] = null;
+                        break;
                     case 'f':
                         this.map[i][j] = new FallingRock(i,j);
+                        break;
                     case 'm':
                         this.map[i][j] = new Ennemy(i,j);
+                        break;
                     case 'p':
                         this.map[i][j] = Player.getInstance(i,j);
+                        break;
                     case 'e':
                         this.map[i][j] = new Exit(i,j);
+                        break;
                 }
             }
         }
@@ -103,10 +111,19 @@ public class Map {
     public Entity[][] getMap() {
         return map;
     }
-    public void changeMap(int height, int width, char spriteTab[][]){
+
+
+    /**
+     * Set a new map with the height and the width at the same time because this application are related.
+     *
+     * @param height    Height of the map you want to apply.
+     * @param width     Width of the map you want to apply.
+     * @param spriteTab The 2 dimensional char tab corresponding to the map you want to apply
+     */
+    public void changeMap(int height, int width, char[][] spriteTab) {
         setWidth(width);
         setHeight(height);
-        this.map = new Entity[height][width];
+        this.map = new Entity[this.width][this.height];
         setMap(spriteTab);
     }
 
