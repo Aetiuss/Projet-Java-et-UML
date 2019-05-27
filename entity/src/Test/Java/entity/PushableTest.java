@@ -1,4 +1,4 @@
-package entity;
+package Java.entity;
 
 import org.junit.After;
 import org.junit.Before;

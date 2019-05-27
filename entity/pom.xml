@@ -7,6 +7,6 @@
     <artifactId>masterpom</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>entity</artifactId>
+  <artifactId>Java.entity</artifactId>
   <name>Entity</name>
 </project>

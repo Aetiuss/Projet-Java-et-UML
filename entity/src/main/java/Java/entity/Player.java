@@ -1,4 +1,4 @@
-package entity;
+package Java.entity;
 
 public class Player extends Entity
 {

@@ -3,7 +3,7 @@ package model;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import entity.Entity;
+import Java.entity.Entity;
 
 /**
  * The Class DAOEntity.
@@ -19,7 +19,7 @@ abstract class DAOEntity<E extends Entity> {
 	private final Connection connection;
 
 	/**
-	 * Instantiates a new DAO entity.
+	 * Instantiates a new DAO Java.entity.
 	 *
 	 * @param connection
 	 *          the connection
@@ -43,7 +43,7 @@ abstract class DAOEntity<E extends Entity> {
 	 * Creates the.
 	 *
 	 * @param entity
-	 *          the entity
+	 *          the Java.entity
 	 * @return true, if successful
 	 */
 	public abstract boolean create(E entity);
@@ -52,7 +52,7 @@ abstract class DAOEntity<E extends Entity> {
 	 * Delete.
 	 *
 	 * @param entity
-	 *          the entity
+	 *          the Java.entity
 	 * @return true, if successful
 	 */
 	public abstract boolean delete(E entity);
@@ -61,7 +61,7 @@ abstract class DAOEntity<E extends Entity> {
 	 * Update.
 	 *
 	 * @param entity
-	 *          the entity
+	 *          the Java.entity
 	 * @return true, if successful
 	 */
 	public abstract boolean update(E entity);

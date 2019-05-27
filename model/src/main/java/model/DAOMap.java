@@ -1,8 +1,6 @@
 package model;
 
-import entity.BehaviourImmovable;
-import entity.Entity;
-import entity.Wall;
+import Java.entity.BehaviourImmovable;
 
 import java.io.BufferedReader;
 import java.io.File;

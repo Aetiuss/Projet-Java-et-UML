@@ -4,7 +4,7 @@ import contract.ControllerOrder;
 import contract.IController;
 import contract.IModel;
 import contract.IView;
-import entity.*;
+import Java.entity.*;
 
 /**
  * The Class Controller.

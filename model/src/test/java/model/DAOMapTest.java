@@ -1,10 +1,8 @@
 package model;
 
-import entity.Entity;
+import Java.entity.Entity;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.sql.SQLException;
 
 import static org.junit.Assert.*;
 

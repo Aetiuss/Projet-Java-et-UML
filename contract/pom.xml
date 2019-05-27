@@ -10,7 +10,7 @@
   <dependencies>
   	<dependency>
   		<groupId>jpublankproject</groupId>
-  		<artifactId>entity</artifactId>
+  		<artifactId>Java.entity</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>

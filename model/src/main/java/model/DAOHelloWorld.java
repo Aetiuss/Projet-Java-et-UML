@@ -5,7 +5,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import entity.HelloWorld;
+import Java.entity.HelloWorld;
 
 /**
  * The Class DAOHelloWorld.

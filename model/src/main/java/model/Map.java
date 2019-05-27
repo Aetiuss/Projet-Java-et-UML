@@ -1,6 +1,6 @@
 package model;
 
-import entity.*;
+import Java.entity.*;
 
 /**
  * Create a map from a sprite Tab and his dimension.
@@ -14,11 +14,11 @@ public class Map {
     private Entity[][] map;
 
     /**
-     * Build the map attributes and instantiate all the entity.
+     * Build the map attributes and instantiate all the Java.entity.
      *
-     * @param height Define the height of the map, the number of entity on the X axis.
-     * @param width  Define the width of the map, the number of entity on the Y axis.
-     * @param map    The 2 dimension table containing all instances of the entity of the map.
+     * @param height Define the height of the map, the number of Java.entity on the X axis.
+     * @param width  Define the width of the map, the number of Java.entity on the Y axis.
+     * @param map    The 2 dimension table containing all instances of the Java.entity of the map.
      */
     public Map(int height, int width, char[][] spriteTab) {
         this.height = height;

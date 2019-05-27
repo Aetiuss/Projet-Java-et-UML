@@ -16,7 +16,7 @@
         <module>controller</module>
         <module>contract</module>
         <module>model</module>
-        <module>entity</module>
+        <module>Java.entity</module>
     </modules>
     <dependencies>
         <dependency>
