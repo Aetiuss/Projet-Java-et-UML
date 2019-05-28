@@ -1,6 +1,5 @@
 package model;
 
-import model.entity.Entity;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,7 +16,6 @@ public class MapTest {
     private int        expectedWidth  = 1;
     private int        expectedHeight = 1;
     private char[][]   furnishedTab   = {{'v'}};
-    private Entity[][] expectedTab    = {{null}};
 
     /**
      * Get the instance of the Map class and load a basic map in it.
@@ -49,7 +47,7 @@ public class MapTest {
      */
     @Test
     public void getMap() {
-        assertSame(expectedTab, this.map.getMap());
+        assertSame('v', this.map.getMap()[0][0].getSprite());
     }
 
     /**

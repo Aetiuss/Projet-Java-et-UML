@@ -1,6 +1,7 @@
 package view;
 
 import contract.ControllerOrder;
+import contract.IController;
 import contract.IModel;
 import contract.IView;
 import contract.showboard.BoardFrame;
@@ -23,6 +24,7 @@ public final class View implements IView, Runnable, KeyListener {
     private Map map;
     private Player player;
     private Rectangle closeView;
+    private IController controller;
 
     public View(final IModel model) {
         this.map = Map.getInstance();
@@ -93,8 +95,8 @@ public final class View implements IView, Runnable, KeyListener {
      * @param e
      */
     @Override
-    public void keyPressed(KeyEvent e) {
-
+    public void keyPressed(final KeyEvent keyEvent) {
+        this.controller.orderPerform(keyCodeToControllerOrder(keyEvent.getKeyCode()));
     }
 
     /**
@@ -107,5 +109,9 @@ public final class View implements IView, Runnable, KeyListener {
     @Override
     public void keyReleased(KeyEvent e) {
 
+    }
+
+    public void setController(IController controller) {
+        this.controller = controller;
     }
 }
