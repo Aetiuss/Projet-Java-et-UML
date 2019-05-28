@@ -1,14 +1,14 @@
 package model;
 
+import model.entity.*;
 
-import entity.*;
 
 /**
  * Create a map from a sprite Tab and his dimension.
  * @author Théo Weimann
  * @version 1.1
  */
-public class Map {
+public class Map{
     /**
      * The unique instance of the class Map.
      */
@@ -26,13 +26,7 @@ public class Map {
      */
     private Entity[][] map;
 
-
-    /**
-     * Allow to get the unique instance of the Map class.
-     *
-     * @return Return the unique instance of the class Map.
-     */
-    public static Map getInstance() {
+    static Map getInstance(){
         return instance;
     }
 
