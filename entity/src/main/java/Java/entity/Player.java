@@ -6,6 +6,8 @@ public class Player extends Entity
     private static Player ourInstance = new Player();
     IDestructable destructableP;
     IDestructable destructableE;
+    private char sprite = 'p';
+
     private Player()
     {
         super();
@@ -28,7 +30,7 @@ public class Player extends Entity
     }
 
     /*
-    Move the player Up by decrementing y
+    Move the player Down by decrementing y
      */
     public void moveDown()
     {
@@ -36,7 +38,7 @@ public class Player extends Entity
     }
 
     /*
-    Move the player Up by incrementing x
+    Move the player Left by incrementing x
      */
     public void moveLeft()
     {
@@ -44,12 +46,16 @@ public class Player extends Entity
     }
 
     /*
-        Move the player Up by decrementing x
+        Move the player Right by decrementing x
     */
     public void moveRight()
     {
         ourInstance.x++;
     }
-    
+
+    @Override
+    public char getSprite() {
+        return sprite;
+    }
 }
 

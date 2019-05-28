@@ -1,11 +1,10 @@
 package Java.entity;
 
-public class Exit extends Entity
-{
-    private char sprite = 'e';
+public class Empty extends Entity{
 
-    public Exit(int x, int y)
-    {
+    private char sprite = 'v';
+
+    public Empty(int x, int y){
         super(x, y);
     }
 
@@ -13,5 +12,4 @@ public class Exit extends Entity
     public char getSprite() {
         return sprite;
     }
-    
 }
