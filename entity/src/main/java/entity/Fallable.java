@@ -1,15 +1,15 @@
-package Java.entity;
+package entity;
 
 public class Fallable
 {
     
-    boolean falling = false;
+    public boolean falling = false;
     Entity  entity;
     public Fallable(Entity entity)
     {
         this.entity = entity;
     }
-    void fall()
+    public void fall()
     {
         entity.y--;
         setFalling(true);

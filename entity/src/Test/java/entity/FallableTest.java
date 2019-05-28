@@ -1,6 +1,5 @@
 package entity;
 
-import Entity.Diamond;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

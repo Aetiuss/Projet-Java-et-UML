@@ -1,10 +1,10 @@
-package Java.entity;
+package entity;
 
 public class FallingRock extends Entity
 {
     
     Fallable fallable;
-    Pushable pushable;
+    public Pushable pushable;
     public FallingRock(int x, int y)
     {
         super(x, y);
