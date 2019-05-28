@@ -23,7 +23,7 @@ public class PlayerTest {
 
     @Test
     public void moveUpTest() {
-        int    expectedY = 2;
+        int    expectedY = 0;
         Player expectedP = player;
         player.moveUp();
         assertEquals(expectedY, player.y);
