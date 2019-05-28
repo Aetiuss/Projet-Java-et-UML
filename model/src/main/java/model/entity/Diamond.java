@@ -22,7 +22,7 @@ public class Diamond extends Entity
     @Override
     public Image getImage() throws IOException
     {
-        return ImageIO.read(new File("C:\\Users\\1944473\\IdeaProjects\\Projet-Java-et-UML\\sprites\\diamond.png"));
+        return ImageIO.read(new File("$PROJECT_DIR$\\sprites\\diamond.png"));
     }
     
 }

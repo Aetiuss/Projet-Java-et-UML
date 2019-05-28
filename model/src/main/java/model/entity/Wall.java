@@ -17,7 +17,7 @@ public class Wall extends Entity
     @Override
     public Image getImage() throws IOException
     {
-        return ImageIO.read(new File("C:\\Users\\1944473\\IdeaProjects\\Projet-Java-et-UML\\sprites\\wall.png"));
+        return ImageIO.read(new File("$PROJECT_DIR$\\sprites\\wall.png"));
     }
     public Wall(int x, int y, Entity[][] map)
     {

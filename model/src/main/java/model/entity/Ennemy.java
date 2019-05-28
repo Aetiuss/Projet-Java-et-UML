@@ -27,7 +27,7 @@ public class Ennemy extends Entity
     @Override
     public Image getImage() throws IOException
     {
-        return ImageIO.read(new File("C:\\Users\\1944473\\IdeaProjects\\Projet-Java-et-UML\\sprites\\ennemy.png"));
+        return ImageIO.read(new File("$PROJECT_DIR$\\sprites\\ennemy.png"));
     }
     
 }
