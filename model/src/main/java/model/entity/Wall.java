@@ -3,12 +3,22 @@ package model.entity;
 import model.entity.entityBehaviours.FallableDestrutable;
 import model.entity.entityBehaviours.IDestructable;
 
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.io.File;
+import java.io.IOException;
+
 public class Wall extends Entity
 {
     
     IDestructable destructable;
     private char sprite = 'w';
-
+    
+    @Override
+    public Image getImage() throws IOException
+    {
+        return ImageIO.read(new File("C:\\Users\\1944473\\IdeaProjects\\Projet-Java-et-UML\\sprites\\wall.png"));
+    }
     public Wall(int x, int y, Entity[][] map)
     {
         super(x, y, map);

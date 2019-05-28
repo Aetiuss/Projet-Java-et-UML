@@ -1,6 +1,7 @@
 package contract.showboard;
 
 import java.awt.*;
+import java.io.IOException;
 
 /**
  * <h1>The Interface ISquare.</h1>
@@ -17,5 +18,6 @@ public interface ISquare {
      *
      * @return the image
      */
-    Image getImage();
+    Image getImage() throws IOException;
+    void setImage() throws IOException;
 }
