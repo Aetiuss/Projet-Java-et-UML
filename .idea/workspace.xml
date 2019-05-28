@@ -1,50 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3093acad-7987-4206-8243-73340f1051fa" name="Default Changelist" comment="">
+    <list default="true" id="189683bf-0321-4329-856f-c541c18ffd2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/entity/src/test/java/entity/PlayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/test/java/entity/PlayerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrammes/.vpprefdata/.systemproject.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/diagrammes/.vpprefdata/.systemproject.vpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrammes/.vpprefdata/.vp.preference" beforeDir="false" afterPath="$PROJECT_DIR$/diagrammes/.vpprefdata/.vp.preference" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrammes/.vpprefdata/LayoutPerspectiveData/_C4AVxKD.AACAQOEC.lod" beforeDir="false" afterPath="$PROJECT_DIR$/diagrammes/.vpprefdata/LayoutPerspectiveData/_C4AVxKD.AACAQOEC.lod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrammes/.vpprefdata/LayoutPerspectiveData/_C4AVxKD.AACAQOEMC.lod" beforeDir="false" afterPath="$PROJECT_DIR$/diagrammes/.vpprefdata/LayoutPerspectiveData/_C4AVxKD.AACAQOEMC.lod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrammes/.vpprefdata/projectsViewInfo/o2yKqKqGAqBCNwUW" beforeDir="false" afterPath="$PROJECT_DIR$/diagrammes/.vpprefdata/projectsViewInfo/o2yKqKqGAqBCNwUW" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrammes/.vpprefdata/sideComponents/Indexing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/diagrammes/.vpprefdata/sideComponents/Indexing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrammes/jpublankproject.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/diagrammes/jpublankproject.vpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/entity/target/surefire-reports/" />
     <ignored path="$PROJECT_DIR$/entity/target/test-classes/" />
     <manually-removed-from-ignored>
-      <directory path="$PROJECT_DIR$/contract/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/main/target/site/" />
-      <directory path="$PROJECT_DIR$/main/target/classes/" />
-      <directory path="$PROJECT_DIR$/controller/target/site/" />
-      <directory path="$PROJECT_DIR$/target/staging/" />
-      <directory path="$PROJECT_DIR$/main/target/" />
-      <directory path="$PROJECT_DIR$/model/target/site/" />
-      <directory path="$PROJECT_DIR$/main/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/view/target/" />
-      <directory path="$PROJECT_DIR$/model/target/surefire-reports/" />
-      <directory path="$PROJECT_DIR$/view/target/classes/" />
       <directory path="$PROJECT_DIR$/target/javadoc-bundle-options/" />
-      <directory path="$PROJECT_DIR$/out/" />
-      <directory path="$PROJECT_DIR$/contract/target/classes/" />
-      <directory path="$PROJECT_DIR$/contract/target/maven-archiver/" />
-      <directory path="$PROJECT_DIR$/controller/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/controller/target/classes/" />
-      <directory path="$PROJECT_DIR$/model/target/maven-archiver/" />
-      <directory path="$PROJECT_DIR$/model/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/contract/target/" />
-      <directory path="$PROJECT_DIR$/entity/target/site/" />
+      <directory path="$PROJECT_DIR$/model/target/" />
       <directory path="$PROJECT_DIR$/entity/target/classes/" />
+      <directory path="$PROJECT_DIR$/controller/target/classes/" />
+      <directory path="$PROJECT_DIR$/main/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/contract/target/maven-status/" />
+      <directory path="$PROJECT_DIR$/out/" />
+      <directory path="$PROJECT_DIR$/controller/target/site/" />
       <directory path="$PROJECT_DIR$/controller/target/maven-archiver/" />
-      <directory path="$PROJECT_DIR$/contract/target/site/" />
-      <directory path="$PROJECT_DIR$/model/target/test-classes/" />
-      <directory path="$PROJECT_DIR$/target/site/" />
+      <directory path="$PROJECT_DIR$/main/target/site/" />
+      <directory path="$PROJECT_DIR$/view/target/" />
+      <directory path="$PROJECT_DIR$/contract/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/view/target/site/" />
+      <directory path="$PROJECT_DIR$/model/target/surefire-reports/" />
+      <directory path="$PROJECT_DIR$/main/target/classes/" />
+      <directory path="$PROJECT_DIR$/model/target/classes/" />
+      <directory path="$PROJECT_DIR$/target/" />
+      <directory path="$PROJECT_DIR$/target/staging/" />
+      <directory path="$PROJECT_DIR$/entity/target/maven-archiver/" />
       <directory path="$PROJECT_DIR$/view/target/maven-archiver/" />
       <directory path="$PROJECT_DIR$/entity/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/model/target/" />
-      <directory path="$PROJECT_DIR$/view/target/site/" />
-      <directory path="$PROJECT_DIR$/view/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/main/target/maven-archiver/" />
-      <directory path="$PROJECT_DIR$/model/target/classes/" />
+      <directory path="$PROJECT_DIR$/contract/target/classes/" />
+      <directory path="$PROJECT_DIR$/contract/target/site/" />
+      <directory path="$PROJECT_DIR$/controller/target/maven-status/" />
       <directory path="$PROJECT_DIR$/entity/target/" />
-      <directory path="$PROJECT_DIR$/entity/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/model/target/site/" />
+      <directory path="$PROJECT_DIR$/main/target/" />
+      <directory path="$PROJECT_DIR$/model/target/maven-status/" />
       <directory path="$PROJECT_DIR$/controller/target/" />
-      <directory path="$PROJECT_DIR$/target/" />
+      <directory path="$PROJECT_DIR$/view/target/maven-status/" />
+      <directory path="$PROJECT_DIR$/contract/target/" />
+      <directory path="$PROJECT_DIR$/main/target/maven-status/" />
+      <directory path="$PROJECT_DIR$/model/target/test-classes/" />
+      <directory path="$PROJECT_DIR$/model/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/target/site/" />
+      <directory path="$PROJECT_DIR$/view/target/classes/" />
+      <directory path="$PROJECT_DIR$/entity/target/site/" />
     </manually-removed-from-ignored>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,94 +84,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/IDestructable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/PlayerDestructable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Pushable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Wall.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Diamond.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="238">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/entity/src/test/java/entity/FallableTest.java">
+        <entry file="file://$PROJECT_DIR$/entity/src/test/java/entity/PlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="524">
+              <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/FallableDestrutable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/FallingRock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -176,8 +111,8 @@
       <list>
         <option value="Interface" />
         <option value="Singleton" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -198,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/entity/src/Test/entity/EntityTest.java" />
         <option value="$PROJECT_DIR$/entity/src/Test/entity/IBehaviourTest.java" />
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/BehaviourMovable.java" />
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/BehaviourCollectable.java" />
@@ -249,6 +183,7 @@
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/FallingRock.java" />
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/Empty.java" />
         <option value="$PROJECT_DIR$/entity/src/main/java/entity/Diamond.java" />
+        <option value="$PROJECT_DIR$/entity/src/test/java/entity/PlayerTest.java" />
       </list>
     </option>
   </component>
@@ -281,8 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -353,6 +286,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,21 +315,21 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="entity" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="entity" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\1944473\IdeaProjects\Projet-Java-et-UML\entity\src\Test" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\1944473\IdeaProjects\Projet-Java-et-UML\entity\src\Test" />
       <recent name="C:\Users\1944473\IdeaProjects\Projet-Java-et-UML\model\src\main\resources" />
       <recent name="C:\Users\1944473\IdeaProjects\Projet-Java-et-UML\model\src\main" />
       <recent name="C:\Users\1944473\IdeaProjects\Projet-Java-et-UML\model\src" />
       <recent name="C:\Users\1944473\IdeaProjects\Projet-Java-et-UML\model" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="entity" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1944473\IdeaProjects\Projet-Java-et-UML\entity\src\Test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -409,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest.moveRightTest">
+  <component name="RunManager" selected="JUnit.PlayerTest.getSprite">
     <configuration name="BehaviourImmovableTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="entity" />
       <extension name="coverage">
@@ -425,17 +360,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FallableTest.testfall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerTest.getSprite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="entity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.entity.*" />
+          <option name="PATTERN" value="entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java.entity" />
-      <option name="MAIN_CLASS_NAME" value="Java.entity.FallableTest" />
-      <option name="METHOD_NAME" value="testfall" />
+      <option name="PACKAGE_NAME" value="entity" />
+      <option name="MAIN_CLASS_NAME" value="entity.PlayerTest" />
+      <option name="METHOD_NAME" value="getSprite" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -507,11 +442,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerTest.getSprite" />
         <item itemvalue="JUnit.PlayerTest.moveRightTest" />
         <item itemvalue="JUnit.PlayerTest.moveLeftTest" />
         <item itemvalue="JUnit.PlayerTest.moveDownTest" />
         <item itemvalue="JUnit.PlayerTest.moveUpTest" />
-        <item itemvalue="JUnit.FallableTest.testfall" />
       </list>
     </recent_temporary>
   </component>
@@ -686,9 +621,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlayerTest_moveUpTest - 2019.05.27 at 16h 33m 52s.xml">
-      <configuration name="PlayerTest.moveUpTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PlayerTest_moveDownTest - 2019.05.27 at 16h 35m 25s.xml">
       <configuration name="PlayerTest.moveDownTest" configurationId="JUnit" />
     </history-entry>
@@ -716,9 +648,12 @@
     <history-entry file="PlayerTest_moveRightTest - 2019.05.27 at 16h 38m 40s.xml">
       <configuration name="PlayerTest.moveRightTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PlayerTest_getSprite - 2019.05.28 at 10h 00m 06s.xml">
+      <configuration name="PlayerTest.getSprite" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51025000" />
+    <option name="totallyTimeSpent" value="51216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -730,10 +665,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.24053334" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.26186666" />
       <window_info id="Structure" order="1" sideWeight="0.5005513" side_tool="true" weight="0.20149253" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -742,7 +677,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2881907" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2881907" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -758,7 +693,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.22453333" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.224" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.3296" />
@@ -962,16 +897,7 @@
     <entry file="file://$PROJECT_DIR$/entity/src/main/java/Java/entity/FallingRock.java" />
     <entry file="file://$PROJECT_DIR$/entity/src/main/java/Java/entity/Exit.java" />
     <entry file="file://$PROJECT_DIR$/entity/src/main/java/Java/entity/Empty.java" />
-    <entry file="file://$PROJECT_DIR$/entity/src/main/java/Java/entity/Diamond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#385#386#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/entity/src/main/java/Java/entity/Diamond.java" />
     <entry file="file://$PROJECT_DIR$/entity/src/test/java/entity/PushableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -986,13 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entity/src/test/java/entity/PlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1084,13 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/PlayerDestructable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -1121,8 +1033,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/entity/src/test/java/entity/FallableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity/src/main/java/entity/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity/src/test/java/entity/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
