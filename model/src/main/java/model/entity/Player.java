@@ -48,7 +48,7 @@ public class Player extends Entity
     public void moveUp()
     {
         map[x][y] = new Empty(x, y, map);
-        ourInstance.y++;
+        ourInstance.y--;
         map[x][y] = this;
     }
 
@@ -57,7 +57,9 @@ public class Player extends Entity
      */
     public void moveDown()
     {
-        ourInstance.y--;
+        map[x][y] = new Empty(x, y, map);
+        ourInstance.y++;
+        map[x][y] = this;
     }
 
     /*
@@ -65,7 +67,9 @@ public class Player extends Entity
      */
     public void moveLeft()
     {
+        map[x][y] = new Empty(x, y, map);
         ourInstance.x--;
+        map[x][y] = this;
     }
 
     /*
@@ -73,7 +77,9 @@ public class Player extends Entity
     */
     public void moveRight()
     {
+        map[x][y] = new Empty(x, y, map);
         ourInstance.x++;
+        map[x][y] = this;
     }
 
     @Override
