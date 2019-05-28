@@ -1,6 +1,6 @@
-package view;
+package contract.showboard;
 
-import java.awt.Point;
+import java.awt.*;
 
 /**
  * <h1>The Interface IPawn.</h1>
