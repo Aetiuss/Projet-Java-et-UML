@@ -46,36 +46,36 @@ public class Player extends Entity {
         Move the player Up by incrementing y
          */
     public void moveUp() {
-        map[y][x] = new Empty(x, y, map);
-        ourInstance.y++;
-        map[y][x] = this;
+        map[x][y] = new Empty(x, y, map);
+        ourInstance.y--;
+        map[x][y] = this;
     }
 
     /*
     Move the player Down by decrementing y
      */
     public void moveDown() {
-        map[y][x] = new Empty(x, y, map);
-        ourInstance.y--;
-        map[y][x] = this;
+        map[x][y] = new Empty(x, y, map);
+        ourInstance.y++;
+        map[x][y] = this;
     }
 
     /*
     Move the player Left by incrementing x
      */
     public void moveLeft() {
-        map[y][x] = new Empty(x, y, map);
+        map[x][y] = new Empty(x, y, map);
         ourInstance.x--;
-        map[y][x] = this;
+        map[x][y] = this;
     }
 
     /*
         Move the player Right by decrementing x
     */
     public void moveRight() {
-        map[y][x] = new Empty(x, y, map);
+        map[x][y] = new Empty(x, y, map);
         ourInstance.x++;
-        map[y][x] = this;
+        map[x][y] = this;
     }
 
     @Override

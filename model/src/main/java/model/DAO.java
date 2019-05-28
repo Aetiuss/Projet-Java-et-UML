@@ -152,11 +152,11 @@ class DAO {
             BufferedReader br = new BufferedReader(new FileReader(file));
             this.height = Integer.parseInt(br.readLine());
             this.width = Integer.parseInt(br.readLine());
-            this.charTab = new char[this.width][this.height];
+            this.charTab = new char[this.height][this.width];
             String line;
-            for (int i = 0; i < this.width; i++) {
+            for (int i = 0; i < this.height; i++) {
                 line = br.readLine();
-                if (this.height >= 0) System.arraycopy(line.toCharArray(), 0, this.charTab[i], 0, this.height);
+                if (this.width >= 0) System.arraycopy(line.toCharArray(), 0, this.charTab[i], 0, this.width);
             }
         } catch (final IOException e) {
             e.printStackTrace();
@@ -172,7 +172,7 @@ class DAO {
      */
     public void acquireFromDB(final int id) {
         this.acquireDimensionFromDB(id);
-        this.charTab = new char[this.width][this.height];
+        this.charTab = new char[this.height][this.width];
         try {
             final String sql = "{call getMap(?)}";
             final CallableStatement call = this.connection.prepareCall(sql);
@@ -181,7 +181,7 @@ class DAO {
             final ResultSet resultSet = call.getResultSet();
             if (resultSet.first()) {
                 while (!resultSet.isAfterLast()) {
-                    this.charTab[resultSet.getInt(1)][resultSet.getInt(2)] = resultSet.getString(3).toCharArray()[0];
+                    this.charTab[resultSet.getInt(2)][resultSet.getInt(1)] = resultSet.getString(3).toCharArray()[0];
                     resultSet.next();
                 }
 

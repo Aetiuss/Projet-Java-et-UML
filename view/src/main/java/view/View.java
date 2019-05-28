@@ -19,16 +19,22 @@ import java.awt.event.KeyListener;
  */
 public final class View implements IView, Runnable, KeyListener {
 
-    final private int squareSize = 16;
+    final private int squareSize = 64;
     private Map map;
     private Player player;
     private Rectangle closeView;
     private IController controller;
+    private BoardFrame boardFrame;
 
     public View(final IModel model) {
         this.map = Map.getInstance();
         this.player = Player.getInstance();
-        this.setCloseView(new Rectangle(player.getX() - 5, player.getY() - 5, 10, 10));
+        this.setCloseView(new Rectangle(player.getX() - 5, player.getY() - 5, 11, 11));
+        for (int x = 0; x < this.map.getHeight(); x++) {
+            for (int y = 0; y < this.map.getWidth(); y++) {
+                map.getMap()[x][y].loadImage();
+            }
+        }
     }
 
     protected static ControllerOrder keyCodeToControllerOrder(final int keyCode) {
@@ -47,30 +53,33 @@ public final class View implements IView, Runnable, KeyListener {
     }
 
     public void run() {
-        final BoardFrame boardFrame = new BoardFrame("Boulder Dash");
-        boardFrame.setDimension((new Dimension(this.map.getWidth(), this.map.getHeight())));
+        this.boardFrame = new BoardFrame("Boulder Dash");
+        boardFrame.setDimension(new Dimension(this.map.getHeight(), this.map.getWidth()));
         boardFrame.setDisplayFrame(this.closeView);
         boardFrame.setSize(this.closeView.width * squareSize, this.closeView.height * squareSize);
         boardFrame.setHeightLooped(false);
         boardFrame.addKeyListener(this);
         boardFrame.setFocusable(true);
         boardFrame.setFocusTraversalKeysEnabled(false);
-        for (int x = 0; x < this.map.getWidth(); x++) {
-            for (int y = 0; y < this.map.getHeight(); y++) {
+        for (int x = 0; x < this.map.getHeight(); x++) {
+            for (int y = 0; y < this.map.getWidth(); y++) {
                 boardFrame.addSquare(this.map.getMap()[x][y], x, y);
-            }
-        }
-        for (int x = 0; x < this.map.getWidth(); x++) {
-            for (int y = 0; y < this.map.getHeight(); y++) {
-                map.getMap()[x][y].loadImage();
             }
         }
         this.followPlayer();
         boardFrame.setVisible(true);
+
     }
 
-    private void followPlayer() {
-
+    public void followPlayer() {
+        for (int x = 0; x < this.map.getHeight(); x++) {
+            for (int y = 0; y < this.map.getWidth(); y++) {
+                boardFrame.addSquare(this.map.getMap()[x][y], x, y);
+            }
+        }
+        this.closeView.x = player.x - 5;
+        this.closeView.y = player.y - 5;
+        this.boardFrame.repaint();
     }
 
 
