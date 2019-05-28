@@ -1,8 +1,12 @@
 package model;
 
 import contract.IModel;
+<<<<<<< Updated upstream
 
 import java.util.Observable;
+=======
+import entity.HelloWorld;
+>>>>>>> Stashed changes
 
 /**
  * Model of the project contain all the basic information needed about data and their operations.

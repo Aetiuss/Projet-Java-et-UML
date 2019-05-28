@@ -1,6 +1,6 @@
 package model;
 
-import Java.entity.Entity;
+import entity.Entity;
 import org.junit.Before;
 import org.junit.Test;
 

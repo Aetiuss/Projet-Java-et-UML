@@ -1,7 +1,7 @@
-package Java.entity;
+package entity;
 
 /**
- * The Class Entity.
+ * The Class entity.
  *
  * @author Jean-Aymeric Diet
  */

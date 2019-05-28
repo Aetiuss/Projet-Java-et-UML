@@ -1,4 +1,4 @@
-package Java.entity;
+package entity;
 
 /**
  * The Class HelloWorld.

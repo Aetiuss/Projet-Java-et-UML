@@ -1,5 +1,6 @@
 package controller;
 
+import entity.Player;
 import contract.ControllerOrder;
 import contract.IController;
 import contract.IModel;
