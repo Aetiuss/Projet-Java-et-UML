@@ -1,18 +1,20 @@
 package model.entity;
 
-import static org.junit.Assert.*;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class PlayerTest {
-
-    Player player;
-
+    
+    Player     player;
+    Entity[][] map;
     @Before
     public void setUp() throws Exception {
-        player = Player.getInstance(0,0, null);
+        map = new Entity[2][2];
+        player = Player.getInstance(0, 0, map);
+        player.map[0][0] = player;
     }
 
     @After
@@ -21,9 +23,11 @@ public class PlayerTest {
 
     @Test
     public void moveUpTest() {
-        int expectedY = 1;
+        int    expectedY = 1;
+        Player expectedP = player;
         player.moveUp();
         assertEquals(expectedY, player.y);
+        assertEquals(expectedP, player.map[player.x][player.y]);
     }
 
     @Test

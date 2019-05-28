@@ -1,6 +1,7 @@
 package model.entity;
 
 import contract.showboard.IPawn;
+import model.entity.entityBehaviours.Fallable;
 
 import java.awt.*;
 
@@ -17,6 +18,7 @@ public abstract class Entity implements IPawn
     public int y;
     public char sprite;
     public Entity[][] map;
+    Fallable fallable;
 
     public Entity(int x, int y, Entity[][] map)
     {

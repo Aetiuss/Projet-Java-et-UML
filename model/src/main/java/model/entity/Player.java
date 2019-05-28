@@ -37,7 +37,9 @@ public class Player extends Entity
      */
     public void moveUp()
     {
+        map[x][y] = new Empty(x, y, map);
         ourInstance.y++;
+        map[x][y] = this;
     }
 
     /*
