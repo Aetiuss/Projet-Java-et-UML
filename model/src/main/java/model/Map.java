@@ -26,7 +26,7 @@ public class Map{
      */
     private Entity[][] map;
 
-    static Map getInstance(){
+    public static Map getInstance(){
         return instance;
     }
 
