@@ -1,5 +1,8 @@
 package model.entity;
 
+import model.entity.entityBehaviours.IDestructable;
+import model.entity.entityBehaviours.PlayerDestructable;
+
 public class Rock extends Entity
 {
     
