@@ -20,7 +20,7 @@ public class Wall extends Entity {
     @Override
     public void loadImage() {
         try {
-            this.image = ImageIO.read(new File("C:\\Users\\theow\\Projet\\Code\\Projet-Java-et-UML\\model\\src\\main\\resources\\sprites\\wall.png"));
+            this.image = ImageIO.read(new File("C:\\Users\\1944473\\IdeaProjects\\Projet-Java-et-UML\\model\\src\\main\\resources\\sprites\\wall.png"));
         } catch (final IOException e) {
             e.printStackTrace();
         }

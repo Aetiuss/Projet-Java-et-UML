@@ -22,7 +22,7 @@ public class Diamond extends Entity
     public void loadImage()
     {
         try {
-            this.image = ImageIO.read(new File("C:\\Users\\theow\\Projet\\Code\\Projet-Java-et-UML\\model\\src\\main\\resources\\sprites\\diamond.png"));
+            this.image = ImageIO.read(new File("C:\\Users\\1944473\\IdeaProjects\\Projet-Java-et-UML\\model\\src\\main\\resources\\sprites\\diamond.png"));
         } catch (final IOException e) {
             e.printStackTrace();
         }
