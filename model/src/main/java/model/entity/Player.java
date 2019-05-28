@@ -14,10 +14,11 @@ public class Player extends Entity
         destructableP = new FallableDestrutable();
         destructableE = new EnnemyDestructable();
     }
-    public static Player getInstance(int x, int y)
+    public static Player getInstance(int x, int y, Entity[][] map)
     {
         ourInstance.x = x;
         ourInstance.y = y;
+        ourInstance.map = map;
         return ourInstance;
     }
 

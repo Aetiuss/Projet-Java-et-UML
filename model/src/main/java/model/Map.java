@@ -63,28 +63,28 @@ public class Map{
             for (int j = 0; j < this.height; j++) {
                 switch (spriteTab[i][j]) {
                     case 'w':
-                        this.map[i][j] = new Wall(i,j);
+                        this.map[i][j] = new Wall(i,j, map);
                         break;
                     case 'r':
-                        this.map[i][j] = new Rock(i,j);
+                        this.map[i][j] = new Rock(i,j, map);
                         break;
                     case 'd':
-                        this.map[i][j] = new Diamond(i,j);
+                        this.map[i][j] = new Diamond(i,j, map);
                         break;
                     case 'v':
-                        this.map[i][j] = null;
+                        this.map[i][j] = new Empty(i,j, map);
                         break;
                     case 'f':
-                        this.map[i][j] = new FallingRock(i,j);
+                        this.map[i][j] = new FallingRock(i,j,map);
                         break;
                     case 'm':
-                        this.map[i][j] = new Ennemy(i,j);
+                        this.map[i][j] = new Ennemy(i,j,map);
                         break;
                     case 'p':
-                        this.map[i][j] = Player.getInstance(i,j);
+                        this.map[i][j] = Player.getInstance(i,j,map);
                         break;
                     case 'e':
-                        this.map[i][j] = new Exit(i,j);
+                        this.map[i][j] = new Exit(i,j,map);
                         break;
                 }
             }

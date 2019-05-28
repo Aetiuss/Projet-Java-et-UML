@@ -9,16 +9,13 @@ public class Fallable
     {
         this.entity = entity;
     }
-    public void fall()
-    {
-        entity.map[entity.x][entity.y] = null;
+    public void fall(){
+        entity.map[entity.x][entity.y] = new Empty(entity.x, entity.y, entity.map);
         entity.y--;
         setFalling(true);
         entity.map[entity.x][entity.y] = entity;
     }
-    public void setFalling(boolean b)
-    {
+    public void setFalling(boolean b){
         falling = b;
     }
-    
 }

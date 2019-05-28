@@ -1,4 +1,4 @@
-package entity;
+package model.entity;
 
 import org.junit.After;
 import org.junit.Before;
@@ -13,7 +13,7 @@ public class PushableTest
     @Before
     public void setUp() throws Exception
     {
-        fallingRock = new FallingRock(1, 2);
+        fallingRock = new FallingRock(1, 2, null);
     }
     @After
     public void tearDown() throws Exception

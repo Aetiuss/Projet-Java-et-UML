@@ -6,9 +6,9 @@ public class Ennemy extends Entity
     IDestructable destructableF;
     private char sprite = 'm';
 
-    public Ennemy(int x, int y)
+    public Ennemy(int x, int y, Entity[][] map)
     {
-        super(x, y);
+        super(x, y, map);
         destructableF = new FallableDestrutable();
     }
 

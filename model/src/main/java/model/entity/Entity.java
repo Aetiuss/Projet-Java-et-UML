@@ -14,11 +14,12 @@ public abstract class Entity
     public char sprite;
     Entity[][] map;
 
-    public Entity(int x, int y)
+    public Entity(int x, int y, Entity[][] map)
     {
         this.x = x;
         this.y = y;
         this.sprite = getSprite();
+        this.map = map;
     }
     public Entity()
     {}

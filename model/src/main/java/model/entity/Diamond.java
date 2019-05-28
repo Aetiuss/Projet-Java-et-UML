@@ -6,10 +6,9 @@ public class Diamond extends Entity
     IDestructable destructableP;
     public Diamond(int x, int y, Entity[][] map)
     {
-        super(x, y);
+        super(x, y, map);
         fallable = new Fallable(this);
         destructableP = new PlayerDestructable();
-        this.map = map;
     }
     
 }

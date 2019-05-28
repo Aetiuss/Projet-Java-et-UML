@@ -1,6 +1,6 @@
 package model;
 
-import entity.*;
+import model.entity.Entity;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,11 +13,11 @@ import static org.junit.Assert.*;
  * @version 1.0
  */
 public class MapTest {
-    private Map map;
-    private int expectedWidth = 1;
-    private int expectedHeight = 1;
-    private char[][] furnishedTab = {{'v'}};
-    private Entity[][] expectedTab = {{null}};
+    private Map        map;
+    private int        expectedWidth  = 1;
+    private int        expectedHeight = 1;
+    private char[][]   furnishedTab   = {{'v'}};
+    private Entity[][] expectedTab    = {{null}};
 
     /**
      * Get the instance of the Map class and load a basic map in it.

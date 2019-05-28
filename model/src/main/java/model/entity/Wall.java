@@ -6,9 +6,9 @@ public class Wall extends Entity
     IDestructable destructable;
     private char sprite = 'w';
 
-    public Wall(int x, int y)
+    public Wall(int x, int y, Entity[][] map)
     {
-        super(x, y);
+        super(x, y, map);
         destructable = new FallableDestrutable();
     }
 

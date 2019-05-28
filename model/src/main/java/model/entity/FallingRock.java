@@ -7,9 +7,9 @@ public class FallingRock extends Entity
     Pushable pushable;
 
     private char sprite = 'f';
-    public FallingRock(int x, int y)
+    public FallingRock(int x, int y, Entity[][] map)
     {
-        super(x, y);
+        super(x, y, map);
         fallable = new Fallable(this);
         pushable = new Pushable(this);
     }

@@ -1,4 +1,4 @@
-package entity;
+package model.entity;
 
 import static org.junit.Assert.*;
 
@@ -12,7 +12,7 @@ public class PlayerTest {
 
     @Before
     public void setUp() throws Exception {
-        player = Player.getInstance(0,0);
+        player = Player.getInstance(0,0, null);
     }
 
     @After

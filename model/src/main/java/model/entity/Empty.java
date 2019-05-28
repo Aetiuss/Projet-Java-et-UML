@@ -4,8 +4,8 @@ public class Empty extends Entity{
 
     private char sprite = 'v';
 
-    public Empty(int x, int y){
-        super(x, y);
+    public Empty(int x, int y,Entity[][] map){
+        super(x, y, map);
     }
 
     @Override
