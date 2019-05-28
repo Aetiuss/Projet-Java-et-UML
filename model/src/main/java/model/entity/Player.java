@@ -40,7 +40,7 @@ public class Player extends Entity
     @Override
     public Image getImage() throws IOException
     {
-        return ImageIO.read(new File("C:\\Users\\1944473\\IdeaProjects\\Projet-Java-et-UML\\sprites\\player.png"));
+        return ImageIO.read(new File("$PROJECT_DIR$\\sprites\\player.png"));
     }
     /*
         Move the player Up by incrementing y
