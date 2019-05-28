@@ -12,9 +12,9 @@ public class PlayerTest {
     Entity[][] map;
     @Before
     public void setUp() throws Exception {
-        map = new Entity[2][2];
-        player = Player.getInstance(0, 0, map);
-        player.map[0][0] = player;
+        map = new Entity[3][3];
+        player = Player.getInstance(1, 1, map);
+        player.map[1][1] = player;
     }
 
     @After
@@ -23,7 +23,7 @@ public class PlayerTest {
 
     @Test
     public void moveUpTest() {
-        int    expectedY = 1;
+        int    expectedY = 2;
         Player expectedP = player;
         player.moveUp();
         assertEquals(expectedY, player.y);

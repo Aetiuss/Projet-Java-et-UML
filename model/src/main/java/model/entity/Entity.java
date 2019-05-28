@@ -3,7 +3,10 @@ package model.entity;
 import contract.showboard.IPawn;
 import model.entity.entityBehaviours.Fallable;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
+import java.io.File;
+import java.io.IOException;
 
 /**
  * The Class entity.
@@ -19,6 +22,7 @@ public abstract class Entity implements IPawn
     public char sprite;
     public Entity[][] map;
     Fallable fallable;
+    Image    image;
 
     public Entity(int x, int y, Entity[][] map)
     {
@@ -58,7 +62,14 @@ public abstract class Entity implements IPawn
     }
 
     @Override
-    public Image getImage() {
-        return null;
+    public Image getImage() throws IOException
+    {
+        return ImageIO.read(new File("C:\\Users\\1944473\\IdeaProjects\\Projet-Java-et-UML\\sprites\\"));
     }
+    @Override
+    public void setImage() throws IOException
+    {
+        this.image = getImage();
+    }
+    
 }

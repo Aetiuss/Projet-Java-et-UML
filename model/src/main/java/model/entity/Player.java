@@ -4,6 +4,11 @@ import model.entity.entityBehaviours.EnnemyDestructable;
 import model.entity.entityBehaviours.FallableDestrutable;
 import model.entity.entityBehaviours.IDestructable;
 
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.io.File;
+import java.io.IOException;
+
 public class Player extends Entity
 {
     
@@ -30,11 +35,16 @@ public class Player extends Entity
         ourInstance.map = map;
         return ourInstance;
     }
-
-
+    
+    
+    @Override
+    public Image getImage() throws IOException
+    {
+        return ImageIO.read(new File("C:\\Users\\1944473\\IdeaProjects\\Projet-Java-et-UML\\sprites\\player.png"));
+    }
     /*
-    Move the player Up by incrementing y
-     */
+        Move the player Up by incrementing y
+         */
     public void moveUp()
     {
         map[x][y] = new Empty(x, y, map);
