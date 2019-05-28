@@ -5,7 +5,7 @@ import contract.ControllerOrder;
 import contract.IController;
 import contract.IModel;
 import contract.IView;
-import entity.Player;
+import model.entity.Player;
 
 
 /**
@@ -35,47 +35,21 @@ public final class Controller implements IController {
      * @param model the model
      */
     public Controller(final IView view, final IModel model) {
-        this.setView(view);
-        this.setModel(model);
+        this.view = view;
+        this.model = model;
         this.player = Player.getInstance();
     }
 
-    /**
-     *
-     *
-     */
-
     public void run() {
-        orderPerform(this.view.c); //AJOUTER
+        this.model.run();
+        this.view.run();
     }
 
-    /**
-     * Sets the view.
-     *
-     * @param view The new view
-     */
-    private void setView(final IView view) {
-        this.view = view;
-    }
-
-    /**
-     * Sets the model.
-     *
-     * @param model The new model
-     */
-    private void setModel(final IModel model) {
-        this.model = model;
-    }
 
     /**
      * Order perform.
      *
      * @param controllerOrder the controller order
-     */
-    /*
-     * (non-Javadoc)
-     *
-     * @see contract.IController#orderPerform(contract.ControllerOrder)
      */
     public void orderPerform(final ControllerOrder controllerOrder) {
         switch (controllerOrder) {

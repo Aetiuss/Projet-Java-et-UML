@@ -1,13 +1,11 @@
 package contract;
 
-import javax.swing.*;
-
 /**
  * The Interface IView.
  *
- * @author Jean-Aymeric Diet
+ * @author Théo Weimann
  */
 public interface IView
 {
-
+    public void run();
 }

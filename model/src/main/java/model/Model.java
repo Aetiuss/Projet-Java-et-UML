@@ -13,16 +13,10 @@ public final class Model extends Observable implements IModel {
 	public Model() {
 		DAO.getInstance().acquireFromDB(1);
 	}
-    
-    @Override
-    public void loadHelloWorld(String code)
-    {
-    
+
+	public void run() {
+
     }
-    @Override
-    public Observable getObservable()
-    {
-        return null;
-    }
-    
+
+
 }
