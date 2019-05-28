@@ -12,6 +12,7 @@ public abstract class Entity
     public int x;
     public int y;
     public char sprite;
+    Entity[][] map;
 
     public Entity(int x, int y)
     {

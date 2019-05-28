@@ -11,8 +11,10 @@ public class Fallable
     }
     public void fall()
     {
+        entity.map[entity.x][entity.y] = null;
         entity.y--;
         setFalling(true);
+        entity.map[entity.x][entity.y] = entity;
     }
     public void setFalling(boolean b)
     {

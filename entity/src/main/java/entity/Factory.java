@@ -3,9 +3,9 @@ package entity;
 public class Factory
 {
     
-    public Diamond getDiamond(int x, int y)
+    public Diamond getDiamond(int x, int y, Entity[][] map)
     {
-        return new Diamond(x, y);
+        return new Diamond(x, y, null);
     }
     public Player getPlayer(int x, int y)
     {
