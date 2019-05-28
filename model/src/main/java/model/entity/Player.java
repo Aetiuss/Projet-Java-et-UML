@@ -1,5 +1,9 @@
 package model.entity;
 
+import model.entity.entityBehaviours.EnnemyDestructable;
+import model.entity.entityBehaviours.FallableDestrutable;
+import model.entity.entityBehaviours.IDestructable;
+
 public class Player extends Entity
 {
     

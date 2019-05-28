@@ -1,5 +1,8 @@
 package model.entity;
 
+import model.entity.entityBehaviours.FallableDestrutable;
+import model.entity.entityBehaviours.IDestructable;
+
 public class Wall extends Entity
 {
     

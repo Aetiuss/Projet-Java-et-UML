@@ -1,4 +1,4 @@
-package model.entity;
+package model.entity.entityBehaviours;
 
 public class FallableDestrutable implements IDestructable
 {

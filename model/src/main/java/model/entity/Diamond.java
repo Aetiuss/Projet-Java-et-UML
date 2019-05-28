@@ -1,5 +1,9 @@
 package model.entity;
 
+import model.entity.entityBehaviours.Fallable;
+import model.entity.entityBehaviours.IDestructable;
+import model.entity.entityBehaviours.PlayerDestructable;
+
 public class Diamond extends Entity
 {
     public Fallable fallable;

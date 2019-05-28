@@ -1,5 +1,8 @@
 package model.entity;
 
+import model.entity.entityBehaviours.Fallable;
+import model.entity.entityBehaviours.Pushable;
+
 public class FallingRock extends Entity
 {
     

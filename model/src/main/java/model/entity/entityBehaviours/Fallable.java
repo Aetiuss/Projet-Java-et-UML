@@ -1,10 +1,13 @@
-package model.entity;
+package model.entity.entityBehaviours;
+
+import model.entity.Empty;
+import model.entity.Entity;
 
 public class Fallable
 {
     
     public boolean falling = false;
-    Entity  entity;
+    Entity entity;
     public Fallable(Entity entity)
     {
         this.entity = entity;
