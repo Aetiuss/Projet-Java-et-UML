@@ -1,6 +1,6 @@
-package view;
+package contract.showboard;
 
-import java.awt.Image;
+import java.awt.*;
 
 /**
  * <h1>The Interface ISquare.</h1>

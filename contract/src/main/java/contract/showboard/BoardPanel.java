@@ -1,20 +1,10 @@
-package view;
+package contract.showboard;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Image;
-import java.awt.Rectangle;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.Observable;
-import java.util.Observer;
-
-import javax.swing.JPanel;
+import java.util.*;
 
 /**
  * <h1>The Class BoardPanel.</h1>

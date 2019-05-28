@@ -1,10 +1,8 @@
-package view;
+package contract.showboard;
 
-import java.awt.Dimension;
-import java.awt.Rectangle;
+import javax.swing.*;
+import java.awt.*;
 import java.util.Observer;
-
-import javax.swing.JFrame;
 
 /**
  * <h1>The Class BoardFrame.</h1>
