@@ -1,7 +1,5 @@
 package entity;
 
-import contract.IView;
-
 public class Diamond extends Entity
 {
     
