@@ -4,18 +4,15 @@ import model.entity.entityBehaviours.FallableDestrutable;
 import model.entity.entityBehaviours.IDestructable;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
-public class Ennemy extends Entity
-{
-    
+public class Ennemy extends Entity {
+
     IDestructable destructableF;
     private char sprite = 'm';
 
-    public Ennemy(int x, int y, Entity[][] map)
-    {
+    public Ennemy(int x, int y, Entity[][] map) {
         super(x, y, map);
         destructableF = new FallableDestrutable();
     }
@@ -24,10 +21,15 @@ public class Ennemy extends Entity
     public char getSprite() {
         return sprite;
     }
+
     @Override
-    public Image getImage() throws IOException
-    {
-        return ImageIO.read(new File("$PROJECT_DIR$\\sprites\\ennemy.png"));
+    public void loadImage() {
+
+        try {
+            this.image = ImageIO.read(new File("C:\\Users\\theow\\Projet\\Code\\Projet-Java-et-UML\\model\\src\\main\\resources\\sprites\\ennemy.png"));
+        } catch (final IOException e) {
+            e.printStackTrace();
+        }
     }
-    
+
 }

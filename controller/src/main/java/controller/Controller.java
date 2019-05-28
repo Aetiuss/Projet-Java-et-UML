@@ -54,28 +54,20 @@ public final class Controller implements IController {
     public void orderPerform(final ControllerOrder controllerOrder) {
         switch (controllerOrder) {
             case Up:
-                System.out.println("UP");
                 this.player.moveUp();
                 break;
             case Down:
-                System.out.println("DOWN");
                 this.player.moveDown();
                 break;
             case Left:
-                System.out.println("LEFT");
                 this.player.moveLeft();
                 break;
             case Right:
-                System.out.println("RIGHT");
                 this.player.moveRight();
                 break;
             default:
                 break;
         }
-
-        System.out.println("########################################################");
-        System.out.println("########################################################");
-        System.out.println("########################################################");
     }
 
 }

@@ -5,20 +5,17 @@ import model.entity.entityBehaviours.FallableDestrutable;
 import model.entity.entityBehaviours.IDestructable;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
-public class Player extends Entity
-{
-    
+public class Player extends Entity {
+
     private static Player ourInstance = new Player();
     IDestructable destructableP;
     IDestructable destructableE;
     private char sprite = 'p';
 
-    private Player()
-    {
+    private Player() {
         super();
         destructableP = new FallableDestrutable();
         destructableE = new EnnemyDestructable();
@@ -28,25 +25,27 @@ public class Player extends Entity
         return ourInstance;
     }
 
-    public static Player getInstance(int x, int y, Entity[][] map)
-    {
+    public static Player getInstance(int x, int y, Entity[][] map) {
         ourInstance.x = x;
         ourInstance.y = y;
         ourInstance.map = map;
         return ourInstance;
     }
-    
-    
+
+
     @Override
-    public Image getImage() throws IOException
-    {
-        return ImageIO.read(new File("$PROJECT_DIR$\\sprites\\player.png"));
+    public void loadImage() {
+        try {
+            this.image = ImageIO.read(new File("C:\\Users\\theow\\Projet\\Code\\Projet-Java-et-UML\\model\\src\\main\\resources\\sprites\\player.png"));
+        } catch (final IOException e) {
+            e.printStackTrace();
+        }
     }
+
     /*
         Move the player Up by incrementing y
          */
-    public void moveUp()
-    {
+    public void moveUp() {
         map[x][y] = new Empty(x, y, map);
         ourInstance.y++;
         map[x][y] = this;
@@ -55,24 +54,21 @@ public class Player extends Entity
     /*
     Move the player Down by decrementing y
      */
-    public void moveDown()
-    {
+    public void moveDown() {
         ourInstance.y--;
     }
 
     /*
     Move the player Left by incrementing x
      */
-    public void moveLeft()
-    {
+    public void moveLeft() {
         ourInstance.x--;
     }
 
     /*
         Move the player Right by decrementing x
     */
-    public void moveRight()
-    {
+    public void moveRight() {
         ourInstance.x++;
     }
 

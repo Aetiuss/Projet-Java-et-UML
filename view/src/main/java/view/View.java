@@ -8,7 +8,6 @@ import contract.showboard.BoardFrame;
 import model.Map;
 import model.entity.Player;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -30,7 +29,6 @@ public final class View implements IView, Runnable, KeyListener {
         this.map = Map.getInstance();
         this.player = Player.getInstance();
         this.setCloseView(new Rectangle(player.getX() - 5, player.getY() - 5, 10, 10));
-        SwingUtilities.invokeLater(this);
     }
 
     protected static ControllerOrder keyCodeToControllerOrder(final int keyCode) {
@@ -50,9 +48,9 @@ public final class View implements IView, Runnable, KeyListener {
 
     public void run() {
         final BoardFrame boardFrame = new BoardFrame("Boulder Dash");
-        boardFrame.setDimension((new Dimension(this.map.getWidth(), this.map.getHeight()))); //
-        boardFrame.setDisplayFrame(this.closeView); //
-        boardFrame.setSize(this.closeView.width * squareSize, this.closeView.height * squareSize); //
+        boardFrame.setDimension((new Dimension(this.map.getWidth(), this.map.getHeight())));
+        boardFrame.setDisplayFrame(this.closeView);
+        boardFrame.setSize(this.closeView.width * squareSize, this.closeView.height * squareSize);
         boardFrame.setHeightLooped(false);
         boardFrame.addKeyListener(this);
         boardFrame.setFocusable(true);
@@ -60,6 +58,11 @@ public final class View implements IView, Runnable, KeyListener {
         for (int x = 0; x < this.map.getWidth(); x++) {
             for (int y = 0; y < this.map.getHeight(); y++) {
                 boardFrame.addSquare(this.map.getMap()[x][y], x, y);
+            }
+        }
+        for (int x = 0; x < this.map.getWidth(); x++) {
+            for (int y = 0; y < this.map.getHeight(); y++) {
+                map.getMap()[x][y].loadImage();
             }
         }
         this.followPlayer();
@@ -92,7 +95,7 @@ public final class View implements IView, Runnable, KeyListener {
      * See the class description for {@link KeyEvent} for a definition of
      * a key pressed event.
      *
-     * @param e
+     * @param keyEvent
      */
     @Override
     public void keyPressed(final KeyEvent keyEvent) {

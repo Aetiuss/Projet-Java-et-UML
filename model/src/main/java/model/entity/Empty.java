@@ -1,15 +1,14 @@
 package model.entity;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
-public class Empty extends Entity{
+public class Empty extends Entity {
 
     private char sprite = 'v';
 
-    public Empty(int x, int y,Entity[][] map){
+    public Empty(int x, int y, Entity[][] map) {
         super(x, y, map);
     }
 
@@ -17,10 +16,14 @@ public class Empty extends Entity{
     public char getSprite() {
         return sprite;
     }
+
     @Override
-    public Image getImage() throws IOException
-    {
-        return ImageIO.read(new File("$PROJECT_DIR$\\sprites\\ground.png"));
+    public void loadImage() {
+        try {
+            this.image = ImageIO.read(new File("C:\\Users\\theow\\Projet\\Code\\Projet-Java-et-UML\\model\\src\\main\\resources\\sprites\\ground.png"));
+        } catch (final IOException e) {
+            e.printStackTrace();
+        }
     }
-    
+
 }

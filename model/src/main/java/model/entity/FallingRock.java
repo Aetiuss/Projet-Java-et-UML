@@ -4,7 +4,6 @@ import model.entity.entityBehaviours.Fallable;
 import model.entity.entityBehaviours.Pushable;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
@@ -27,9 +26,13 @@ public class FallingRock extends Entity
         return sprite;
     }
     @Override
-    public Image getImage() throws IOException
+    public void loadImage()
     {
-        return ImageIO.read(new File("$PROJECT_DIR$\\sprites\\fallingrock.png"));
+        try {
+            this.image = ImageIO.read(new File("C:\\Users\\theow\\Projet\\Code\\Projet-Java-et-UML\\model\\src\\main\\resources\\sprites\\fallingRock.png"));
+        } catch (final IOException e) {
+            e.printStackTrace();
+        }
     }
     
 }
