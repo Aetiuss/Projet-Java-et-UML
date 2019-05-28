@@ -16,7 +16,7 @@ import java.sql.SQLException;
  * @author Théo Weimann
  * @version 1.2
  */
-public class DAO {
+class DAO {
 
     /**
      * Unique instance of the DAOmap class.
@@ -115,7 +115,7 @@ public class DAO {
             }
         } catch (final SQLException e) {
             e.printStackTrace();
-            throw new Error("Database not joinable. See if it's availiable or credential are good in model.properties");
+            throw new Error("Database not found. See if it's available or credential are good in model.properties");
         }
 
     }
@@ -136,7 +136,7 @@ public class DAO {
             }
         } catch (final Exception e) {
             e.printStackTrace();
-            throw new Error("Database not joinable. See if it's availiable or credential are good in model.properties");
+            throw new Error("Database not found. See if it's available or credential are good in model.properties");
         }
         return 0;
     }
@@ -160,7 +160,7 @@ public class DAO {
             }
         } catch (final IOException e) {
             e.printStackTrace();
-            throw new Error("No such file found see if the name correpond or if it is in the correct place");
+            throw new Error("No such file found see if the name correspond or if it is in the correct place");
         }
 
     }
@@ -189,7 +189,7 @@ public class DAO {
             Map.getInstance().changeMap(this.height, this.width, charTab);
         } catch (final Exception e) {
             e.printStackTrace();
-            throw new Error("Database not joinable. See if it's availiable or credential are good in model.properties");
+            throw new Error("Database not found. See if it's available or credential are good in model.properties");
         }
     }
 
@@ -211,7 +211,7 @@ public class DAO {
             }
         } catch (final Exception e) {
             e.printStackTrace();
-            throw new Error("Database not joinable. See if it's availiable or credential are good in model.properties");
+            throw new Error("Database not found. See if it's available or credential are good in model.properties");
         }
     }
 

@@ -1,10 +1,7 @@
 package model;
 
-import entity.Entity;
-import entity.Exit;
-import entity.FallingRock;
-import entity.Player;
-import Java.entity.*;
+
+import entity.*;
 
 /**
  * Create a map from a sprite Tab and his dimension.
@@ -12,7 +9,6 @@ import Java.entity.*;
  * @version 1.1
  */
 public class Map {
-<<<<<<< Updated upstream
     /**
      * The unique instance of the class Map.
      */
@@ -28,10 +24,6 @@ public class Map {
     /**
      * The actual map containing all the entity.
      */
-=======
-    private int        height;
-    private int        width;
->>>>>>> Stashed changes
     private Entity[][] map;
 
 
@@ -115,7 +107,7 @@ public class Map {
 
     /**
      * Getter from map attribute.
-     * @return Return the map. A tab of entity.
+     * @return Return the map. A tab of Entity.
      */
     public Entity[][] getMap() {
         return map;

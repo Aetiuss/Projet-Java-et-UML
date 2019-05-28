@@ -1,6 +1,6 @@
 package model;
 
-import entity.Entity;
+import entity.*;
 import org.junit.Before;
 import org.junit.Test;
 
