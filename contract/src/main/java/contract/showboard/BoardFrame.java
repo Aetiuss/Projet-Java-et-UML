@@ -55,6 +55,10 @@ public class BoardFrame extends JFrame implements IBoard {
         this.setVisible(true);
     }
 
+    public void getScore(int score) {
+        boardPanel.displayScore(score);
+    }
+
     /**
      * Instantiates a new board frame.
      *
