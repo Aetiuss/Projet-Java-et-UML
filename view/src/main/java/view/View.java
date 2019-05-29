@@ -27,6 +27,7 @@ public final class View implements IView, Runnable, KeyListener {
     private Rectangle closeView;
     private IController controller;
     private BoardFrame boardFrame;
+    private int score = exit.getScore();
 
     public View(final IModel model) {
         this.map = Map.getInstance();
@@ -64,13 +65,13 @@ public final class View implements IView, Runnable, KeyListener {
             }
         }
         this.followPlayer();
+        this.getScore(score);
         boardFrame.setVisible(true);
 
     }
 
     public void getScore(int score) {
-        score = exit.getScore();
-        boardFrame.getScore(exit.getScore());
+        boardFrame.getScore(score);
     }
 
     public void followPlayer() {
