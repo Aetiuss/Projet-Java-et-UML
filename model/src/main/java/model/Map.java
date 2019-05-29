@@ -16,15 +16,15 @@ public class Map{
     /**
      * The height of the map
      */
-    private int height;
+    int        height;
     /**
      * The width of the map.
      */
-    private int width;
+    int        width;
     /**
      * The actual map containing all the entity.
      */
-    private Entity[][] map;
+    Entity[][] map;
 
     public static Map getInstance(){
         return instance;
@@ -84,7 +84,7 @@ public class Map{
                         this.map[i][j] = Player.getInstance(i,j,map);
                         break;
                     case 'e':
-                        this.map[i][j] = new Exit(i,j,map);
+                        this.map[i][j] = Exit.getInstance(i, j, map);
                         break;
                 }
             }

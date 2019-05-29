@@ -1,7 +1,6 @@
 package model.entity;
 
 import javax.imageio.ImageIO;
-import java.io.File;
 import java.io.IOException;
 
 public class Empty extends Entity {
@@ -20,10 +19,13 @@ public class Empty extends Entity {
     @Override
     public void loadImage() {
         try {
-            this.image = ImageIO.read(new File("C:\\Users\\1944473\\IdeaProjects\\Projet-Java-et-UML\\model\\src\\main\\resources\\sprites\\ground.png"));
+            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/cobblestone.png"));
+            if (this.image == null) {
+                throw new IOException("File is nowhere to be found");
+            }
         } catch (final IOException e) {
             e.printStackTrace();
         }
     }
-
+    
 }

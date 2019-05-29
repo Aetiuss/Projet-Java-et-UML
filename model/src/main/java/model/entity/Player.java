@@ -5,12 +5,11 @@ import model.entity.entityBehaviours.FallableDestrutable;
 import model.entity.entityBehaviours.IDestructable;
 
 import javax.imageio.ImageIO;
-import java.io.File;
 import java.io.IOException;
 
 public class Player extends Entity
 {
-    
+    private Diamond diamond;
     private static Player ourInstance = new Player();
     private        char   sprite      = 'p';
     IDestructable destructableF;
@@ -21,6 +20,7 @@ public class Player extends Entity
         super();
         destructableF = new FallableDestrutable();
         destructableE = new EnnemyDestructable();
+        loadImage();
     }
     
     public static Player getInstance()
@@ -40,12 +40,13 @@ public class Player extends Entity
          */
     public void moveUp()
     {
-        if (map[x][y--].sprite == 'w')
-        {
-            ourInstance.y = y;
-        }
-        else
-        {
+        if (map[x][y - 1].getSprite() != 'w') {
+            if (map[x][y - 1].getSprite() == 'd') {
+                diamond.collectibleP.collect();
+                map[x][y] = new Empty(x, y, map);
+                ourInstance.y--;
+                map[x][y] = this;
+            }
             map[x][y] = new Empty(x, y, map);
             ourInstance.y--;
             map[x][y] = this;
@@ -56,15 +57,18 @@ public class Player extends Entity
      */
     public void moveDown()
     {
-        if (map[x][y++].sprite == 'w')
+        if (map[x][y + 1].getSprite() != 'w')
         {
-            ourInstance.y = y;
-        }
-        else
-        {
+            if (map[x][y + 1].getSprite() == 'd') {
+                diamond.collectibleP.collect();
+                map[x][y] = new Empty(x, y, map);
+                ourInstance.y++;
+                map[x][y] = this;
+            }
             map[x][y] = new Empty(x, y, map);
             ourInstance.y++;
             map[x][y] = this;
+    
         }
     }
     /*
@@ -72,15 +76,18 @@ public class Player extends Entity
      */
     public void moveLeft()
     {
-        if (map[x--][y].sprite == 'w')
+        if (map[x - 1][y].getSprite() != 'w')
         {
-            ourInstance.x = x;
-        }
-        else
-        {
+            if (map[x][x - 1].getSprite() == 'd') {
+                diamond.collectibleP.collect();
+                map[x][y] = new Empty(x, y, map);
+                ourInstance.x--;
+                map[x][y] = this;
+            }
             map[x][y] = new Empty(x, y, map);
             ourInstance.x--;
             map[x][y] = this;
+    
         }
     }
     /*
@@ -88,12 +95,14 @@ public class Player extends Entity
     */
     public void moveRight()
     {
-        if (map[x++][y].sprite == 'w')
+        if (map[x + 1][y].getSprite() != 'w')
         {
-            ourInstance.x = x;
-        }
-        else
-        {
+            if (map[x][x + 1].getSprite() == 'd') {
+                diamond.collectibleP.collect();
+                map[x][y] = new Empty(x, y, map);
+                ourInstance.x++;
+                map[x][y] = this;
+            }
             map[x][y] = new Empty(x, y, map);
             ourInstance.x++;
             map[x][y] = this;
@@ -104,12 +113,16 @@ public class Player extends Entity
     {
         return sprite;
     }
+
     @Override
     public void loadImage()
     {
         try
         {
-            this.image = ImageIO.read(new File("C:\\Users\\1944473\\IdeaProjects\\Projet-Java-et-UML\\model\\src\\main\\resources\\sprites\\player.png"));
+            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/player.png"));
+            if (this.image == null) {
+                throw new IOException("File is nowhere to be found");
+            }
         }
         catch (final IOException e)
         {

@@ -12,14 +12,15 @@ import java.awt.*;
  * @author Jean-Aymeric Diet
  */
 
-public abstract class Entity implements IPawn {
-
-    public int x;
-    public int y;
-    public char sprite;
+public abstract class Entity implements IPawn
+{
+    
+    public int        x;
+    public int        y;
+    public char       sprite;
     public Entity[][] map;
-    Fallable fallable;
-    Pushable pushable;
+    public Fallable   fallable;
+    public Pushable   pushable;
     Image    image;
 
     public Entity(int x, int y, Entity[][] map) {
@@ -27,6 +28,7 @@ public abstract class Entity implements IPawn {
         this.y = y;
         this.sprite = getSprite();
         this.map = map;
+        loadImage();
     }
 
     public Entity() {

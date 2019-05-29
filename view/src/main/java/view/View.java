@@ -30,11 +30,6 @@ public final class View implements IView, Runnable, KeyListener {
         this.map = Map.getInstance();
         this.player = Player.getInstance();
         this.setCloseView(new Rectangle(player.getX() - 5, player.getY() - 5, 11, 11));
-        for (int x = 0; x < this.map.getHeight(); x++) {
-            for (int y = 0; y < this.map.getWidth(); y++) {
-                map.getMap()[x][y].loadImage();
-            }
-        }
     }
 
     protected static ControllerOrder keyCodeToControllerOrder(final int keyCode) {
