@@ -83,7 +83,6 @@ public class Player extends Entity
             map[x][y] = new Empty(x, y, map);
             ourInstance.x++;
             map[x][y] = this;
-    
         }
     }
     @Override

@@ -16,15 +16,15 @@ public class Map{
     /**
      * The height of the map
      */
-    private int height;
+    int        height;
     /**
      * The width of the map.
      */
-    private int width;
+    int        width;
     /**
      * The actual map containing all the entity.
      */
-    private Entity[][] map;
+    Entity[][] map;
 
     public static Map getInstance(){
         return instance;
