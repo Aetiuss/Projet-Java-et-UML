@@ -5,7 +5,6 @@ import model.entity.entityBehaviours.FallableDestrutable;
 import model.entity.entityBehaviours.IDestructable;
 
 import javax.imageio.ImageIO;
-import java.io.File;
 import java.io.IOException;
 
 public class Player extends Entity
@@ -21,6 +20,7 @@ public class Player extends Entity
         super();
         destructableF = new FallableDestrutable();
         destructableE = new EnnemyDestructable();
+        loadImage();
     }
     
     public static Player getInstance()
@@ -91,12 +91,13 @@ public class Player extends Entity
     {
         return sprite;
     }
+
     @Override
     public void loadImage()
     {
         try
         {
-            this.image = ImageIO.read(new File("C:\\Users\\1944473\\IdeaProjects\\Projet-Java-et-UML\\model\\src\\main\\resources\\sprites\\player.png"));
+            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/player.png"));
         }
         catch (final IOException e)
         {

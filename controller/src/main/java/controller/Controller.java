@@ -68,8 +68,6 @@ public final class Controller implements IController {
             default:
                 break;
         }
-        System.out.println(Player.getInstance().x);
-        System.out.println(Player.getInstance().y);
         this.view.followPlayer();
     }
 
