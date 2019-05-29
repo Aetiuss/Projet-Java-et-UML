@@ -10,7 +10,6 @@ public class Diamond extends Entity
 {
     
     private char              sprite = 'd';
-    public  PlayerCollectible collectibleP;
     public Diamond(int x, int y, Entity[][] map)
     {
         super(x, y, map);

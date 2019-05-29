@@ -4,14 +4,16 @@ import javax.imageio.ImageIO;
 import java.io.IOException;
 
 public class Exit extends Entity {
-    static private Exit instance;
-    private char sprite = 'e';
+    
+    static private Exit instance = new Exit();
+    private        char sprite   = 'e';
 
 
     private int score = 0;
-
-    private Exit(int x, int y, Entity[][] map) {
-        super(x, y, map);
+    
+    private Exit()
+    {
+        super();
     }
 
     static public Exit getInstance() {
@@ -19,9 +21,9 @@ public class Exit extends Entity {
     }
 
     static public Exit getInstance(int x, int y, Entity[][] map) {
-        if (instance == null) {
-            instance = new Exit(x, y, map);
-        }
+        instance.x = x;
+        instance.y = y;
+        instance.map = map;
         return instance;
     }
 

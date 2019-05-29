@@ -11,7 +11,6 @@ public class Player extends Entity
 {
     
     private static Player  ourInstance = new Player();
-    private        Diamond diamond;
     private        char    sprite      = 'p';
     IDestructable destructableF;
     IDestructable destructableE;
@@ -47,7 +46,7 @@ public class Player extends Entity
             {
                 if (map[x][y - 1].getSprite() == 'd')
                 {
-                    diamond.collectibleP.collect();
+                    map[x][y - 1].collectibleP.collect();
                     map[x][y] = new Empty(x, y, map);
                     ourInstance.y--;
                     map[x][y] = this;
@@ -69,7 +68,7 @@ public class Player extends Entity
             {
                 if (map[x][y + 1].getSprite() == 'd')
                 {
-                    diamond.collectibleP.collect();
+                    map[x][y + 1].collectibleP.collect();
                     map[x][y] = new Empty(x, y, map);
                     ourInstance.y++;
                     map[x][y] = this;
@@ -91,9 +90,9 @@ public class Player extends Entity
         {
             if (map[x - 1][y].getSprite() != 'f')
             {
-                if (map[x][y - 1].getSprite() == 'd')
+                if (map[x - 1][y].getSprite() == 'd')
                 {
-                    diamond.collectibleP.collect();
+                    map[x - 1][y].collectibleP.collect();
                     map[x][y] = new Empty(x, y, map);
                     ourInstance.x--;
                     map[x][y] = this;
@@ -113,9 +112,9 @@ public class Player extends Entity
         {
             if (map[x + 1][y].getSprite() != 'f')
             {
-                if (map[x][y + 1].getSprite() == 'd')
+                if (map[x + 1][y].getSprite() == 'd')
                 {
-                    diamond.collectibleP.collect();
+                    map[x + 1][y].collectibleP.collect();
                     map[x][y] = new Empty(x, y, map);
                     ourInstance.x++;
                     map[x][y] = this;

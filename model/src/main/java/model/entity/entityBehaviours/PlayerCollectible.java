@@ -10,7 +10,6 @@ public class PlayerCollectible implements Observer {
     Exit exit = Exit.getInstance();
 
     public PlayerCollectible() {
-
     }
 
 
