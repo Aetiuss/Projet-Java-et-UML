@@ -6,7 +6,7 @@ import model.entity.Entity;
 public class Fallable
 {
     
-    Entity entity;
+    public Entity  entity;
     public boolean falling = false;
     public Fallable(Entity entity)
     {
@@ -14,7 +14,7 @@ public class Fallable
     }
     public void fall()
     {
-        if (entity.map[entity.x][entity.y + 1].getSprite() != 'w')
+        if (entity.map[entity.x][entity.y + 1].getSprite() == 'v')
         {
             entity.map[entity.x][entity.y] = new Empty(entity.x, entity.y, entity.map);
             entity.y++;

@@ -9,8 +9,7 @@ import java.io.IOException;
 public class FallingRock extends Entity
 {
     
-    Fallable fallable;
-    Pushable pushable;
+    public Pushable pushable;
 
     private char sprite = 'f';
     public FallingRock(int x, int y, Entity[][] map)

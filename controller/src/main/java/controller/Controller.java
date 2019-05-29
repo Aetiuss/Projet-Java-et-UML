@@ -47,7 +47,6 @@ public final class Controller implements IController {
     
     public void gravityThread() throws InterruptedException
     {
-        Thread.sleep(50);
         this.model.gravity();
     }
 

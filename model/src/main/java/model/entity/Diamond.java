@@ -8,15 +8,20 @@ import java.io.IOException;
 
 public class Diamond extends Entity
 {
-    public Fallable fallable;
-    public PlayerCollectible collectibleP;
+    
+    private char              sprite = 'd';
+    public  PlayerCollectible collectibleP;
     public Diamond(int x, int y, Entity[][] map)
     {
         super(x, y, map);
         fallable = new Fallable(this);
         collectibleP = new PlayerCollectible();
     }
-
+    @Override
+    public char getSprite()
+    {
+        return sprite;
+    }
     @Override
     public void loadImage()
     {

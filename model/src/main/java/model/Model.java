@@ -6,47 +6,59 @@ import java.util.Observable;
 
 /**
  * Model of the project contain all the basic information needed about data and their operations.
+ *
  * @author Théo Weimann
  * @version 1.0
  */
-public final class Model extends Observable implements IModel {
-	public Model() {
-		DAO.getInstance().acquireFromDB(1);
-	}
+public final class Model extends Observable implements IModel
+{
     
     Map map = Map.getInstance();
     
-    public void run() {
+    public Model()
+    {
+        DAO.getInstance()
+           .acquireFromDB(1);
+    }
+    public void run()
+    {
     
     }
     @Override
     public void gravity()
     {
-        for (int i = 0; i < map.height; i++)
+        for (int i = 0; i < map.getHeight(); i++)
         {
-            for (int j = 0; j < map.width; j++)
+            for (int j = 0; j < map.getWidth(); j++)
             {
                 switch (map.map[i][j].getSprite())
                 {
                     case 'd':
                         try
                         {
-                            map.map[i][j].fallable.fall();
+                            Map.getInstance()
+                               .getMap()[i][j].fallable.fall();
+                            break;
                         }
-                        catch (Exception e) {}
-                        break;
+                        catch (Exception e) {e.getMessage();}
+                    
                     case 'f':
                         try
                         {
-                            map.map[i][j].fallable.fall();
+                            Map.getInstance()
+                               .getMap()[i][j].fallable.fall();
+                            break;
                         }
-                        catch (Exception e) {}
-                        break;
+                        catch (Exception e)
+                        {
+                            e.getMessage();
+                        }
+                    
                 }
             }
         }
         
     }
-
-
+    
+    
 }

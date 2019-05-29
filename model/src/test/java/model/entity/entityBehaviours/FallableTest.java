@@ -38,7 +38,7 @@ public class FallableTest
         assertEquals(expectedBool, diamond.fallable.falling);
         assertNotNull(diamond.map[0][0]);
         diamond.fallable.fall();
-        expectedY = 2;
+        expectedY = 1;
         assertEquals(expectedY, diamond.y);
     }
     @Test
