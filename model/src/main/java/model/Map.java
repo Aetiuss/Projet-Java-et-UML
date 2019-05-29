@@ -59,8 +59,8 @@ public class Map{
      * @param spriteTab The 2dimensional char tab you want to transform in map
      */
     private void setMap(char[][] spriteTab) {
-        for (int i = 0; i < this.width; i++) {
-            for (int j = 0; j < this.height; j++) {
+        for (int i = 0; i < this.height; i++) {
+            for (int j = 0; j < this.width; j++) {
                 switch (spriteTab[i][j]) {
                     case 'w':
                         this.map[i][j] = new Wall(i,j, map);
@@ -118,7 +118,7 @@ public class Map{
     public void changeMap(int height, int width, char[][] spriteTab) {
         setWidth(width);
         setHeight(height);
-        this.map = new Entity[this.width][this.height];
+        this.map = new Entity[this.height][this.width];
         setMap(spriteTab);
     }
 
