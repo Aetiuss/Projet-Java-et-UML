@@ -27,6 +27,7 @@ public abstract class Entity implements IPawn {
         this.y = y;
         this.sprite = getSprite();
         this.map = map;
+        loadImage();
     }
 
     public Entity() {
