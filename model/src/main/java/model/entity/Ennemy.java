@@ -25,7 +25,7 @@ public class Ennemy extends Entity {
     public void loadImage() {
 
         try {
-            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/ennemy.png"));
+            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/zombie.png"));
             if (this.image == null) {
                 throw new IOException("File is nowhere to be found");
             }

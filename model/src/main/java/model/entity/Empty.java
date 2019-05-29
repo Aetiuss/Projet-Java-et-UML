@@ -19,7 +19,7 @@ public class Empty extends Entity {
     @Override
     public void loadImage() {
         try {
-            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/ground.png"));
+            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/cobblestone.png"));
             if (this.image == null) {
                 throw new IOException("File is nowhere to be found");
             }
