@@ -15,11 +15,16 @@ public abstract class Main {
      * The main method.
      * @param args Main's argument.
      */
-    public static void main(final String[] args) {
+    public static void main(final String[] args) throws InterruptedException
+    {
         final Model model = new Model();
         final View view = new View(model);
         final Controller controller = new Controller(view, model);
         view.setController(controller);
         controller.run();
+        while (true)
+        {
+            controller.gravityThread();
+        }
     }
 }

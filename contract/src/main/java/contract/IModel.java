@@ -7,4 +7,6 @@ package contract;
  */
 public interface IModel {
     public void run();
+    void gravity();
+    
 }

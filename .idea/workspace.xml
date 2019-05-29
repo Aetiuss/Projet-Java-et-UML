@@ -3,54 +3,53 @@
   <component name="ChangeListManager">
     <list default="true" id="189683bf-0321-4329-856f-c541c18ffd2c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contract/src/main/java/contract/IModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract/src/main/java/contract/IModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/src/main/java/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/Model.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/PlayerCollectibleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/PlayerCollectibleTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/entity/target/surefire-reports/" />
     <ignored path="$PROJECT_DIR$/entity/target/test-classes/" />
     <ignored path="C:\Users\theow\Projet\Code\Projet-Java-et-UML\.idea\shelf/" />
     <manually-removed-from-ignored>
-      <directory path="$PROJECT_DIR$/entity/target/classes/" />
-      <directory path="$PROJECT_DIR$/entity/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/contract/target/maven-status/" />
+      <directory path="$PROJECT_DIR$/main/target/site/" />
+      <directory path="$PROJECT_DIR$/main/target/classes/" />
+      <directory path="$PROJECT_DIR$/controller/target/site/" />
+      <directory path="$PROJECT_DIR$/target/staging/" />
+      <directory path="$PROJECT_DIR$/main/target/" />
+      <directory path="$PROJECT_DIR$/model/target/site/" />
       <directory path="$PROJECT_DIR$/main/target/maven-status/" />
       <directory path="$PROJECT_DIR$/view/target/" />
-      <directory path="$PROJECT_DIR$/view/target/maven-archiver/" />
-      <directory path="$PROJECT_DIR$/entity/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/target/javadoc-bundle-options/" />
-      <directory path="$PROJECT_DIR$/view/target/site/" />
-      <directory path="$PROJECT_DIR$/model/target/test-classes/" />
-      <directory path="$PROJECT_DIR$/target/" />
-      <directory path="$PROJECT_DIR$/main/target/" />
-      <directory path="$PROJECT_DIR$/model/target/classes/" />
-      <directory path="$PROJECT_DIR$/contract/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/contract/target/site/" />
+      <directory path="$PROJECT_DIR$/model/target/surefire-reports/" />
       <directory path="$PROJECT_DIR$/view/target/classes/" />
-      <directory path="$PROJECT_DIR$/controller/target/classes/" />
-      <directory path="$PROJECT_DIR$/model/target/" />
-      <directory path="$PROJECT_DIR$/controller/target/" />
+      <directory path="$PROJECT_DIR$/target/javadoc-bundle-options/" />
+      <directory path="$PROJECT_DIR$/out/" />
+      <directory path="$PROJECT_DIR$/contract/target/classes/" />
+      <directory path="$PROJECT_DIR$/contract/target/maven-archiver/" />
       <directory path="$PROJECT_DIR$/controller/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/main/target/classes/" />
-      <directory path="$PROJECT_DIR$/contract/target/" />
+      <directory path="$PROJECT_DIR$/controller/target/classes/" />
       <directory path="$PROJECT_DIR$/model/target/maven-archiver/" />
       <directory path="$PROJECT_DIR$/model/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/view/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/main/target/site/" />
-      <directory path="$PROJECT_DIR$/contract/target/classes/" />
-      <directory path="$PROJECT_DIR$/model/target/surefire-reports/" />
-      <directory path="$PROJECT_DIR$/target/staging/" />
-      <directory path="$PROJECT_DIR$/main/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/contract/target/" />
       <directory path="$PROJECT_DIR$/entity/target/site/" />
-      <directory path="$PROJECT_DIR$/entity/target/" />
-      <directory path="$PROJECT_DIR$/out/" />
-      <directory path="$PROJECT_DIR$/contract/target/maven-archiver/" />
-      <directory path="$PROJECT_DIR$/target/site/" />
-      <directory path="$PROJECT_DIR$/model/target/site/" />
+      <directory path="$PROJECT_DIR$/entity/target/classes/" />
       <directory path="$PROJECT_DIR$/controller/target/maven-archiver/" />
-      <directory path="$PROJECT_DIR$/controller/target/site/" />
+      <directory path="$PROJECT_DIR$/contract/target/site/" />
+      <directory path="$PROJECT_DIR$/model/target/test-classes/" />
+      <directory path="$PROJECT_DIR$/target/site/" />
+      <directory path="$PROJECT_DIR$/view/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/entity/target/maven-status/" />
+      <directory path="$PROJECT_DIR$/model/target/" />
+      <directory path="$PROJECT_DIR$/view/target/site/" />
+      <directory path="$PROJECT_DIR$/view/target/maven-status/" />
+      <directory path="$PROJECT_DIR$/main/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/model/target/classes/" />
+      <directory path="$PROJECT_DIR$/entity/target/" />
+      <directory path="$PROJECT_DIR$/entity/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/controller/target/" />
+      <directory path="$PROJECT_DIR$/target/" />
     </manually-removed-from-ignored>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,81 +82,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3021#3022#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1152">
+              <caret line="65" column="60" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/PlayerCollectibleTest.java">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/java/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35">
-              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            <state relative-caret-position="302">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="docComment;class#Controller#0" />
+                <element signature="docComment;field#view#0;class#Controller#0" />
+                <element signature="docComment;field#model#0;class#Controller#0" />
+                <element signature="docComment;field#player#0;class#Controller#0" />
+                <element signature="docComment;method#Controller#0;class#Controller#0" />
+                <element signature="docComment;method#orderPerform#0;class#Controller#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Factory.java">
+        <entry file="file://$PROJECT_DIR$/main/src/main/java/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Model.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-              <folding>
-                <element signature="e#115#116#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java">
+        <entry file="file://$PROJECT_DIR$/contract/src/main/java/contract/IModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="216">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -224,9 +201,7 @@
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/PushableTest.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Fallable.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/IDestructable.java" />
-        <option value="$PROJECT_DIR$/contract/src/main/java/contract/IModel.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/MapTest.java" />
-        <option value="$PROJECT_DIR$/main/src/main/java/main/Main.java" />
         <option value="$PROJECT_DIR$/contract/src/main/java/contract/IController.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/PlayerTest.java" />
         <option value="$PROJECT_DIR$/contract/src/main/java/contract/showboard/BoardFrame.java" />
@@ -236,7 +211,6 @@
         <option value="$PROJECT_DIR$/contract/src/main/java/contract/showboard/BoardPanel.java" />
         <option value="$PROJECT_DIR$/contract/src/main/java/contract/IView.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/DAO.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/controller/Controller.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Indestructable.java" />
         <option value="$PROJECT_DIR$/view/src/main/java/view/View.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/FallableTest.java" />
@@ -249,13 +223,16 @@
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Wall.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/Model.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Player.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Factory.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/PlayerCollectibleTest.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Player.java" />
+        <option value="$PROJECT_DIR$/contract/src/main/java/contract/IModel.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/main/src/main/java/main/Main.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/Model.java" />
       </list>
     </option>
   </component>
@@ -304,135 +281,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="entityBehaviours" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="maps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML1" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="entityBehaviours" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -471,6 +319,97 @@
               <item name="Projet Java et UML" type="58d84e3e:PackageViewProjectNode" />
               <item name="view" type="616d4139:PackageViewModuleNode" />
               <item name="view" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1015,7 +954,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559114808699</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="plqyer done bitch">
+      <created>1559135788489</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1559135788489</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1051,7 +997,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90905000" />
+    <option name="totallyTimeSpent" value="94146000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1063,10 +1009,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" weight="0.21543624" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" weight="0.16746667" />
       <window_info id="Structure" order="1" sideWeight="0.5005513" side_tool="true" weight="0.20149253" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1075,7 +1021,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928178" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25588235" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25578833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29705882" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1197,19 +1143,13 @@
     <MESSAGE value="This code is working but it's empty." />
     <MESSAGE value="Replace the getMap test method." />
     <MESSAGE value="Relocate map directories." />
-    <option name="LAST_COMMIT_MESSAGE" value="Relocate map directories." />
+    <MESSAGE value="plqyer done bitch" />
+    <option name="LAST_COMMIT_MESSAGE" value="plqyer done bitch" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/PushableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerDestructable.java" />
     <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/EnnemyDestructable.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1354,16 +1294,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Indestructable.java" />
-    <entry file="file://$PROJECT_DIR$/view/src/main/java/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1608">
-          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contract/src/main/java/contract/IView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1371,27 +1301,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/main/java/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/FallableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Fallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1406,35 +1319,6 @@
             <element signature="e#198#199#0" expanded="true" />
             <element signature="e#230#231#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <element signature="docComment;class#Controller#0" />
-            <element signature="docComment;field#view#0;class#Controller#0" />
-            <element signature="docComment;field#model#0;class#Controller#0" />
-            <element signature="docComment;field#player#0;class#Controller#0" />
-            <element signature="docComment;method#Controller#0;class#Controller#0" />
-            <element signature="docComment;method#orderPerform#0;class#Controller#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="62" column="50" lean-forward="true" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contract/src/main/java/contract/IModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1460,25 +1344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1539,17 +1404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3021#3022#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1591,6 +1445,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-35">
           <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Fallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="6503" column="5" lean-forward="true" selection-start-line="6503" selection-start-column="5" selection-end-line="6503" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/src/main/java/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="96" column="7" lean-forward="true" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3592#3593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="65" column="60" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contract/src/main/java/contract/IModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/main/java/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="docComment;class#Controller#0" />
+            <element signature="docComment;field#view#0;class#Controller#0" />
+            <element signature="docComment;field#model#0;class#Controller#0" />
+            <element signature="docComment;field#player#0;class#Controller#0" />
+            <element signature="docComment;method#Controller#0;class#Controller#0" />
+            <element signature="docComment;method#orderPerform#0;class#Controller#0" />
+          </folding>
         </state>
       </provider>
     </entry>

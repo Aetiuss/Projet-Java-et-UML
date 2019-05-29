@@ -44,7 +44,12 @@ public final class Controller implements IController {
         this.model.run();
         this.view.run();
     }
-
+    
+    public void gravityThread() throws InterruptedException
+    {
+        Thread.sleep(50);
+        this.model.gravity();
+    }
 
     /**
      * Order perform.
@@ -70,6 +75,4 @@ public final class Controller implements IController {
         }
         this.view.followPlayer();
     }
-
-
 }
