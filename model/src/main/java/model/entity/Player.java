@@ -9,9 +9,10 @@ import java.io.IOException;
 
 public class Player extends Entity
 {
-    private Diamond diamond;
-    private static Player ourInstance = new Player();
-    private        char   sprite      = 'p';
+    
+    private static Player  ourInstance = new Player();
+    private        Diamond diamond;
+    private        char    sprite      = 'p';
     IDestructable destructableF;
     IDestructable destructableE;
     
@@ -40,16 +41,21 @@ public class Player extends Entity
          */
     public void moveUp()
     {
-        if (map[x][y - 1].getSprite() != 'w') {
-            if (map[x][y - 1].getSprite() == 'd') {
-                diamond.collectibleP.collect();
+        if (map[x][y - 1].getSprite() != 'w')
+        {
+            if (map[x][y - 1].getSprite() != 'f')
+            {
+                if (map[x][y - 1].getSprite() == 'd')
+                {
+                    diamond.collectibleP.collect();
+                    map[x][y] = new Empty(x, y, map);
+                    ourInstance.y--;
+                    map[x][y] = this;
+                }
                 map[x][y] = new Empty(x, y, map);
                 ourInstance.y--;
                 map[x][y] = this;
             }
-            map[x][y] = new Empty(x, y, map);
-            ourInstance.y--;
-            map[x][y] = this;
         }
     }
     /*
@@ -59,15 +65,20 @@ public class Player extends Entity
     {
         if (map[x][y + 1].getSprite() != 'w')
         {
-            if (map[x][y + 1].getSprite() == 'd') {
-                diamond.collectibleP.collect();
+            if (map[x][y + 1].getSprite() != 'f')
+            {
+                if (map[x][y + 1].getSprite() == 'd')
+                {
+                    diamond.collectibleP.collect();
+                    map[x][y] = new Empty(x, y, map);
+                    ourInstance.y++;
+                    map[x][y] = this;
+                }
                 map[x][y] = new Empty(x, y, map);
                 ourInstance.y++;
                 map[x][y] = this;
             }
-            map[x][y] = new Empty(x, y, map);
-            ourInstance.y++;
-            map[x][y] = this;
+    
     
         }
     }
@@ -78,16 +89,19 @@ public class Player extends Entity
     {
         if (map[x - 1][y].getSprite() != 'w')
         {
-            if (map[x][x - 1].getSprite() == 'd') {
-                diamond.collectibleP.collect();
+            if (map[x - 1][y].getSprite() != 'f')
+            {
+                if (map[x][y - 1].getSprite() == 'd')
+                {
+                    diamond.collectibleP.collect();
+                    map[x][y] = new Empty(x, y, map);
+                    ourInstance.x--;
+                    map[x][y] = this;
+                }
                 map[x][y] = new Empty(x, y, map);
                 ourInstance.x--;
                 map[x][y] = this;
             }
-            map[x][y] = new Empty(x, y, map);
-            ourInstance.x--;
-            map[x][y] = this;
-    
         }
     }
     /*
@@ -97,15 +111,20 @@ public class Player extends Entity
     {
         if (map[x + 1][y].getSprite() != 'w')
         {
-            if (map[x][x + 1].getSprite() == 'd') {
-                diamond.collectibleP.collect();
+            if (map[x + 1][y].getSprite() != 'f')
+            {
+                if (map[x][y + 1].getSprite() == 'd')
+                {
+                    diamond.collectibleP.collect();
+                    map[x][y] = new Empty(x, y, map);
+                    ourInstance.x++;
+                    map[x][y] = this;
+                }
                 map[x][y] = new Empty(x, y, map);
                 ourInstance.x++;
                 map[x][y] = this;
             }
-            map[x][y] = new Empty(x, y, map);
-            ourInstance.x++;
-            map[x][y] = this;
+    
         }
     }
     @Override
@@ -113,14 +132,16 @@ public class Player extends Entity
     {
         return sprite;
     }
-
+    
     @Override
     public void loadImage()
     {
         try
         {
-            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/player.png"));
-            if (this.image == null) {
+            this.image = ImageIO.read(getClass().getClassLoader()
+                                                .getResource("./sprites/player.png"));
+            if (this.image == null)
+            {
                 throw new IOException("File is nowhere to be found");
             }
         }
