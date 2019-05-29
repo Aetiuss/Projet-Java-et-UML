@@ -43,11 +43,13 @@ public class Player extends Entity
         if (map[x][y - 1].getSprite() != 'w') {
             if (map[x][y - 1].getSprite() == 'd') {
                 diamond.collectibleP.collect();
+                map[x][y] = new Empty(x, y, map);
+                ourInstance.y--;
+                map[x][y] = this;
             }
             map[x][y] = new Empty(x, y, map);
             ourInstance.y--;
             map[x][y] = this;
-        }
         }
     }
     /*
@@ -59,6 +61,9 @@ public class Player extends Entity
         {
             if (map[x][y + 1].getSprite() == 'd') {
                 diamond.collectibleP.collect();
+                map[x][y] = new Empty(x, y, map);
+                ourInstance.y++;
+                map[x][y] = this;
             }
             map[x][y] = new Empty(x, y, map);
             ourInstance.y++;
@@ -75,6 +80,9 @@ public class Player extends Entity
         {
             if (map[x][x - 1].getSprite() == 'd') {
                 diamond.collectibleP.collect();
+                map[x][y] = new Empty(x, y, map);
+                ourInstance.x--;
+                map[x][y] = this;
             }
             map[x][y] = new Empty(x, y, map);
             ourInstance.x--;
@@ -91,6 +99,9 @@ public class Player extends Entity
         {
             if (map[x][x + 1].getSprite() == 'd') {
                 diamond.collectibleP.collect();
+                map[x][y] = new Empty(x, y, map);
+                ourInstance.x++;
+                map[x][y] = this;
             }
             map[x][y] = new Empty(x, y, map);
             ourInstance.x++;

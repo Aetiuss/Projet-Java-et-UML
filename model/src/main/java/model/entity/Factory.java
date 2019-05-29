@@ -29,7 +29,7 @@ public class Factory
     }
     public Exit getExit(int x, int y, Entity[][] map)
     {
-        return new Exit(x, y, map);
+        return Exit.getInstance(x, y, map);
     }
     
 }

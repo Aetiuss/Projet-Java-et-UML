@@ -16,6 +16,7 @@ public class Diamond extends Entity
         fallable = new Fallable(this);
         collectibleP = new PlayerCollectible();
     }
+
     @Override
     public void loadImage()
     {
