@@ -40,11 +40,7 @@ public class Player extends Entity
          */
     public void moveUp()
     {
-        if (map[x][y--].sprite == 'w')
-        {
-            ourInstance.y = y;
-        }
-        else
+        if (map[x][y - 1].getSprite() != 'w')
         {
             map[x][y] = new Empty(x, y, map);
             ourInstance.y--;
@@ -56,15 +52,12 @@ public class Player extends Entity
      */
     public void moveDown()
     {
-        if (map[x][y++].sprite == 'w')
-        {
-            ourInstance.y = y;
-        }
-        else
+        if (map[x][y + 1].getSprite() != 'w')
         {
             map[x][y] = new Empty(x, y, map);
             ourInstance.y++;
             map[x][y] = this;
+    
         }
     }
     /*
@@ -72,15 +65,12 @@ public class Player extends Entity
      */
     public void moveLeft()
     {
-        if (map[x--][y].sprite == 'w')
-        {
-            ourInstance.x = x;
-        }
-        else
+        if (map[x - 1][y].getSprite() != 'w')
         {
             map[x][y] = new Empty(x, y, map);
             ourInstance.x--;
             map[x][y] = this;
+    
         }
     }
     /*
@@ -88,15 +78,12 @@ public class Player extends Entity
     */
     public void moveRight()
     {
-        if (map[x++][y].sprite == 'w')
-        {
-            ourInstance.x = x;
-        }
-        else
+        if (map[x + 1][y].getSprite() != 'w')
         {
             map[x][y] = new Empty(x, y, map);
             ourInstance.x++;
             map[x][y] = this;
+    
         }
     }
     @Override
