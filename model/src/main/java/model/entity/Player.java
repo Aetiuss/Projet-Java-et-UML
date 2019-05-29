@@ -8,79 +8,90 @@ import javax.imageio.ImageIO;
 import java.io.File;
 import java.io.IOException;
 
-public class Player extends Entity {
-
+public class Player extends Entity
+{
+    
     private static Player ourInstance = new Player();
+    private        char   sprite      = 'p';
     IDestructable destructableP;
     IDestructable destructableE;
-    private char sprite = 'p';
-
-    private Player() {
+    
+    private Player()
+    {
         super();
         destructableP = new FallableDestrutable();
         destructableE = new EnnemyDestructable();
     }
-
-    public static Player getInstance() {
+    
+    public static Player getInstance()
+    {
         return ourInstance;
     }
-
-    public static Player getInstance(int x, int y, Entity[][] map) {
+    
+    public static Player getInstance(int x, int y, Entity[][] map)
+    {
         ourInstance.x = x;
         ourInstance.y = y;
         ourInstance.map = map;
         return ourInstance;
     }
-
-
-    @Override
-    public void loadImage() {
-        try {
-            this.image = ImageIO.read(new File("C:\\Users\\1944473\\IdeaProjects\\Projet-Java-et-UML\\model\\src\\main\\resources\\sprites\\player.png"));
-        } catch (final IOException e) {
-            e.printStackTrace();
-        }
-    }
-
     /*
         Move the player Up by incrementing y
          */
-    public void moveUp() {
+    public void moveUp()
+    {
+        if (map[x][y--].sprite == 'w')
+        {
+        
+        }
         map[x][y] = new Empty(x, y, map);
         ourInstance.y--;
         map[x][y] = this;
     }
-
     /*
     Move the player Down by decrementing y
      */
-    public void moveDown() {
+    public void moveDown()
+    {
         map[x][y] = new Empty(x, y, map);
         ourInstance.y++;
         map[x][y] = this;
     }
-
     /*
     Move the player Left by incrementing x
      */
-    public void moveLeft() {
+    public void moveLeft()
+    {
         map[x][y] = new Empty(x, y, map);
         ourInstance.x--;
         map[x][y] = this;
     }
-
     /*
         Move the player Right by decrementing x
     */
-    public void moveRight() {
+    public void moveRight()
+    {
         map[x][y] = new Empty(x, y, map);
         ourInstance.x++;
         map[x][y] = this;
     }
-
     @Override
-    public char getSprite() {
+    public char getSprite()
+    {
         return sprite;
     }
+    @Override
+    public void loadImage()
+    {
+        try
+        {
+            this.image = ImageIO.read(new File("C:\\Users\\1944473\\IdeaProjects\\Projet-Java-et-UML\\model\\src\\main\\resources\\sprites\\player.png"));
+        }
+        catch (final IOException e)
+        {
+            e.printStackTrace();
+        }
+    }
+    
 }
 
