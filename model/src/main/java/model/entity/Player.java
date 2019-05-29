@@ -13,13 +13,13 @@ public class Player extends Entity
     
     private static Player ourInstance = new Player();
     private        char   sprite      = 'p';
-    IDestructable destructableP;
+    IDestructable destructableF;
     IDestructable destructableE;
     
     private Player()
     {
         super();
-        destructableP = new FallableDestrutable();
+        destructableF = new FallableDestrutable();
         destructableE = new EnnemyDestructable();
     }
     
@@ -42,38 +42,62 @@ public class Player extends Entity
     {
         if (map[x][y--].sprite == 'w')
         {
-        
+            ourInstance.y = y;
         }
-        map[x][y] = new Empty(x, y, map);
-        ourInstance.y--;
-        map[x][y] = this;
+        else
+        {
+            map[x][y] = new Empty(x, y, map);
+            ourInstance.y--;
+            map[x][y] = this;
+        }
     }
     /*
     Move the player Down by decrementing y
      */
     public void moveDown()
     {
-        map[x][y] = new Empty(x, y, map);
-        ourInstance.y++;
-        map[x][y] = this;
+        if (map[x][y++].sprite == 'w')
+        {
+            ourInstance.y = y;
+        }
+        else
+        {
+            map[x][y] = new Empty(x, y, map);
+            ourInstance.y++;
+            map[x][y] = this;
+        }
     }
     /*
     Move the player Left by incrementing x
      */
     public void moveLeft()
     {
-        map[x][y] = new Empty(x, y, map);
-        ourInstance.x--;
-        map[x][y] = this;
+        if (map[x--][y].sprite == 'w')
+        {
+            ourInstance.x = x;
+        }
+        else
+        {
+            map[x][y] = new Empty(x, y, map);
+            ourInstance.x--;
+            map[x][y] = this;
+        }
     }
     /*
         Move the player Right by decrementing x
     */
     public void moveRight()
     {
-        map[x][y] = new Empty(x, y, map);
-        ourInstance.x++;
-        map[x][y] = this;
+        if (map[x++][y].sprite == 'w')
+        {
+            ourInstance.x = x;
+        }
+        else
+        {
+            map[x][y] = new Empty(x, y, map);
+            ourInstance.x++;
+            map[x][y] = this;
+        }
     }
     @Override
     public char getSprite()
