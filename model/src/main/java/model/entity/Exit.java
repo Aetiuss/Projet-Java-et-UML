@@ -4,13 +4,25 @@ import javax.imageio.ImageIO;
 import java.io.IOException;
 
 public class Exit extends Entity {
+    static private Exit instance;
     private char sprite = 'e';
 
 
     private int score = 0;
 
-    public Exit(int x, int y, Entity[][] map) {
+    private Exit(int x, int y, Entity[][] map) {
         super(x, y, map);
+    }
+
+    static public Exit getInstance() {
+        return instance;
+    }
+
+    static public Exit getInstance(int x, int y, Entity[][] map) {
+        if (instance == null) {
+            instance = new Exit(x, y, map);
+        }
+        return instance;
     }
 
     @Override

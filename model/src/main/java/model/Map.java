@@ -84,7 +84,7 @@ public class Map{
                         this.map[i][j] = Player.getInstance(i,j,map);
                         break;
                     case 'e':
-                        this.map[i][j] = new Exit(i,j,map);
+                        this.map[i][j] = Exit.getInstance(i, j, map);
                         break;
                 }
             }
