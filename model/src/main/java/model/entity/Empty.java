@@ -20,6 +20,9 @@ public class Empty extends Entity {
     public void loadImage() {
         try {
             this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/ground.png"));
+            if (this.image == null) {
+                throw new IOException("File is nowhere to be found");
+            }
         } catch (final IOException e) {
             e.printStackTrace();
         }

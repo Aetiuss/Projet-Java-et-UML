@@ -22,6 +22,9 @@ public class Diamond extends Entity
     {
         try {
             this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/diamond.png"));
+            if (this.image == null) {
+                throw new IOException("File is nowhere to be found");
+            }
         } catch (final IOException e) {
             e.printStackTrace();
         }

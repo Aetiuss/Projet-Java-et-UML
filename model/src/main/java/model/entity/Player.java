@@ -98,6 +98,9 @@ public class Player extends Entity
         try
         {
             this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/player.png"));
+            if (this.image == null) {
+                throw new IOException("File is nowhere to be found");
+            }
         }
         catch (final IOException e)
         {
