@@ -6,6 +6,9 @@ import java.io.IOException;
 public class Exit extends Entity {
     private char sprite = 'e';
 
+
+    private int score = 0;
+
     public Exit(int x, int y, Entity[][] map) {
         super(x, y, map);
     }
@@ -26,6 +29,14 @@ public class Exit extends Entity {
         } catch (final IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
     }
 
 }

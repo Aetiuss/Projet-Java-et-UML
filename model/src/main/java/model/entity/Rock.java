@@ -1,19 +1,19 @@
 package model.entity;
 
 import model.entity.entityBehaviours.IDestructable;
-import model.entity.entityBehaviours.PlayerDestructable;
+import model.entity.entityBehaviours.PlayerCollectible;
 
 import javax.imageio.ImageIO;
 import java.io.IOException;
 
 public class Rock extends Entity {
 
-    IDestructable destructable;
+    public IDestructable destructable;
     private char sprite = 'r';
 
     public Rock(int x, int y, Entity[][] map) {
         super(x, y, map);
-        destructable = new PlayerDestructable();
+        destructable = new PlayerCollectible();
     }
 
     @Override

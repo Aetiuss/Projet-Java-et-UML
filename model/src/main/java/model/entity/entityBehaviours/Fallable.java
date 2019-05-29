@@ -3,9 +3,7 @@ package model.entity.entityBehaviours;
 import model.entity.Empty;
 import model.entity.Entity;
 
-public class Fallable
-{
-    
+public class Fallable {
     public boolean falling = false;
     Entity entity;
     public Fallable(Entity entity)

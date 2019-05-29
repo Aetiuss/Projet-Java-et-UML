@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class Player extends Entity
 {
-    
+    private Diamond diamond;
     private static Player ourInstance = new Player();
     private        char   sprite      = 'p';
     IDestructable destructableF;
@@ -40,11 +40,14 @@ public class Player extends Entity
          */
     public void moveUp()
     {
-        if (map[x][y - 1].getSprite() != 'w')
-        {
+        if (map[x][y - 1].getSprite() != 'w') {
+            if (map[x][y - 1].getSprite() == 'd') {
+                diamond.collectibleP.collect();
+            }
             map[x][y] = new Empty(x, y, map);
             ourInstance.y--;
             map[x][y] = this;
+        }
         }
     }
     /*
@@ -54,6 +57,9 @@ public class Player extends Entity
     {
         if (map[x][y + 1].getSprite() != 'w')
         {
+            if (map[x][y + 1].getSprite() == 'd') {
+                diamond.collectibleP.collect();
+            }
             map[x][y] = new Empty(x, y, map);
             ourInstance.y++;
             map[x][y] = this;
@@ -67,6 +73,9 @@ public class Player extends Entity
     {
         if (map[x - 1][y].getSprite() != 'w')
         {
+            if (map[x][x - 1].getSprite() == 'd') {
+                diamond.collectibleP.collect();
+            }
             map[x][y] = new Empty(x, y, map);
             ourInstance.x--;
             map[x][y] = this;
@@ -80,6 +89,9 @@ public class Player extends Entity
     {
         if (map[x + 1][y].getSprite() != 'w')
         {
+            if (map[x][x + 1].getSprite() == 'd') {
+                diamond.collectibleP.collect();
+            }
             map[x][y] = new Empty(x, y, map);
             ourInstance.x++;
             map[x][y] = this;
