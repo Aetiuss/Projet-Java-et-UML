@@ -69,6 +69,7 @@ class BoardPanel extends JPanel implements Observer {
     /** The height looped. */
     private Boolean             heightLooped     = false;
 
+
     /**
      * Instantiates a new board panel.
      */
@@ -103,6 +104,15 @@ class BoardPanel extends JPanel implements Observer {
             }
         }
     }
+
+
+    public void displayScore(int score) {
+        final Graphics2D graphics = this.noImage.createGraphics();
+        graphics.setColor(Color.white);
+        graphics.setFont(new Font("Arial", 15, 25));
+        graphics.drawString("Score : " + score, this.getWidth() / 2, this.getHeight());
+    }
+
 
     /*
      * (non-Javadoc)

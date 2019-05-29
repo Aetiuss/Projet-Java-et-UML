@@ -6,6 +6,7 @@ import contract.IModel;
 import contract.IView;
 import contract.showboard.BoardFrame;
 import model.Map;
+import model.entity.Exit;
 import model.entity.Player;
 
 import java.awt.*;
@@ -22,9 +23,11 @@ public final class View implements IView, Runnable, KeyListener {
     final private int squareSize = 64;
     private Map map;
     private Player player;
+    private Exit exit = Exit.getInstance();
     private Rectangle closeView;
     private IController controller;
     private BoardFrame boardFrame;
+    private int score = exit.getScore();
 
     public View(final IModel model) {
         this.map = Map.getInstance();
@@ -62,8 +65,13 @@ public final class View implements IView, Runnable, KeyListener {
             }
         }
         this.followPlayer();
+        this.getScore(score);
         boardFrame.setVisible(true);
 
+    }
+
+    public void getScore(int score) {
+        boardFrame.getScore(score);
     }
 
     public void followPlayer() {
