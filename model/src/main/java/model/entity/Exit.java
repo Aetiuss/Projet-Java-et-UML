@@ -22,7 +22,7 @@ public class Exit extends Entity {
     public void loadImage() {
 
         try {
-            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/wall.png"));
+            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/nether_portal.png"));
             if (this.image == null) {
                 throw new IOException("File is nowhere to be found");
             }

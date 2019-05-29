@@ -14,7 +14,7 @@ public class Wall extends Entity {
     @Override
     public void loadImage() {
         try {
-            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/wall.png"));
+            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/bedrock.png"));
             if (this.image == null) {
                 throw new IOException("File is nowhere to be found");
             }
