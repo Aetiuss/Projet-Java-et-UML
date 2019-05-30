@@ -53,4 +53,6 @@ public class Exit extends Entity {
         this.score = score;
     }
 
+    public void displayScore
+
 }
