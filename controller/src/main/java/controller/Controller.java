@@ -41,7 +41,7 @@ public final class Controller implements IController {
     }
 
     /**
-     * Implementation of the interface Runnable
+     * Implementation of the interface Runnable.
      */
     public void run() {
         this.model.run();
