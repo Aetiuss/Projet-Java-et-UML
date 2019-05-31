@@ -179,4 +179,69 @@ public final class View implements IView, Runnable, KeyListener {
     public void setController(IController controller) {
         this.controller = controller;
     }
+
+    /**
+     * Get the square size
+     *
+     * @return Return the square size
+     */
+    public int getSquareSize() {
+        return squareSize;
+    }
+
+    /**
+     * Get the map instance
+     *
+     * @return Return the map instance
+     */
+    public Map getMap() {
+        return map;
+    }
+
+    /**
+     * Get the player instance
+     *
+     * @return Return the player instance
+     */
+    public Player getPlayer() {
+        return player;
+    }
+
+    /**
+     * Get the exit instance
+     *
+     * @return Return the exit instance.
+     */
+    public Exit getExit() {
+        return exit;
+    }
+
+    /**
+     * Get the view around the player
+     *
+     * @return Return the view around the player
+     */
+    public Rectangle getCloseView() {
+        return closeView;
+    }
+
+    /**
+     * Get the instance of the controller
+     *
+     * @return Return the instance of the controller
+     */
+    public IController getController() {
+        return controller;
+    }
+
+    /**
+     * Get the boardFrame
+     *
+     * @return Return the boardFrame
+     */
+    public BoardFrame getBoardFrame() {
+        return boardFrame;
+    }
+
+
 }

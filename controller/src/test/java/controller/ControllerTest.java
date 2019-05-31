@@ -1,10 +1,8 @@
 package controller;
 
 import contract.ControllerOrder;
-import model.Map;
 import model.Model;
 import model.entity.Player;
-import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import view.View;
 
@@ -13,18 +11,22 @@ import static org.junit.Assert.fail;
 
 public class ControllerTest {
 
-
-    final private char[][] demoMap = {{'p', 'r'}};
+    /**
+     * Instance of the model
+     */
     private Model model = new Model();
+    /**
+     * Instance of the view
+     */
     private View view = new View();
+    /**
+     * Instance of the controller
+     */
     private Controller controller = new Controller(view, model);
-    private Map map = Map.getInstance();
 
-    @Before
-    public void setUp() {
-
-    }
-
+    /**
+     * Test the method run.
+     */
     @Test
     public void run() {
         try {
@@ -35,6 +37,9 @@ public class ControllerTest {
         }
     }
 
+    /**
+     * Test the method gravityThread.
+     */
     @Test
     public void gravityThread() {
         try {
@@ -45,12 +50,15 @@ public class ControllerTest {
         }
     }
 
+    /**
+     * Test the method orderPerform.
+     */
     @Test
     public void orderPerform() {
-        int previousX = Player.getInstance().x;
+        view.run();
         int previousY = Player.getInstance().y;
         controller.orderPerform(ControllerOrder.Up);
-        assertEquals(previousY + 1, Player.getInstance().y);
+        assertEquals(previousY - 1, Player.getInstance().y);
     }
 
 
