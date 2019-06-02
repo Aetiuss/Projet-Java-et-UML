@@ -33,5 +33,4 @@ public class Ennemy extends Entity {
             e.printStackTrace();
         }
     }
-    
 }
