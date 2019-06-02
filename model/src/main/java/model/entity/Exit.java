@@ -1,5 +1,7 @@
 package model.entity;
 
+import contract.showboard.BoardFrame;
+
 import javax.imageio.ImageIO;
 import java.io.IOException;
 
@@ -10,6 +12,7 @@ public class Exit extends Entity {
 
 
     private int score = 0;
+    boolean exitIsOpen;
     
     private Exit()
     {
@@ -53,8 +56,19 @@ public class Exit extends Entity {
         this.score = score;
     }
 
-    public void displayScore() {
+    public void exitOpen() {
+        if (score == 100) {
+            this.exitIsOpen = true;
+            this.end();
+        } else {
+            this.exitIsOpen = false;
+        }
+    }
 
+    public void end() {
+        if (this.exitIsOpen == true) {
+            BoardFrame.end();
+        }
     }
 
 }
