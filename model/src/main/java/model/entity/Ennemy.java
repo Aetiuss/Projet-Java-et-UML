@@ -1,20 +1,15 @@
 package model.entity;
 
-import model.entity.entityBehaviours.FallableDestrutable;
-import model.entity.entityBehaviours.IDestructable;
-
 import javax.imageio.ImageIO;
 import java.io.IOException;
 
 public class Ennemy extends Entity {
-
-    IDestructable destructableF;
+    
     private char sprite = 'm';
     Player player = Player.getInstance();
 
     public Ennemy(int x, int y, Entity[][] map) {
         super(x, y, map);
-        destructableF = new FallableDestrutable();
     }
 
     @Override

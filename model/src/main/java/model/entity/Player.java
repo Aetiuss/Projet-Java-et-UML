@@ -1,9 +1,5 @@
 package model.entity;
 
-import model.entity.entityBehaviours.EnnemyDestructable;
-import model.entity.entityBehaviours.FallableDestrutable;
-import model.entity.entityBehaviours.IDestructable;
-
 import javax.imageio.ImageIO;
 import java.io.IOException;
 
@@ -12,16 +8,12 @@ public class Player extends Entity
     
     private static Player ourInstance = new Player();
     private        char   sprite      = 'p';
-    IDestructable destructableF;
-    IDestructable destructableE;
     
     Exit exit = Exit.getInstance();
     
     private Player()
     {
         super();
-        destructableF = new FallableDestrutable();
-        destructableE = new EnnemyDestructable();
         loadImage();
     }
     
