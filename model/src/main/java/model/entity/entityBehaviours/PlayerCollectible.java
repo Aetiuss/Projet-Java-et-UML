@@ -31,6 +31,9 @@ public class PlayerCollectible implements Observer {
         System.out.println(exit.getScore());
     }
 
+    /**
+     * Update the thing
+     */
     @Override
     public void update(Observable o, Object arg) {
 
