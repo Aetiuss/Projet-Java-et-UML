@@ -61,7 +61,6 @@ public class Fallable {
                 for (int j = 2; j >= 0; j--) {
                     Map.getInstance().getMap()[entity.x - 1 + i][entity.y + j] = new Empty(entity.x + i, entity.y - 1 + j, Map.getInstance().getMap());
                     Map.getInstance().getMap()[entity.x - 1 + i][entity.y + j] = new Diamond(entity.x + i, entity.y - 1 + j, Map.getInstance().getMap());
-                    //Map.getInstance().getMap()[entity.x - 1 + i][entity.y + j].fallable.fall();
                 }
             }
         }
