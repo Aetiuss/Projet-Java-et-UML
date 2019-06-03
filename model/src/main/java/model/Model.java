@@ -13,19 +13,26 @@ import java.util.concurrent.TimeUnit;
  */
 public final class Model extends Observable implements IModel {
 
+    /**
+     * The Map
+     */
     private Map map = Map.getInstance();
 
+    /**
+     * Constructor of the class model
+     */
     public Model() {
-        DAO.getInstance()
-                .acquireFromDB(5);
+        DAO.getInstance().acquireFromDB(5);
     }
 
-    public void run() {
 
-    }
-
+    /**
+     * The thread that is used to
+     *
+     * @throws InterruptedException When the thread is blocking somehow
+     */
     @Override
-    public void gravity() throws InterruptedException {
+    public void timedEvent() throws InterruptedException {
         for (int i = map.getHeight() - 1; i >= 0; i--) {
             for (int j = map.getWidth() - 1; j >= 0; j--) {
                 Map.getInstance().getMap()[i][j].setChecked(false);
@@ -42,7 +49,7 @@ public final class Model extends Observable implements IModel {
                         case 'f':
 
                             Map.getInstance().getMap()[i][j].fallable.fall();
-                                break;
+                            break;
                         case 'm':
                             Map.getInstance()
                                     .getMap()[i][j].move();

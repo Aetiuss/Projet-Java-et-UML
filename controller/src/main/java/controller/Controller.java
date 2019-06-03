@@ -49,12 +49,12 @@ public final class Controller implements IController {
     }
 
     /**
-     * The thread that manage gravity.
+     * The thread that manage timedEvent.
      *
      * @throws InterruptedException Throws exception if the thread fail.
      */
     public void gravityThread() throws InterruptedException {
-        this.model.gravity();
+        this.model.timedEvent();
     }
 
     /**

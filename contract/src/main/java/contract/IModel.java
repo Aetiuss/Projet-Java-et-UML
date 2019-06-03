@@ -6,8 +6,7 @@ package contract;
  * @author Théo Weimann
  */
 public interface IModel {
-    void run();
 
-    void gravity() throws InterruptedException;
+    void timedEvent() throws InterruptedException;
     
 }

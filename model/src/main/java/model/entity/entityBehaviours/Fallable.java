@@ -39,7 +39,7 @@ public class Fallable
         }
         if (entity.map[entity.x][entity.y + 1].getSprite() == 'p')
         {
-            if (entity.map[entity.x][entity.y].fallable.falling == true)
+            if (entity.map[entity.x][entity.y].fallable.falling)
             {
                 Player.getInstance().die();
                 BoardFrame.kill(); //kill from BoardFrame

@@ -5,10 +5,22 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * The test for the class enemy (both Enemy1 and Enemy2)
+ *
+ * @author Victor Bernard
+ * @version 1.0
+ */
 public class EnemyTest {
 
+    /**
+     * Instance of an enemy
+     */
     private Enemy1 enemy;
 
+    /**
+     * Pre operation preparing dat for the tests
+     */
     @Before
     public void setUp() {
         Entity[][] map = new Entity[4][4];
