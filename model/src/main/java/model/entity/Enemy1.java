@@ -58,8 +58,8 @@ public class Enemy1 extends Entity {
         }
     }
 
-    /*
-    // The AI of the enemy
+    /**
+     * The AI of the enemy
     */
     public void move() {
 

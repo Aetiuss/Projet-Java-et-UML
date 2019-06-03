@@ -6,15 +6,27 @@ import java.util.Objects;
 
 public class Empty extends Entity {
 
+    /**
+     * @param x
+     * @param y
+     * @param map
+     */
     public Empty(int x, int y, Entity[][] map) {
         super(x, y, map);
     }
 
+    /**
+     *
+     * @return the sprite of the class
+     */
     @Override
     public char getSprite() {
         return 'v';
     }
 
+    /**
+     * load the image of the class
+     */
     @Override
     public void loadImage() {
         try {

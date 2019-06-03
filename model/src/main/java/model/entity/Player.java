@@ -6,19 +6,35 @@ import java.util.Objects;
 
 public class Player extends Entity {
 
+    /**
+     * Singleton of the player
+     */
     private static Player ourInstance = new Player();
     private Exit exit = Exit.getInstance();
     private boolean alive = true;
 
+    /**
+     * return the player to Entity
+     */
     private Player() {
         super();
         loadImage();
     }
 
+    /**
+     * @return the instance of the player
+     */
     public static Player getInstance() {
         return ourInstance;
     }
 
+    /**
+     *
+     * @param x
+     * @param y
+     * @param map
+     * @return
+     */
     public static Player getInstance(int x, int y, Entity[][] map) {
         ourInstance.x = x;
         ourInstance.y = y;
@@ -26,9 +42,9 @@ public class Player extends Entity {
         return ourInstance;
     }
 
-    /*
-        Move the player Up by incrementing y
-         */
+    /**
+     * Move the player Up by incrementing y
+     */
     public void moveUp() {
         if (this.alive) {
             if (map[x][y - 1].getSprite() != 'w') {
@@ -50,8 +66,8 @@ public class Player extends Entity {
         }
     }
 
-    /*
-    Move the player Down by decrementing y
+    /**
+     * Move the player Down by decrementing y
      */
     public void moveDown() {
         if (this.alive) {
@@ -75,8 +91,8 @@ public class Player extends Entity {
         }
     }
 
-    /*
-    Move the player Left by incrementing x
+    /**
+     * Move the player Left by incrementing x
      */
     public void moveLeft() {
         if (this.alive) {
@@ -107,9 +123,9 @@ public class Player extends Entity {
         }
     }
 
-    /*
-        Move the player Right by decrementing x
-    */
+    /**
+     * Move the player Right by decrementing x
+     */
     public void moveRight() {
         if (this.alive) {
             if (map[x + 1][y].getSprite() != 'w') {
@@ -139,11 +155,17 @@ public class Player extends Entity {
         }
     }
 
+    /**
+     * @return the sprite of the class
+     */
     @Override
     public char getSprite() {
         return 'p';
     }
 
+    /**
+     * load the image of the class
+     */
     @Override
     public void loadImage() {
         try {
@@ -156,10 +178,17 @@ public class Player extends Entity {
         }
     }
 
+    /**
+     * make the player unplayable
+     */
     public void die() {
         alive = false;
     }
 
+    /**
+     *
+     * @return if the player is alive
+     */
     public boolean isAlive() {
         return alive;
     }

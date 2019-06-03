@@ -9,17 +9,29 @@ import java.util.Objects;
 
 public class FallingRock extends Entity {
 
+    /**
+     * @param x
+     * @param y
+     * @param map
+     */
     public FallingRock(int x, int y, Entity[][] map) {
         super(x, y, map);
         fallable = new Fallable(this);
         pushable = new Pushable(this);
     }
 
+    /**
+     *
+     * @return the sprite of the class
+     */
     @Override
     public char getSprite() {
         return 'f';
     }
 
+    /**
+     * load the image of the class
+     */
     @Override
     public void loadImage() {
         try {

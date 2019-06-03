@@ -9,17 +9,29 @@ import java.util.Objects;
 
 public class Diamond extends Entity {
 
+    /**
+     * @param x
+     * @param y
+     * @param map
+     */
     public Diamond(int x, int y, Entity[][] map) {
         super(x, y, map);
         fallable = new Fallable(this);
         collectibleP = new PlayerCollectible();
     }
 
+    /**
+     *
+     * @return the sprite of the class
+     */
     @Override
     public char getSprite() {
         return 'd';
     }
 
+    /**
+     * load the image of the class
+     */
     @Override
     public void loadImage() {
         try {

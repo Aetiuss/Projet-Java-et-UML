@@ -56,8 +56,8 @@ public class Enemy2 extends Entity {
         }
     }
 
-    /*
-    // The AI of the enemy
+    /**
+     * The AI of the enemy
     */
     public void move() {
         if (player.x < this.x) {

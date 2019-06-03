@@ -6,10 +6,18 @@ import java.util.Objects;
 
 public class Rock extends Entity {
 
+    /**
+     * @param x
+     * @param y
+     * @param map
+     */
     public Rock(int x, int y, Entity[][] map) {
         super(x, y, map);
     }
 
+    /**
+     * load the image of the class
+     */
     @Override
     public void loadImage() {
         try {
@@ -22,6 +30,10 @@ public class Rock extends Entity {
         }
     }
 
+    /**
+     *
+     * @return the sprite of the class
+     */
     @Override
     public char getSprite() {
         return 'r';
