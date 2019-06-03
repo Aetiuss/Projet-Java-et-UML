@@ -84,13 +84,14 @@ public class Enemy2 extends Entity {
                 map[x][y] = new Empty(x, y, map);
                 this.y++;
                 map[x][y] = this;
-                if (this.x == player.x && this.y == player.y) {
-                    map[x][y] = new Empty(x, y, map);
-                    this.x--;
-                    map[x][y] = this;
-                    player.die();
-                    BoardFrame.kill();
-                }
+
+            }
+            if (this.x == player.x && this.y == player.y) {
+                map[x][y] = new Empty(x, y, map);
+                this.x--;
+                map[x][y] = this;
+                player.die();
+                BoardFrame.kill();
             }
         }
     }
