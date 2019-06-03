@@ -18,7 +18,11 @@ Projet Java des étudiants au CESI Victor, Théo, Luc et Jules.
   
 # Path of every reports/ livrables of the project inside this git :
 Javadoc (tests included) : master/target/site/apidocs/index.html
+
 JXR report (tests included) : master/target/site/xref/index.html
+
 Surefire/ Intellij report : master/target/site/Test%20Results
+
 Diagrams : master/diagrammes
+
 MCD : master/model/src/main/resources/Database/
