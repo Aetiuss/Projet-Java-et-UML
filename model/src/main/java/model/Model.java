@@ -28,41 +28,46 @@ public final class Model extends Observable implements IModel
     @Override
     public void gravity() throws InterruptedException
     {
+        for (int i = map.getHeight() - 1; i >= 0; i--) {
+            for (int j = map.getWidth() - 1; j >= 0; j--) {
+                Map.getInstance().getMap()[i][j].setChecked(false);
+            }
+        }
 
         for (int i = map.getHeight() - 1; i >= 0; i--)
         {
-            for (int j = map.getWidth() - 1; j >= 0; j--)
-            {
-                switch (map.map[i][j].getSprite())
-                {
-                    case 'd':
-                        try
-                        {
+            for (int j = map.getWidth() - 1; j >= 0; j--) {
+                if (!Map.getInstance().getMap()[i][j].isChecked()) {
+                    Map.getInstance().getMap()[i][j].setChecked(true);
+                    switch (map.map[i][j].getSprite()) {
+
+                        case 'd':
+                            try {
+                                Map.getInstance()
+                                        .getMap()[i][j].fallable.fall();
+                                break;
+                            } catch (Exception e) {
+                                e.getMessage();
+                            }
+
+                        case 'f':
+                            try {
+                                Map.getInstance()
+                                        .getMap()[i][j].fallable.fall();
+                                break;
+                            } catch (Exception e) {
+                                e.getMessage();
+                            }
+                        case 'm':
                             Map.getInstance()
-                               .getMap()[i][j].fallable.fall();
+                                    .getMap()[i][j].move();
                             break;
-                        }
-                        catch (Exception e) {e.getMessage();}
-                    
-                    case 'f':
-                        try
-                        {
-                            Map.getInstance()
-                               .getMap()[i][j].fallable.fall();
-                            break;
-                        }
-                        catch (Exception e)
-                        {
-                            e.getMessage();
-                        }
-                    case 'm':
-                        Map.getInstance()
-                           .getMap()[i][j].move();
-                        break;
+                    }
+
                 }
             }
         }
-        TimeUnit.MILLISECONDS.sleep(1000);
+        TimeUnit.MILLISECONDS.sleep(300);
         
     }
     
