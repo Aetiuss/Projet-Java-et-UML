@@ -1,5 +1,7 @@
 package model.entity;
 
+import contract.showboard.BoardFrame;
+
 import javax.imageio.ImageIO;
 import java.io.IOException;
 import java.util.Objects;
@@ -56,6 +58,9 @@ public class Player extends Entity {
                         map[x][y] = this;
                     } else if (map[x][y - 1].getSprite() == 'e') {
                         exit.exitOpen();
+                    } else if (map[x][y - 1].getSprite() == 'm') {
+                        Player.getInstance().die();
+                        BoardFrame.kill();
                     } else {
                         map[x][y] = new Empty(x, y, map);
                         ourInstance.y--;
@@ -80,6 +85,9 @@ public class Player extends Entity {
                         map[x][y] = this;
                     } else if (map[x][y + 1].getSprite() == 'e') {
                         exit.exitOpen();
+                    } else if (map[x][y + 1].getSprite() == 'm') {
+                        Player.getInstance().die();
+                        BoardFrame.kill();
                     } else {
                         map[x][y] = new Empty(x, y, map);
                         ourInstance.y++;
@@ -105,6 +113,9 @@ public class Player extends Entity {
                         map[x][y] = this;
                     } else if (map[x - 1][y].getSprite() == 'e') {
                         exit.exitOpen();
+                    } else if (map[x - 1][y].getSprite() == 'm') {
+                        Player.getInstance().die();
+                        BoardFrame.kill();
                     } else {
                         map[x][y] = new Empty(x, y, map);
                         ourInstance.x--;
@@ -137,6 +148,9 @@ public class Player extends Entity {
                         map[x][y] = this;
                     } else if (map[x + 1][y].getSprite() == 'e') {
                         exit.exitOpen();
+                    } else if (map[x + 1][y].getSprite() == 'm') {
+                        Player.getInstance().die();
+                        BoardFrame.kill();
                     } else {
                         map[x][y] = new Empty(x, y, map);
                         ourInstance.x++;
