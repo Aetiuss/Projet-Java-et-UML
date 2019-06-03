@@ -34,6 +34,7 @@ public class Ennemy extends Entity {
         }
     }
     
+    //The if statements check for empty spaces. If a space is empty then the ennemy will move there.
     @Override
     public void move()
     {
@@ -43,19 +44,43 @@ public class Ennemy extends Entity {
             x--;
             map[x][y] = this;
         }
-        else if (map[x][y - 1].getSprite() == 'v')
+        if (map[x][y - 1].getSprite() == 'v')
         {
             map[x][y] = new Empty(x, y, map);
             y--;
             map[x][y] = this;
         }
-        else if (map[x + 1][y].getSprite() == 'v')
+        if (map[x + 1][y].getSprite() == 'v')
         {
             map[x][y] = new Empty(x, y, map);
             x++;
             map[x][y] = this;
         }
-        else if (map[x][y + 1].getSprite() == 'v')
+        if (map[x][y + 1].getSprite() == 'v')
+        {
+            map[x][y] = new Empty(x, y, map);
+            y++;
+            map[x][y] = this;
+        }
+        if (map[x - 1][y].getSprite() == 'p')
+        {
+            map[x][y] = new Empty(x, y, map);
+            x--;
+            map[x][y] = this;
+        }
+        if (map[x][y - 1].getSprite() == 'p')
+        {
+            map[x][y] = new Empty(x, y, map);
+            y--;
+            map[x][y] = this;
+        }
+        if (map[x + 1][y].getSprite() == 'p')
+        {
+            map[x][y] = new Empty(x, y, map);
+            x++;
+            map[x][y] = this;
+        }
+        if (map[x][y + 1].getSprite() == 'p')
         {
             map[x][y] = new Empty(x, y, map);
             y++;
