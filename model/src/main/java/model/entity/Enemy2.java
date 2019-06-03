@@ -66,11 +66,13 @@ public class Enemy2 extends Entity {
                 this.x--;
                 map[x][y] = this;
             }
+
         } else if (player.x > this.x) {
             if (!(map[x + 1][y].getSprite() == 'r' || map[x + 1][y].getSprite() == 'w' || map[x + 1][y].getSprite() == 'd' || map[x + 1][y].getSprite() == 'f')) {
                 map[x][y] = new Empty(x, y, map);
                 this.x++;
                 map[x][y] = this;
+
             }
         }
         if (player.y < this.y) {
@@ -84,15 +86,14 @@ public class Enemy2 extends Entity {
                 map[x][y] = new Empty(x, y, map);
                 this.y++;
                 map[x][y] = this;
-
             }
-            if (this.x == player.x && this.y == player.y) {
-                map[x][y] = new Empty(x, y, map);
-                this.x--;
-                map[x][y] = this;
-                player.die();
-                BoardFrame.kill();
-            }
+        }
+        if (this.x == player.x && this.y == player.y) {
+            map[x][y] = new Empty(x, y, map);
+            this.x--;
+            map[x][y] = this;
+            player.die();
+            BoardFrame.kill();
         }
     }
 }
