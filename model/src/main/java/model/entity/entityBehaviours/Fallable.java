@@ -1,7 +1,6 @@
 package model.entity.entityBehaviours;
 
 import contract.showboard.BoardFrame;
-import model.Map;
 import model.entity.Diamond;
 import model.entity.Empty;
 import model.entity.Entity;
@@ -29,23 +28,20 @@ public class Fallable
      */
     public void fall()
     {
-        if (Map.getInstance()
-               .getMap()[entity.x][entity.y + 1].getSprite() == 'v')
+        try
         {
-            Map.getInstance()
-               .getMap()[entity.x][entity.y] = new Empty(entity.x, entity.y, entity.map);
+            if (entity.map[entity.x][entity.y + 1].getSprite() == 'v')
+        {
+            entity.map[entity.x][entity.y] = new Empty(entity.x, entity.y, entity.map);
             entity.y++;
             setFalling(true);
-            Map.getInstance()
-               .getMap()[entity.x][entity.y] = entity;
+            entity.map[entity.x][entity.y] = entity;
         }
-        else if (Map.getInstance()
-                    .getMap()[entity.x][entity.y + 1].getSprite() == 'p')
+            else if (entity.map[entity.x][entity.y + 1].getSprite() == 'p')
         {
             try
             {
-                if (Map.getInstance()
-                       .getMap()[entity.x][entity.y].fallable.falling == true)
+                if (entity.map[entity.x][entity.y].fallable.falling == true)
                 {
                     Player.getInstance()
                           .die();
@@ -62,54 +58,41 @@ public class Fallable
         {
             try
             {
-                Map.getInstance()
-                   .getMap()[entity.x][entity.y].fallable.setFalling(false);
+                entity.map[entity.x][entity.y].fallable.setFalling(false);
             }
             catch (final Exception e)
             {
                 System.out.print("");
             }
         }
-        try
+            if (entity.map[entity.x][entity.y].fallable.falling)
         {
-            if (Map.getInstance()
-                   .getMap()[entity.x][entity.y].fallable.falling)
+            if (entity.map[entity.x][entity.y + 1].getSprite() == 'f' || entity.map[entity.x][entity.y + 1].getSprite() == 'd')
             {
-                if (Map.getInstance()
-                       .getMap()[entity.x][entity.y + 1].getSprite() == 'f' || Map.getInstance()
-                                                                                  .getMap()[entity.x][entity.y + 1].getSprite() == 'd')
+                if (entity.map[entity.x - 1][entity.y + 1].getSprite() == 'v' && entity.map[entity.x - 1][entity.y].getSprite() == 'v')
                 {
-                    if (Map.getInstance()
-                           .getMap()[entity.x - 1][entity.y + 1].getSprite() == 'v' && Map.getInstance()
-                                                                                          .getMap()[entity.x - 1][entity.y].getSprite() == 'v')
-                    {
-                entity.pushable.pushLeft();
-            }
-                    if (Map.getInstance()
-                           .getMap()[entity.x + 1][entity.y + 1].getSprite() == 'v' && Map.getInstance()
-                                                                                          .getMap()[entity.x + 1][entity.y].getSprite() == 'v')
-                    {
-                entity.pushable.pushRight();
-            }
+                    entity.pushable.pushLeft();
+                }
+                if (entity.map[entity.x + 1][entity.y + 1].getSprite() == 'v' && entity.map[entity.x + 1][entity.y].getSprite() == 'v')
+                {
+                    entity.pushable.pushRight();
                 }
             }
+    
         }
-        catch (Exception e) {}
-        if (Map.getInstance()
-               .getMap()[entity.x][entity.y + 1].getSprite() == 'm')
+            if (entity.map[entity.x][entity.y + 1].getSprite() == 'm')
         {
             for (int i = 2; i >= 0; i--)
             {
                 for (int j = 2; j >= 0; j--)
                 {
-                    Map.getInstance()
-                       .getMap()[entity.x - 1 + i][entity.y + j] = new Empty(entity.x + i, entity.y - 1 + j, Map.getInstance()
-                                                                                                                .getMap());
-                    Map.getInstance()
-                       .getMap()[entity.x - 1 + i][entity.y + j] = new Diamond(entity.x + i, entity.y - 1 + j, Map.getInstance()
-                                                                                                                  .getMap());
+                    entity.map[entity.x - 1 + i][entity.y + j] = new Diamond(entity.x + i, entity.y - 1 + j, entity.map);
                 }
             }
+        }
+        }
+        catch (Exception e)
+        {
         }
     }
     
