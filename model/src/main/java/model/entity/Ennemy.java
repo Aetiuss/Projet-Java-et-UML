@@ -1,5 +1,8 @@
 package model.entity;
 
+import contract.showboard.BoardFrame;
+import model.entity.entityBehaviours.FallableDestrutable;
+import model.entity.entityBehaviours.IDestructable;
 
 import javax.imageio.ImageIO;
 import java.io.IOException;
@@ -7,12 +10,14 @@ import java.io.IOException;
 import static java.lang.StrictMath.abs;
 
 public class Ennemy extends Entity {
-    
+
+    IDestructable destructableF;
     Player player = Player.getInstance();
     private char sprite = 'm';
 
     public Ennemy(int x, int y, Entity[][] map) {
         super(x, y, map);
+        destructableF = new FallableDestrutable();
     }
 
     @Override
@@ -103,11 +108,23 @@ public class Ennemy extends Entity {
                         this.x--;
                         map[x][y] = this;
                     }
+                    else if (map[x - 1][y].getSprite() == 'p'){
+                        map[x][y] = new Empty(x, y, map);
+                        this.x--;
+                        map[x][y] = this;
+                        BoardFrame.kill();
+                    }
                 } else if (player.x > this.x) {
                     if (!(map[x + 1][y].getSprite() == 'r' || map[x + 1][y].getSprite() == 'w' || map[x + 1][y].getSprite() == 'd' || map[x + 1][y].getSprite() == 'f')) {
                         map[x][y] = new Empty(x, y, map);
                         this.x++;
                         map[x][y] = this;
+                    }
+                    else if (map[x + 1][y].getSprite() == 'p'){
+                        map[x][y] = new Empty(x, y, map);
+                        this.x--;
+                        map[x][y] = this;
+                        BoardFrame.kill();
                     }
                 }
             }
@@ -118,11 +135,23 @@ public class Ennemy extends Entity {
                     this.y--;
                     map[x][y] = this;
                 }
+                else if (map[x][y-1].getSprite() == 'p'){
+                    //map[x][y] = new Empty(x, y, map);
+                    //this.x--;
+                    //map[x][y] = this;
+                    BoardFrame.kill();
+                }
             } else if (player.y > this.y) {
                 if (!(map[x][y + 1].getSprite() == 'r' || map[x][y + 1].getSprite() == 'w' || map[x][y + 1].getSprite() == 'd' || map[x][y + 1].getSprite() == 'f')) {
                     map[x][y] = new Empty(x, y, map);
                     this.y++;
                     map[x][y] = this;
+                }
+                else if (map[x][y+1].getSprite() == 'p'){
+                    map[x][y] = new Empty(x, y, map);
+                    this.x--;
+                    map[x][y] = this;
+                    BoardFrame.kill();
                 }
             }
         }
