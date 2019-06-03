@@ -29,7 +29,7 @@ import java.util.*;
  * panel. If this Rectangle is higher than the board dimension, the noImage is also used.
  * </p>
  *
- * @author Anne-Emilie DIET
+ * @author Jules Bader
  * @version 3.0
  * @see JPanel
  * @see Dimension
@@ -105,7 +105,12 @@ class BoardPanel extends JPanel implements Observer {
         }
     }
 
-
+    /**
+     * Print the score during playing.
+     * <p>
+     * <p>
+     * the graphics
+     */
     public void displayScore(int score) {
         final Graphics2D graphics = this.noImage.createGraphics();
         graphics.setColor(Color.white);

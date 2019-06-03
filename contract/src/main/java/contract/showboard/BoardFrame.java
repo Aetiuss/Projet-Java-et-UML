@@ -13,7 +13,7 @@ import java.util.Observer;
  * As the BoardPanel is a private class, BoardPanel is a Facade.
  * </p>
  *
- * @author Anne-Emilie DIET
+ * @author Jules Bader
  * @version 3.0
  * @see JFrame
  * @see BoardPanel
