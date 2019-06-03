@@ -1,6 +1,7 @@
 package model.entity.entityBehaviours;
 
 import contract.showboard.BoardFrame;
+import model.entity.Diamond;
 import model.entity.Empty;
 import model.entity.Entity;
 
@@ -32,8 +33,53 @@ public class Fallable
             {
                 BoardFrame.kill(); //kill from BoardFrame
             }
-        } else if (entity.map[entity.x][entity.y + 1].getSprite() == 'm') {
+        }
+        else if (entity.map[entity.x][entity.y + 1].getSprite() == 'm')
+        {
             entity.map[entity.x][entity.y] = new Empty(entity.x, entity.y, entity.map);
+        }
+        if (entity.map[entity.x][entity.y + 1].getSprite() == 'm')
+        {
+            if (entity.map[entity.x][entity.y].getSprite() != 'w')
+            {
+                entity.map[entity.x][entity.y] = new Empty(entity.x, entity.y, entity.map);
+            }
+            if (entity.map[entity.x][entity.y + 1].getSprite() != 'w')
+            {
+                entity.map[entity.x][entity.y + 1] = new Empty(entity.x, entity.y, entity.map);
+            }
+            if (entity.map[entity.x][entity.y].getSprite() != 'w')
+            {
+                entity.map[entity.x][entity.y] = new Diamond(entity.x, entity.y, entity.map);
+            }
+            if (entity.map[entity.x][entity.y + 2].getSprite() != 'w')
+            {
+                entity.map[entity.x][entity.y + 2] = new Diamond(entity.x, entity.y, entity.map);
+            }
+            if (entity.map[entity.x + 1][entity.y].getSprite() != 'w')
+            {
+                entity.map[entity.x + 1][entity.y] = new Diamond(entity.x, entity.y, entity.map);
+            }
+            if (entity.map[entity.x + 1][entity.y + 2].getSprite() != 'w')
+            {
+                entity.map[entity.x + 1][entity.y + 2] = new Diamond(entity.x, entity.y, entity.map);
+            }
+            if (entity.map[entity.x + 1][entity.y + 1].getSprite() != 'w')
+            {
+                entity.map[entity.x + 1][entity.y + 1] = new Diamond(entity.x, entity.y, entity.map);
+            }
+            if (entity.map[entity.x - 1][entity.y].getSprite() != 'w')
+            {
+                entity.map[entity.x - 1][entity.y] = new Diamond(entity.x, entity.y, entity.map);
+            }
+            if (entity.map[entity.x - 1][entity.y + 2].getSprite() != 'w')
+            {
+                entity.map[entity.x - 1][entity.y + 2] = new Diamond(entity.x, entity.y, entity.map);
+            }
+            if (entity.map[entity.x - 1][entity.y + 1].getSprite() != 'w')
+            {
+                entity.map[entity.x - 1][entity.y + 1] = new Diamond(entity.x, entity.y, entity.map);
+            }
         }
     }
     public void setFalling(boolean b)
