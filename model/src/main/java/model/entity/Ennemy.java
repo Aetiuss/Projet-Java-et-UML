@@ -1,15 +1,22 @@
 package model.entity;
 
+import model.entity.entityBehaviours.FallableDestrutable;
+import model.entity.entityBehaviours.IDestructable;
+
 import javax.imageio.ImageIO;
 import java.io.IOException;
 
+import static java.lang.StrictMath.abs;
+
 public class Ennemy extends Entity {
-    
-    private char sprite = 'm';
+
+    IDestructable destructableF;
     Player player = Player.getInstance();
+    private char sprite = 'm';
 
     public Ennemy(int x, int y, Entity[][] map) {
         super(x, y, map);
+        destructableF = new FallableDestrutable();
     }
 
     @Override
@@ -92,31 +99,35 @@ public class Ennemy extends Entity {
 
 
     public void move() {
-        if (player.x < this.x) {
-            if (map[x - 1][y].getSprite() != 'r') {
-                map[x][y] = new Empty(x, y, map);
-                this.x--;
-                map[x][y] = this;
+        if (abs(this.x - player.x) <= 3) {
+            if (abs(this.y - player.y) <= 3) {
+                if (player.x < this.x) {
+                    if (!(map[x - 1][y].getSprite() == 'r' || map[x - 1][y].getSprite() == 'w' || map[x - 1][y].getSprite() == 'd' || map[x - 1][y].getSprite() == 'f')) {
+                        map[x][y] = new Empty(x, y, map);
+                        this.x--;
+                        map[x][y] = this;
+                    }
+                } else if (player.x > this.x) {
+                    if (!(map[x + 1][y].getSprite() == 'r' || map[x + 1][y].getSprite() == 'w' || map[x + 1][y].getSprite() == 'd' || map[x + 1][y].getSprite() == 'f')) {
+                        map[x][y] = new Empty(x, y, map);
+                        this.x++;
+                        map[x][y] = this;
+                    }
+                }
             }
-        } else if (player.x > this.x) {
-            if (map[x + 1][y].getSprite() != 'r') {
-                map[x][y] = new Empty(x, y, map);
-                this.x++;
-                map[x][y] = this;
-            }
-        }
 
-        if (player.y < this.y) {
-            if (map[x][y - 1].getSprite() != 'r') {
-                map[x][y] = new Empty(x, y, map);
-                this.y--;
-                map[x][y] = this;
-            }
-        } else if (player.y > this.y) {
-            if (map[x][y + 1].getSprite() != 'r') {
-                map[x][y] = new Empty(x, y, map);
-                this.y++;
-                map[x][y] = this;
+            if (player.y < this.y) {
+                if (!(map[x][y - 1].getSprite() == 'r' || map[x][y - 1].getSprite() == 'w' || map[x][y - 1].getSprite() == 'd' || map[x][y - 1].getSprite() == 'f')) {
+                    map[x][y] = new Empty(x, y, map);
+                    this.y--;
+                    map[x][y] = this;
+                }
+            } else if (player.y > this.y) {
+                if (!(map[x][y + 1].getSprite() == 'r' || map[x][y + 1].getSprite() == 'w' || map[x][y + 1].getSprite() == 'd' || map[x][y + 1].getSprite() == 'f')) {
+                    map[x][y] = new Empty(x, y, map);
+                    this.y++;
+                    map[x][y] = this;
+                }
             }
         }
     }

@@ -13,7 +13,7 @@ import java.util.Observer;
  * As the BoardPanel is a private class, BoardPanel is a Facade.
  * </p>
  *
- * @author Anne-Emilie DIET
+ * @author Jules Bader
  * @version 3.0
  * @see JFrame
  * @see BoardPanel
@@ -55,6 +55,12 @@ public class BoardFrame extends JFrame implements IBoard {
         this.setVisible(true);
     }
 
+    /**
+     * Get the Score.
+     * <p>
+     * <p>
+     * the title
+     */
     public void getScore(int score) {
         boardPanel.displayScore(score);
     }

@@ -33,6 +33,8 @@ public abstract class Entity implements IPawn
         loadImage();
     }
 
+    private boolean Checked;
+
     public Entity() {
     }
 
@@ -76,4 +78,12 @@ public abstract class Entity implements IPawn
     }
     
     public void move() {}
+
+    public boolean isChecked() {
+        return Checked;
+    }
+
+    public void setChecked(boolean hasBeenChecked) {
+        this.Checked = hasBeenChecked;
+    }
 }
