@@ -10,11 +10,11 @@ import java.io.IOException;
 public class Player extends Entity
 {
     
-    private static Player  ourInstance = new Player();
-    private        char    sprite      = 'p';
+    private static Player ourInstance = new Player();
+    private        char   sprite      = 'p';
     IDestructable destructableF;
     IDestructable destructableE;
-
+    
     Exit exit = Exit.getInstance();
     
     private Player()
@@ -49,8 +49,10 @@ public class Player extends Entity
                 if (map[x][y - 1].getSprite() == 'd')
                 {
                     map[x][y - 1].collectibleP.collect();
-
-                } else if (map[x][y - 1].getSprite() == 'e') {
+    
+                }
+                else if (map[x][y - 1].getSprite() == 'e')
+                {
                     exit.exitOpen();
                 }
                 map[x][y] = new Empty(x, y, map);
@@ -71,14 +73,16 @@ public class Player extends Entity
                 if (map[x][y + 1].getSprite() == 'd')
                 {
                     map[x][y + 1].collectibleP.collect();
-                } else if (map[x][y + 1].getSprite() == 'e') {
+                }
+                else if (map[x][y + 1].getSprite() == 'e')
+                {
                     exit.exitOpen();
                 }
                 map[x][y] = new Empty(x, y, map);
                 ourInstance.y++;
                 map[x][y] = this;
             }
-
+    
     
         }
     }
@@ -94,14 +98,24 @@ public class Player extends Entity
                 if (map[x - 1][y].getSprite() == 'd')
                 {
                     map[x - 1][y].collectibleP.collect();
-                } else if (map[x - 1][y].getSprite() == 'e') {
+                }
+                else if (map[x - 1][y].getSprite() == 'e')
+                {
                     exit.exitOpen();
                 }
                 map[x][y] = new Empty(x, y, map);
                 ourInstance.x--;
                 map[x][y] = this;
-            } else {
-                map[x - 1][y].pushable.pushLeft();
+            }
+            else
+            {
+                if (map[x - 2][y].getSprite() == 'v')
+                {
+                    map[x - 1][y].pushable.pushLeft();
+                    map[x][y] = new Empty(x, y, map);
+                    ourInstance.x--;
+                    map[x][y] = this;
+                }
             }
         }
     }
@@ -117,14 +131,24 @@ public class Player extends Entity
                 if (map[x + 1][y].getSprite() == 'd')
                 {
                     map[x + 1][y].collectibleP.collect();
-                } else if (map[x + 1][y].getSprite() == 'e') {
+                }
+                else if (map[x + 1][y].getSprite() == 'e')
+                {
                     exit.exitOpen();
                 }
                 map[x][y] = new Empty(x, y, map);
                 ourInstance.x++;
                 map[x][y] = this;
-            } else {
-                map[x + 1][y].pushable.pushRight();
+            }
+            else
+            {
+                if (map[x + 2][y].getSprite() == 'v')
+                {
+                    map[x + 1][y].pushable.pushRight();
+                    map[x][y] = new Empty(x, y, map);
+                    ourInstance.x++;
+                    map[x][y] = this;
+                }
             }
         }
     }
