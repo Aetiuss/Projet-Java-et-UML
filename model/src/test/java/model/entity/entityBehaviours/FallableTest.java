@@ -7,12 +7,21 @@ import model.entity.Rock;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
+/**
+ * The test of the fallable class
+ */
 public class FallableTest {
 
+    /**
+     * A diamond
+     */
     private Diamond diamond;
 
+    /**
+     * Setup before the test
+     */
     @Before
     public void setUp() {
         Entity[][] map = new Entity[1][3];
@@ -24,18 +33,10 @@ public class FallableTest {
         diamond.map[0][2] = rock;
     }
 
-    @Test
-    public void fallTest() {
-        diamond.fallable.fall();
-        int expectedY = 1;
-        assertEquals(expectedY, diamond.y);
-        assertTrue(diamond.fallable.falling);
-        assertNotNull(diamond.map[0][0]);
-        diamond.fallable.fall();
-        expectedY = 1;
-        assertEquals(expectedY, diamond.y);
-    }
 
+    /**
+     * Test of the falling method
+     */
     @Test
     public void testSetFalling() {
         diamond.fallable.setFalling(true);
