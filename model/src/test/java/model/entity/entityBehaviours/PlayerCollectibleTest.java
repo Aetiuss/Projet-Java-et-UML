@@ -36,6 +36,7 @@ public class PlayerCollectibleTest {
     @Test
     public void collectTest() {
         int expectedScore = 10;
+        exit.setScore(0);
         diamond.collectibleP.collect();
         assertEquals(expectedScore, exit.getScore());
     }
