@@ -45,12 +45,12 @@ class ControllerTest {
     }
 
     /**
-     * Test the method gravityThread.
+     * Test the method timedThread.
      */
     @Test
     void gravityThread() {
         try {
-            controller.gravityThread();
+            controller.timedThread();
         } catch (InterruptedException e) {
             e.printStackTrace();
             fail("Can't create thread or thread crash");

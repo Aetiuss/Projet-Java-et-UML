@@ -37,7 +37,7 @@ public class FallableTest {
     }
 
     @Test
-    public void testsetFalling() {
+    public void testSetFalling() {
         diamond.fallable.setFalling(true);
         final boolean expected = true;
         assertEquals(expected, diamond.fallable.falling);

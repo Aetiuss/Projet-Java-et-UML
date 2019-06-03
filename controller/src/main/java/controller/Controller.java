@@ -44,7 +44,6 @@ public final class Controller implements IController {
      * Implementation of the interface Runnable.
      */
     public void run() {
-        this.model.run();
         this.view.run();
     }
 
@@ -53,7 +52,7 @@ public final class Controller implements IController {
      *
      * @throws InterruptedException Throws exception if the thread fail.
      */
-    public void gravityThread() throws InterruptedException {
+    public void timedThread() throws InterruptedException {
         this.model.timedEvent();
     }
 

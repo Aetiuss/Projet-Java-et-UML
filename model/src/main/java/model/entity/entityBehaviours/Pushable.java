@@ -12,7 +12,7 @@ public class Pushable
 
     /**
      *
-     * @param entity The entity that you want to make pushable
+     * @param entity The entity that you want to make pushable<
      */
     public Pushable(Entity entity)
     {

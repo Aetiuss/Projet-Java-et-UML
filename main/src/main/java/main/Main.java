@@ -24,7 +24,7 @@ public abstract class Main {
         view.setController(controller);
         controller.run();
         do {
-            controller.gravityThread();
+            controller.timedThread();
         } while (Player.getInstance().isAlive());
     }
 }

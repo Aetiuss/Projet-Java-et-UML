@@ -46,8 +46,9 @@ public final class Model extends Observable implements IModel {
                     switch (map.map[i][j].getSprite()) {
 
                         case 'd':
+                            Map.getInstance().getMap()[i][j].fallable.fall();
+                            break;
                         case 'f':
-
                             Map.getInstance().getMap()[i][j].fallable.fall();
                             break;
                         case 'm':
