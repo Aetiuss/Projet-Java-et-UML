@@ -34,4 +34,32 @@ public class Ennemy extends Entity {
         }
     }
     
+    @Override
+    public void move()
+    {
+        if (map[x - 1][y].getSprite() == 'v')
+        {
+            map[x][y] = new Empty(x, y, map);
+            x--;
+            map[x][y] = this;
+        }
+        else if (map[x][y - 1].getSprite() == 'v')
+        {
+            map[x][y] = new Empty(x, y, map);
+            y--;
+            map[x][y] = this;
+        }
+        else if (map[x + 1][y].getSprite() == 'v')
+        {
+            map[x][y] = new Empty(x, y, map);
+            x++;
+            map[x][y] = this;
+        }
+        else if (map[x][y + 1].getSprite() == 'v')
+        {
+            map[x][y] = new Empty(x, y, map);
+            y++;
+            map[x][y] = this;
+        }
+    }
 }

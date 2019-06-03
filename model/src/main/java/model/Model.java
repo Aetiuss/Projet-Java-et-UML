@@ -53,7 +53,10 @@ public final class Model extends Observable implements IModel
                         {
                             e.getMessage();
                         }
-                    
+                    case 'm':
+                        Map.getInstance()
+                           .getMap()[i][j].move();
+                        break;
                 }
             }
         }

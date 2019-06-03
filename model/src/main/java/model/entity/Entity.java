@@ -74,4 +74,6 @@ public abstract class Entity implements IPawn
     public void setImage(Image image) {
         this.image = image;
     }
+    
+    public void move() {}
 }
