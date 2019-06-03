@@ -134,6 +134,7 @@ public class Ennemy extends Entity {
                 map[x][y] = new Empty(x, y, map);
                 this.x--;
                 map[x][y] = this;
+                player.die();
                 BoardFrame.kill();
             }
 
