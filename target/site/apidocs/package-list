@@ -1,6 +1,8 @@
 contract
+contract.showboard
 controller
-entity
 main
 model
+model.entity
+model.entity.entityBehaviours
 view

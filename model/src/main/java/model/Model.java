@@ -1,85 +1,68 @@
 package model;
 
-import java.sql.SQLException;
-import java.util.Observable;
-
 import contract.IModel;
-import entity.HelloWorld;
+
+import java.util.Observable;
+import java.util.concurrent.TimeUnit;
 
 /**
- * The Class Model.
+ * Model of the project contain all the basic information needed about data and their operations.
  *
- * @author Jean-Aymeric Diet
+ * @author Théo Weimann
+ * @version 1.0
  */
 public final class Model extends Observable implements IModel {
 
-	/** The helloWorld. */
-	private HelloWorld helloWorld;
-
-	/**
-	 * Instantiates a new model.
-	 */
-	public Model() {
-		this.helloWorld = new HelloWorld();
-	}
-
-	/**
-     * Gets the hello world.
-     *
-     * @return the hello world
+    /**
+     * The Map
      */
-	/*
-	 * (non-Javadoc)
-	 *
-	 * @see contract.IModel#getMessage()
-	 */
-	public HelloWorld getHelloWorld() {
-		return this.helloWorld;
-	}
+    private Map map = Map.getInstance();
 
-	/**
-     * Sets the hello world.
-     *
-     * @param helloWorld
-     *            the new hello world
+    /**
+     * Constructor of the class model
      */
-	private void setHelloWorld(final HelloWorld helloWorld) {
-		this.helloWorld = helloWorld;
-		this.setChanged();
-		this.notifyObservers();
-	}
+    public Model() {
+        DAO.getInstance().acquireFromDB(5);
+    }
 
-	/**
-     * Load hello world.
-     *
-     * @param code
-     *            the code
-     */
-	/*
-	 * (non-Javadoc)
-	 *
-	 * @see contract.IModel#getMessage(java.lang.String)
-	 */
-	public void loadHelloWorld(final String code) {
-		try {
-			final DAOHelloWorld daoHelloWorld = new DAOHelloWorld(DBConnection.getInstance().getConnection());
-			this.setHelloWorld(daoHelloWorld.find(code));
-		} catch (final SQLException e) {
-			e.printStackTrace();
-		}
-	}
 
-	/**
-     * Gets the observable.
+    /**
+     * The thread that is used to
      *
-     * @return the observable
+     * @throws InterruptedException When the thread is blocking somehow
      */
-	/*
-	 * (non-Javadoc)
-	 *
-	 * @see contract.IModel#getObservable()
-	 */
-	public Observable getObservable() {
-		return this;
-	}
+    @Override
+    public void timedEvent() throws InterruptedException {
+        for (int i = map.getHeight() - 1; i >= 0; i--) {
+            for (int j = map.getWidth() - 1; j >= 0; j--) {
+                Map.getInstance().getMap()[i][j].setChecked(false);
+            }
+        }
+
+        for (int i = map.getHeight() - 1; i >= 0; i--) {
+            for (int j = map.getWidth() - 1; j >= 0; j--) {
+                if (!Map.getInstance().getMap()[i][j].isChecked()) {
+                    Map.getInstance().getMap()[i][j].setChecked(true);
+                    switch (map.map[i][j].getSprite()) {
+
+                        case 'd':
+                            Map.getInstance().getMap()[i][j].fallable.fall();
+                            break;
+                        case 'f':
+                            Map.getInstance().getMap()[i][j].fallable.fall();
+                            break;
+                        case 'm':
+                            Map.getInstance()
+                                    .getMap()[i][j].move();
+                            break;
+                    }
+
+                }
+            }
+        }
+        TimeUnit.MILLISECONDS.sleep(300);
+
+    }
+
+
 }

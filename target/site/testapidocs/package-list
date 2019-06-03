@@ -1,1 +1,5 @@
+controller
 model
+model.entity
+model.entity.entityBehaviours
+view

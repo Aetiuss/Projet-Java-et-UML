@@ -1,0 +1,7 @@
+DELIMITER |
+CREATE PROCEDURE getLastID ()
+BEGIN
+	SELECT MAX(map.idMap)
+	FROM map;
+END
+|

@@ -3,15 +3,11 @@ package contract;
 /**
  * The Interface IView.
  *
- * @author Jean-Aymeric Diet
+ * @author Théo Weimann
  */
-public interface IView {
+public interface IView
+{
+    void run();
 
-	/**
-	 * Prints the message.
-	 *
-	 * @param message
-	 *          the message
-	 */
-	void printMessage(final String message);
+    void followPlayer();
 }

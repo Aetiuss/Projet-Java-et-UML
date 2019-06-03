@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="entity" />
         <module name="contract" />
         <module name="model" />
-        <module name="view" />
         <module name="main" />
+        <module name="view" />
         <module name="controller" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="entity" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
