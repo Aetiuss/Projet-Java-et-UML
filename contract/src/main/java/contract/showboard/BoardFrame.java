@@ -195,4 +195,8 @@ public class BoardFrame extends JFrame implements IBoard {
     public final void setHeightLooped(final Boolean heightLooped) {
         this.getBoardPanel().setHeightLooped(heightLooped);
     }
+
+    public static final void end() {
+        JOptionPane.showMessageDialog(null, "Bravo ! Vous avez gagné !");
+    }
 }

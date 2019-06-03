@@ -14,6 +14,8 @@ public class Player extends Entity
     private        char    sprite      = 'p';
     IDestructable destructableF;
     IDestructable destructableE;
+
+    Exit exit = Exit.getInstance();
     
     private Player()
     {
@@ -50,6 +52,8 @@ public class Player extends Entity
                     map[x][y] = new Empty(x, y, map);
                     ourInstance.y--;
                     map[x][y] = this;
+                } else if (map[x][y - 1].getSprite() == 'e') {
+                    exit.exitOpen();
                 }
                 map[x][y] = new Empty(x, y, map);
                 ourInstance.y--;
@@ -72,6 +76,8 @@ public class Player extends Entity
                     map[x][y] = new Empty(x, y, map);
                     ourInstance.y++;
                     map[x][y] = this;
+                } else if (map[x][y + 1].getSprite() == 'e') {
+                    exit.exitOpen();
                 }
                 map[x][y] = new Empty(x, y, map);
                 ourInstance.y++;
@@ -96,6 +102,8 @@ public class Player extends Entity
                     map[x][y] = new Empty(x, y, map);
                     ourInstance.x--;
                     map[x][y] = this;
+                } else if (map[x - 1][y].getSprite() == 'e') {
+                    exit.exitOpen();
                 }
                 map[x][y] = new Empty(x, y, map);
                 ourInstance.x--;
@@ -118,6 +126,8 @@ public class Player extends Entity
                     map[x][y] = new Empty(x, y, map);
                     ourInstance.x++;
                     map[x][y] = this;
+                } else if (map[x + 1][y].getSprite() == 'e') {
+                    exit.exitOpen();
                 }
                 map[x][y] = new Empty(x, y, map);
                 ourInstance.x++;

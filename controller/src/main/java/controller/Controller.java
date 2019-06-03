@@ -40,13 +40,20 @@ public final class Controller implements IController {
         this.player = Player.getInstance();
     }
 
+    /**
+     * Implementation of the interface Runnable.
+     */
     public void run() {
         this.model.run();
         this.view.run();
     }
-    
-    public void gravityThread() throws InterruptedException
-    {
+
+    /**
+     * The thread that manage gravity.
+     *
+     * @throws InterruptedException Throws exception if the thread fail.
+     */
+    public void gravityThread() throws InterruptedException {
         this.model.gravity();
     }
 

@@ -2,7 +2,6 @@ package view;
 
 import contract.ControllerOrder;
 import contract.IController;
-import contract.IModel;
 import contract.IView;
 import contract.showboard.BoardFrame;
 import model.Map;
@@ -20,22 +19,53 @@ import java.awt.event.KeyListener;
  */
 public final class View implements IView, Runnable, KeyListener {
 
+    /**
+     * The size of each square that will be displayed.
+     */
     final private int squareSize = 64;
-    private Map map;
-    private Player player;
-    private Exit exit = Exit.getInstance();
+    /**
+     * The unique instance of the map.
+     */
+    final private Map map = Map.getInstance();
+    /**
+     * The unique instance of the player.
+     */
+    final private Player player = Player.getInstance();
+    /**
+     * The unique instance of the exit.
+     */
+    final private Exit exit = Exit.getInstance();
+    /**
+     * The rectangle that define the scope of the view.
+     */
     private Rectangle closeView;
+    /**
+     * The controller.
+     */
     private IController controller;
+    /**
+     * The board frame.
+     */
     private BoardFrame boardFrame;
+    /**
+     * The score of the player
+     */
     private int score = exit.getScore();
 
-    public View(final IModel model) {
-        this.map = Map.getInstance();
-        this.player = Player.getInstance();
+    /**
+     * Build the default view scope with the position of the player.
+     */
+    public View() {
         this.setCloseView(new Rectangle(player.getX() - 5, player.getY() - 5, 11, 11));
     }
 
-    protected static ControllerOrder keyCodeToControllerOrder(final int keyCode) {
+    /**
+     * Method that convert the key input of the user to order that can be used by the controller.
+     *
+     * @param keyCode The code of the key pressed
+     * @return Return the order
+     */
+    private static ControllerOrder keyCodeToControllerOrder(final int keyCode) {
         switch (keyCode) {
             case KeyEvent.VK_Z:
                 return ControllerOrder.Up;
@@ -50,6 +80,9 @@ public final class View implements IView, Runnable, KeyListener {
         }
     }
 
+    /**
+     *Implementation of the interface runnable, initialise the window.
+     */
     public void run() {
         this.boardFrame = new BoardFrame("Boulder Dash");
         boardFrame.setDimension(new Dimension(this.map.getHeight(), this.map.getWidth()));
@@ -70,10 +103,18 @@ public final class View implements IView, Runnable, KeyListener {
 
     }
 
-    public void getScore(int score) {
+    /**
+     * Get the score
+     *
+     * @param score The score
+     */
+    private void getScore(int score) {
         boardFrame.getScore(score);
     }
 
+    /**
+     * Redefine the scope of view around the player so that he can be in the middle of the window.
+     */
     public void followPlayer() {
         for (int x = 0; x < this.map.getHeight(); x++) {
             for (int y = 0; y < this.map.getWidth(); y++) {
@@ -86,7 +127,12 @@ public final class View implements IView, Runnable, KeyListener {
     }
 
 
-    public void setCloseView(Rectangle closeView) {
+    /**
+     * Set the view that will be displayed in the window.
+     *
+     * @param closeView The rectangle defining the view that will be used.
+     */
+    private void setCloseView(Rectangle closeView) {
         this.closeView = closeView;
     }
 
@@ -95,7 +141,7 @@ public final class View implements IView, Runnable, KeyListener {
      * See the class description for {@link KeyEvent} for a definition of
      * a key typed event.
      *
-     * @param e
+     * @param e A KeyEvent.
      */
     @Override
     public void keyTyped(KeyEvent e) {
@@ -107,7 +153,7 @@ public final class View implements IView, Runnable, KeyListener {
      * See the class description for {@link KeyEvent} for a definition of
      * a key pressed event.
      *
-     * @param keyEvent
+     * @param keyEvent A KeyEvent.
      */
     @Override
     public void keyPressed(final KeyEvent keyEvent) {
@@ -119,14 +165,83 @@ public final class View implements IView, Runnable, KeyListener {
      * See the class description for {@link KeyEvent} for a definition of
      * a key released event.
      *
-     * @param e
+     * @param e A KeyEvent.
      */
     @Override
     public void keyReleased(KeyEvent e) {
 
     }
 
+    /**
+     * Set the controller
+     * @param controller The controller that you want to use.
+     */
     public void setController(IController controller) {
         this.controller = controller;
     }
+
+    /**
+     * Get the square size
+     *
+     * @return Return the square size
+     */
+    public int getSquareSize() {
+        return squareSize;
+    }
+
+    /**
+     * Get the map instance
+     *
+     * @return Return the map instance
+     */
+    public Map getMap() {
+        return map;
+    }
+
+    /**
+     * Get the player instance
+     *
+     * @return Return the player instance
+     */
+    public Player getPlayer() {
+        return player;
+    }
+
+    /**
+     * Get the exit instance
+     *
+     * @return Return the exit instance.
+     */
+    public Exit getExit() {
+        return exit;
+    }
+
+    /**
+     * Get the view around the player
+     *
+     * @return Return the view around the player
+     */
+    public Rectangle getCloseView() {
+        return closeView;
+    }
+
+    /**
+     * Get the instance of the controller
+     *
+     * @return Return the instance of the controller
+     */
+    public IController getController() {
+        return controller;
+    }
+
+    /**
+     * Get the boardFrame
+     *
+     * @return Return the boardFrame
+     */
+    public BoardFrame getBoardFrame() {
+        return boardFrame;
+    }
+
+
 }

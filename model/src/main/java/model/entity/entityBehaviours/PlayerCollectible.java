@@ -14,7 +14,9 @@ public class PlayerCollectible implements Observer {
 
 
     public void collect() {
+
         exit.setScore(exit.getScore() + 10);
+        System.out.println(exit.getScore());
     }
 
     @Override
