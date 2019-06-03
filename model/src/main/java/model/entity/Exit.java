@@ -7,6 +7,8 @@ import java.io.IOException;
 
 /**
  * The class exit that allow to create an object that can be used to end the game
+ * @author Luc Anthoni
+ * @version 1.2
  */
 public class Exit extends Entity {
 

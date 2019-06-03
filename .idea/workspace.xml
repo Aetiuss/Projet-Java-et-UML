@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="189683bf-0321-4329-856f-c541c18ffd2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contract/src/main/java/contract/IModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract/src/main/java/contract/IModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contract/src/main/java/contract/IView.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract/src/main/java/contract/IView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/Map.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/entity/target/surefire-reports/" />
     <ignored path="$PROJECT_DIR$/entity/target/test-classes/" />
@@ -92,48 +89,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-              <folding>
-                <element signature="docComment;class#Exit#0" />
-                <element signature="docComment;field#instance#0;class#Exit#0" />
-                <element signature="docComment;field#exitIsOpen#0;class#Exit#0" />
-                <element signature="docComment;field#score#0;class#Exit#0" />
-                <element signature="docComment;method#Exit#0;class#Exit#0" />
-                <element signature="method#Exit#0;class#Exit#0" />
-                <element signature="docComment;method#getInstance#0;class#Exit#0" />
-                <element signature="docComment;method#getInstance#1;class#Exit#0" />
-                <element signature="method#getInstance#1;class#Exit#0" />
-                <element signature="docComment;method#getSprite#0;class#Exit#0" />
-                <element signature="docComment;method#loadImage#0;class#Exit#0" />
-                <element signature="method#loadImage#0;class#Exit#0" />
-                <element signature="e#1029#1264#0" />
-                <element signature="e#1169#1254#1" />
-                <element signature="e#1293#1337#0" />
-                <element signature="docComment;method#getScore#0;class#Exit#0" />
-                <element signature="docComment;method#setScore#0;class#Exit#0" />
-                <element signature="docComment;method#exitOpen#0;class#Exit#0" />
-                <element signature="method#exitOpen#0;class#Exit#0" />
-                <element signature="e#1696#1767#1" />
-                <element signature="e#1773#1821#1" />
-                <element signature="docComment;method#end#0;class#Exit#0" />
-                <element signature="method#end#0;class#Exit#0" />
-                <element signature="e#1968#2049#1" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1728">
-              <caret line="80" column="39" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
+            <state relative-caret-position="360">
+              <caret line="124" column="56" selection-start-line="124" selection-start-column="56" selection-end-line="124" selection-end-column="56" />
               <folding>
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -308,12 +269,12 @@
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Mob.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/EnnemyRoot.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/EnnemyTest.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/Map.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy1.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Enemy1.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy2.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Enemy2.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/Map.java" />
       </list>
     </option>
   </component>
@@ -822,7 +783,7 @@
       <workItem from="1559067542527" duration="5147000" />
       <workItem from="1559544664894" duration="7889000" />
       <workItem from="1559552596659" duration="3165000" />
-      <workItem from="1559579204743" duration="738000" />
+      <workItem from="1559579204743" duration="980000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1558537892456</created>
@@ -1139,7 +1100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559575213148</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Adding javadoc to exit">
+      <created>1559579964673</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1559579964673</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Set argument to private on map">
+      <created>1559580133956</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1559580133956</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1175,7 +1150,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124956000" />
+    <option name="totallyTimeSpent" value="125198000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1190,7 +1165,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.1712" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.1712" />
       <window_info id="Structure" order="1" sideWeight="0.5005513" side_tool="true" weight="0.20149253" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1199,7 +1174,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928178" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0961326" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0961326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.057458565" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1301,8 +1276,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added destructable behaviour with strategy pattern." />
-    <MESSAGE value="Added destructable behaviour to player." />
     <MESSAGE value="Added Player movement + Test" />
     <MESSAGE value="Add .idea to .gitignore" />
     <MESSAGE value="Restore modification." />
@@ -1326,7 +1299,9 @@
     <MESSAGE value="JavaDoc to enemy" />
     <MESSAGE value="Add a second enemy" />
     <MESSAGE value="Modifing the second enemy behavior." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifing the second enemy behavior." />
+    <MESSAGE value="Adding javadoc to exit" />
+    <MESSAGE value="Set argument to private on map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set argument to private on map" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1737,17 +1712,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Mob.java" />
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="80" column="39" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
-          <folding>
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/EnnemyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -1813,8 +1777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="816">
+          <caret line="89" column="7" lean-forward="true" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
           <folding>
             <element signature="docComment;class#Exit#0" />
             <element signature="docComment;field#instance#0;class#Exit#0" />
@@ -1840,6 +1804,16 @@
             <element signature="docComment;method#end#0;class#Exit#0" />
             <element signature="method#end#0;class#Exit#0" />
             <element signature="e#1968#2049#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="124" column="56" selection-start-line="124" selection-start-column="56" selection-end-line="124" selection-end-column="56" />
+          <folding>
+            <element signature="e#566#567#0" expanded="true" />
           </folding>
         </state>
       </provider>

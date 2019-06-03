@@ -127,7 +127,7 @@ public class Map {
      * @param width     Width of the map you want to apply.
      * @param spriteTab The 2 dimensional char tab corresponding to the map you want to apply
      */
-    public void changeMap(int height, int width, char[][] spriteTab) {
+    void changeMap(int height, int width, char[][] spriteTab) {
         setWidth(width);
         setHeight(height);
         this.map = new Entity[this.height][this.width];
