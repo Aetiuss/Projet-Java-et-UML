@@ -21,9 +21,15 @@ public class Fallable
             entity.y++;
             setFalling(true);
             entity.map[entity.x][entity.y] = entity;
-        } else if (entity.map[entity.x][entity.y + 1].getSprite() == 'p') {
-            BoardFrame.kill(); //kill from BoardFrame
-        } else {setFalling(false);}
+        }
+        else {entity.map[entity.x][entity.y].fallable.setFalling(false);}
+        if (entity.map[entity.x][entity.y + 1].getSprite() == 'p')
+        {
+            if (entity.map[entity.x][entity.y].fallable.falling == true)
+            {
+                BoardFrame.kill(); //kill from BoardFrame
+            }
+        }
     }
     public void setFalling(boolean b)
     {

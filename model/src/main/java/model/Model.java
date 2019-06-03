@@ -18,7 +18,7 @@ public final class Model extends Observable implements IModel
     public Model()
     {
         DAO.getInstance()
-           .acquireFromDB(1);
+           .acquireFromDB(5);
     }
     public void run()
     {
