@@ -1,5 +1,6 @@
 package model.entity.entityBehaviours;
 
+import contract.showboard.BoardFrame;
 import model.entity.Empty;
 import model.entity.Entity;
 
@@ -20,8 +21,9 @@ public class Fallable
             entity.y++;
             setFalling(true);
             entity.map[entity.x][entity.y] = entity;
-        }
-        else {setFalling(false);}
+        } else if (entity.map[entity.x][entity.y + 1].getSprite() == 'p') {
+            BoardFrame.kill();
+        } else {setFalling(false);}
     }
     public void setFalling(boolean b)
     {

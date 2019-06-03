@@ -199,4 +199,8 @@ public class BoardFrame extends JFrame implements IBoard {
     public static final void end() {
         JOptionPane.showMessageDialog(null, "Bravo ! Vous avez gagné !");
     }
+
+    public static final void kill() {
+        JOptionPane.showMessageDialog(null, "Oh non ! Tu t'es fait écrasé comme la purée Musline!");
+    }
 }
