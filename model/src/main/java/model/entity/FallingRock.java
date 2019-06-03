@@ -7,6 +7,12 @@ import javax.imageio.ImageIO;
 import java.io.IOException;
 import java.util.Objects;
 
+/**
+ * Create some falling rocks
+ *
+ * @author Vixtor Bernard
+ * @version 1.0
+ */
 public class FallingRock extends Entity {
 
     /**

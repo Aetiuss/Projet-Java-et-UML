@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="189683bf-0321-4329-856f-c541c18ffd2c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/FallableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/FallableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/Empty.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Empty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Wall.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/entity/target/surefire-reports/" />
     <ignored path="$PROJECT_DIR$/entity/target/test-classes/" />
@@ -210,7 +215,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="768">
               <caret line="75" selection-start-line="75" selection-end-line="75" />
               <folding>
                 <element signature="docComment;class#Exit#0" />
@@ -236,41 +241,78 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Fallable.java">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3151#3152#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="166">
+              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/FallableTest.java">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="1054">
+              <caret line="214" column="1" lean-forward="true" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
+              <folding>
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Pushable.java">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="48">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Wall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+            <state relative-caret-position="480">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Entity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1392">
+              <caret line="127" column="7" lean-forward="true" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="7" />
+              <folding>
+                <element signature="docComment;field#x#0;class#Entity#0" />
+                <element signature="docComment;field#y#0;class#Entity#0" />
+                <element signature="docComment;field#sprite#0;class#Entity#0" />
+                <element signature="docComment;field#map#0;class#Entity#0" />
+                <element signature="docComment;field#fallable#0;class#Entity#0" />
+                <element signature="docComment;field#pushable#0;class#Entity#0" />
+                <element signature="docComment;field#collectibleP#0;class#Entity#0" />
+                <element signature="docComment;field#image#0;class#Entity#0" />
+                <element signature="docComment;field#Checked#0;class#Entity#0" />
+                <element signature="docComment;method#Entity#0;class#Entity#0" />
+                <element signature="method#Entity#0;class#Entity#0" />
+                <element signature="docComment;method#Entity#1;class#Entity#0" />
+                <element signature="method#Entity#1;class#Entity#0" />
+                <element signature="docComment;method#getSprite#0;class#Entity#0" />
+                <element signature="docComment;method#getX#0;class#Entity#0" />
+                <element signature="docComment;method#setX#0;class#Entity#0" />
+                <element signature="docComment;method#getY#0;class#Entity#0" />
+                <element signature="docComment;method#setY#0;class#Entity#0" />
+                <element signature="docComment;method#getPosition#0;class#Entity#0" />
+                <element signature="docComment;method#loadImage#0;class#Entity#0" />
+                <element signature="method#loadImage#0;class#Entity#0" />
+                <element signature="docComment;method#getImage#0;class#Entity#0" />
+                <element signature="docComment;method#move#0;class#Entity#0" />
+                <element signature="method#move#0;class#Entity#0" />
+                <element signature="docComment;method#isChecked#0;class#Entity#0" />
+                <element signature="docComment;method#setChecked#0;class#Entity#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -278,62 +320,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-164">
-              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="144">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
+              <folding>
+                <element signature="method#Diamond#0;class#Diamond#0" />
+                <element signature="docComment;method#loadImage#0;class#Diamond#0" />
+                <element signature="method#loadImage#0;class#Diamond#0" />
+                <element signature="e#728#994#0" />
+                <element signature="e#899#984#1" />
+                <element signature="e#1023#1067#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Empty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="docComment;method#getSprite#0;class#Empty#0" />
+                <element signature="docComment;method#loadImage#0;class#Empty#0" />
+                <element signature="method#loadImage#0;class#Empty#0" />
+                <element signature="e#533#799#0" />
+                <element signature="e#704#789#1" />
+                <element signature="e#828#872#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Enemy1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+              <folding>
+                <element signature="e#856#857#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Model.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
-              <folding>
-                <element signature="docComment;class#Model#0" />
-                <element signature="docComment;field#map#0;class#Model#0" />
-                <element signature="docComment;method#Model#0;class#Model#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="docComment;class#Controller#0" />
-                <element signature="docComment;field#view#0;class#Controller#0" />
-                <element signature="docComment;field#model#0;class#Controller#0" />
-                <element signature="docComment;field#player#0;class#Controller#0" />
-                <element signature="docComment;method#Controller#0;class#Controller#0" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="docComment;method#orderPerform#0;class#Controller#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/src/main/java/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -399,7 +436,6 @@
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Indestructable.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/FallableTest.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Factory.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/DAOTest.java" />
         <option value="$PROJECT_DIR$/controller/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7a095182-c495-4088-a02d-15b0384d75d6/console_1.sql" />
@@ -414,14 +450,8 @@
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy2.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/Map.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Enemy1.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Entity.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Enemy2.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Empty.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Wall.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/DBConnection.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/DBProperties.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/EnnemyTest.java" />
@@ -432,7 +462,6 @@
         <option value="$PROJECT_DIR$/contract/src/main/java/contract/showboard/IPawn.java" />
         <option value="$PROJECT_DIR$/contract/src/main/java/contract/showboard/IBoard.java" />
         <option value="$PROJECT_DIR$/view/src/main/java/view/View.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Player.java" />
         <option value="$PROJECT_DIR$/controller/src/test/java/controller/ControllerTest.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/MapTest.java" />
         <option value="$PROJECT_DIR$/view/src/test/java/view/ViewTest.java" />
@@ -443,8 +472,16 @@
         <option value="$PROJECT_DIR$/model/src/test/java/model/ModelTest.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Fallable.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/PlayerCollectibleTest.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Pushable.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/FallableTest.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Pushable.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Empty.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Entity.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Wall.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Player.java" />
       </list>
     </option>
   </component>
@@ -693,6 +730,62 @@
             <path>
               <item name="Projet Java et UML" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="C:\Users\theow\Projet\Code\Projet-Java-et-UML" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\theow\Projet\Code\Projet-Java-et-UML" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\theow\Projet\Code\Projet-Java-et-UML" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\theow\Projet\Code\Projet-Java-et-UML" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\theow\Projet\Code\Projet-Java-et-UML" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\theow\Projet\Code\Projet-Java-et-UML" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\theow\Projet\Code\Projet-Java-et-UML" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="model.entity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\theow\Projet\Code\Projet-Java-et-UML" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="model.entity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="model.entity.entityBehaviours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -1047,27 +1140,6 @@
       <workItem from="1559552596659" duration="3165000" />
       <workItem from="1559579204743" duration="5056000" />
     </task>
-    <task id="LOCAL-00003" summary="Init commit">
-      <created>1558597426503</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1558597426503</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Init commit">
-      <created>1558682772640</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1558682772640</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Skeleton code for Entity package. And added IGravity interface to Contract package.">
-      <created>1558687099621</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1558687099621</updated>
-    </task>
     <task id="LOCAL-00006" summary="mistake correction">
       <created>1558687265973</created>
       <option name="number" value="00006" />
@@ -1390,13 +1462,31 @@
       <option name="project" value="LOCAL" />
       <updated>1559584077787</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Adding some javadoc again and again.">
+      <created>1559594134348</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1559594134348</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Adding some javadoc again and again.">
+      <created>1559594453823</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1559594453823</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Adding some javadoc again and again and again.">
+      <created>1559594667133</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1559594667133</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ViewTest_followPlayer - 2019.06.03 at 19h 10m 38s.xml">
-      <configuration name="ViewTest.followPlayer" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ModelTest_timedEventTest - 2019.06.03 at 19h 38m 28s.xml">
       <configuration name="ModelTest.timedEventTest" configurationId="JUnit" />
     </history-entry>
@@ -1424,9 +1514,12 @@
     <history-entry file="All_in_Projet-Java-et-UML - 2019.06.03 at 22h 31m 15s.xml">
       <configuration name="All in Projet-Java-et-UML" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Projet-Java-et-UML - 2019.06.03 at 22h 36m 12s.xml">
+      <configuration name="All in Projet-Java-et-UML" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129921000" />
+    <option name="totallyTimeSpent" value="131610000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1450,7 +1543,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928178" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22651933" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.03314917" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.057458565" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1467,7 +1560,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" sideWeight="0.49723756" visible="true" weight="0.16106667" />
+      <window_info active="true" anchor="right" id="Maven" order="5" sideWeight="0.49723756" visible="true" weight="0.16106667" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.3296" />
@@ -1554,8 +1647,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Replace the getMap test method." />
-    <MESSAGE value="Relocate map directories." />
     <MESSAGE value="plqyer done bitch" />
     <MESSAGE value="zorking bqse" />
     <MESSAGE value="Change exit behavior." />
@@ -1579,7 +1670,9 @@
     <MESSAGE value="And another one" />
     <MESSAGE value="Adding some javadoc" />
     <MESSAGE value="Adding some javadoc again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some javadoc again" />
+    <MESSAGE value="Adding some javadoc again and again." />
+    <MESSAGE value="Adding some javadoc again and again and again." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some javadoc again and again and again." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1651,70 +1744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
           <caret line="122" column="34" lean-forward="true" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1438#1439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Empty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Wall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1795,13 +1824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contract/src/main/java/contract/ControllerOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1840,71 +1862,6 @@
           <folding>
             <element signature="e#535#536#0" expanded="true" />
             <element signature="e#566#567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="docComment;class#Controller#0" />
-            <element signature="docComment;field#view#0;class#Controller#0" />
-            <element signature="docComment;field#model#0;class#Controller#0" />
-            <element signature="docComment;field#player#0;class#Controller#0" />
-            <element signature="docComment;method#Controller#0;class#Controller#0" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="docComment;method#orderPerform#0;class#Controller#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Enemy1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding>
-            <element signature="e#856#857#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="docComment;class#Exit#0" />
-            <element signature="docComment;field#instance#0;class#Exit#0" />
-            <element signature="docComment;field#exitIsOpen#0;class#Exit#0" />
-            <element signature="docComment;field#score#0;class#Exit#0" />
-            <element signature="docComment;method#Exit#0;class#Exit#0" />
-            <element signature="method#Exit#0;class#Exit#0" />
-            <element signature="docComment;method#getInstance#0;class#Exit#0" />
-            <element signature="docComment;method#getInstance#1;class#Exit#0" />
-            <element signature="method#getInstance#1;class#Exit#0" />
-            <element signature="docComment;method#getSprite#0;class#Exit#0" />
-            <element signature="docComment;method#loadImage#0;class#Exit#0" />
-            <element signature="docComment;method#getScore#0;class#Exit#0" />
-            <element signature="docComment;method#setScore#0;class#Exit#0" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2072#2073#0" expanded="true" />
-            <element signature="docComment;method#exitOpen#0;class#Exit#0" />
-            <element signature="docComment;method#end#0;class#Exit#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
-          <folding>
-            <element signature="docComment;class#Model#0" />
-            <element signature="docComment;field#map#0;class#Model#0" />
-            <element signature="docComment;method#Model#0;class#Model#0" />
           </folding>
         </state>
       </provider>
@@ -2049,23 +2006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Pushable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Fallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -2079,8 +2019,191 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/FallableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+          <folding>
+            <element signature="docComment;class#Model#0" />
+            <element signature="docComment;field#map#0;class#Model#0" />
+            <element signature="docComment;method#Model#0;class#Model#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="docComment;class#Controller#0" />
+            <element signature="docComment;field#view#0;class#Controller#0" />
+            <element signature="docComment;field#model#0;class#Controller#0" />
+            <element signature="docComment;field#player#0;class#Controller#0" />
+            <element signature="docComment;method#Controller#0;class#Controller#0" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="docComment;method#orderPerform#0;class#Controller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Pushable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Empty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="docComment;method#getSprite#0;class#Empty#0" />
+            <element signature="docComment;method#loadImage#0;class#Empty#0" />
+            <element signature="method#loadImage#0;class#Empty#0" />
+            <element signature="e#533#799#0" />
+            <element signature="e#704#789#1" />
+            <element signature="e#828#872#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Enemy1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <element signature="e#856#857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="127" column="7" lean-forward="true" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;field#x#0;class#Entity#0" />
+            <element signature="docComment;field#y#0;class#Entity#0" />
+            <element signature="docComment;field#sprite#0;class#Entity#0" />
+            <element signature="docComment;field#map#0;class#Entity#0" />
+            <element signature="docComment;field#fallable#0;class#Entity#0" />
+            <element signature="docComment;field#pushable#0;class#Entity#0" />
+            <element signature="docComment;field#collectibleP#0;class#Entity#0" />
+            <element signature="docComment;field#image#0;class#Entity#0" />
+            <element signature="docComment;field#Checked#0;class#Entity#0" />
+            <element signature="docComment;method#Entity#0;class#Entity#0" />
+            <element signature="method#Entity#0;class#Entity#0" />
+            <element signature="docComment;method#Entity#1;class#Entity#0" />
+            <element signature="method#Entity#1;class#Entity#0" />
+            <element signature="docComment;method#getSprite#0;class#Entity#0" />
+            <element signature="docComment;method#getX#0;class#Entity#0" />
+            <element signature="docComment;method#setX#0;class#Entity#0" />
+            <element signature="docComment;method#getY#0;class#Entity#0" />
+            <element signature="docComment;method#setY#0;class#Entity#0" />
+            <element signature="docComment;method#getPosition#0;class#Entity#0" />
+            <element signature="docComment;method#loadImage#0;class#Entity#0" />
+            <element signature="method#loadImage#0;class#Entity#0" />
+            <element signature="docComment;method#getImage#0;class#Entity#0" />
+            <element signature="docComment;method#move#0;class#Entity#0" />
+            <element signature="method#move#0;class#Entity#0" />
+            <element signature="docComment;method#isChecked#0;class#Entity#0" />
+            <element signature="docComment;method#setChecked#0;class#Entity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="docComment;class#Exit#0" />
+            <element signature="docComment;field#instance#0;class#Exit#0" />
+            <element signature="docComment;field#exitIsOpen#0;class#Exit#0" />
+            <element signature="docComment;field#score#0;class#Exit#0" />
+            <element signature="docComment;method#Exit#0;class#Exit#0" />
+            <element signature="method#Exit#0;class#Exit#0" />
+            <element signature="docComment;method#getInstance#0;class#Exit#0" />
+            <element signature="docComment;method#getInstance#1;class#Exit#0" />
+            <element signature="method#getInstance#1;class#Exit#0" />
+            <element signature="docComment;method#getSprite#0;class#Exit#0" />
+            <element signature="docComment;method#loadImage#0;class#Exit#0" />
+            <element signature="docComment;method#getScore#0;class#Exit#0" />
+            <element signature="docComment;method#setScore#0;class#Exit#0" />
+            <element signature="e#2038#2039#0" expanded="true" />
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="docComment;method#exitOpen#0;class#Exit#0" />
+            <element signature="docComment;method#end#0;class#Exit#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="method#Diamond#0;class#Diamond#0" />
+            <element signature="docComment;method#loadImage#0;class#Diamond#0" />
+            <element signature="method#loadImage#0;class#Diamond#0" />
+            <element signature="e#728#994#0" />
+            <element signature="e#899#984#1" />
+            <element signature="e#1023#1067#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Wall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="214" column="1" lean-forward="true" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
+          <folding>
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
