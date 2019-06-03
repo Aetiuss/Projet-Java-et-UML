@@ -43,7 +43,7 @@ public class Fallable
         {
             entity.map[entity.x][entity.y] = new Empty(entity.x, entity.y, entity.map);
         }
-        if (entity.map[entity.x][entity.y + 1].getSprite() == 'f')
+        if (entity.map[entity.x][entity.y + 1].getSprite() == 'f' || entity.map[entity.x][entity.y + 1].getSprite() == 'd')
         {
             if (entity.map[entity.x - 1][entity.y + 1].getSprite() == 'v')
             {
