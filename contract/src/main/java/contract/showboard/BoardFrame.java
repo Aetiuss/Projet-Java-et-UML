@@ -208,6 +208,6 @@ public class BoardFrame extends JFrame implements IBoard {
      *
      */
     public static final void kill() {
-        JOptionPane.showMessageDialog(null, "Oh non ! Tu t'es fait écrasé comme la purée Musline!");
+        JOptionPane.showMessageDialog(null, "Oh non ! T'es mort mdr !");
     }
 }

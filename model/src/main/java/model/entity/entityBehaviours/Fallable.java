@@ -29,6 +29,8 @@ public class Fallable
             {
                 BoardFrame.kill(); //kill from BoardFrame
             }
+        } else if (entity.map[entity.x][entity.y + 1].getSprite() == 'm') {
+            entity.map[entity.x][entity.y] = new Empty(entity.x, entity.y, entity.map);
         }
     }
     public void setFalling(boolean b)

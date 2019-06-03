@@ -62,7 +62,7 @@ public final class Model extends Observable implements IModel
                 }
             }
         }
-        TimeUnit.MILLISECONDS.sleep(150);
+        TimeUnit.MILLISECONDS.sleep(1000);
         
     }
     
