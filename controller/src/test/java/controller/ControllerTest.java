@@ -10,6 +10,12 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
 
+/**
+ * The test of the class controller
+ *
+ * @author Théo Weimann
+ * @version 1.2
+ */
 class ControllerTest {
 
     /**

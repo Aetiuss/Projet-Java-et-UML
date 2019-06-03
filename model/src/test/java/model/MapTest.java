@@ -9,13 +9,25 @@ import static org.junit.Assert.*;
  * The test class of the Map class
  *
  * @author Théo Weimann
- * @version 1.0
+ * @version 1.4
  */
 public class MapTest {
-    private Map        map;
-    private int        expectedWidth  = 1;
-    private int        expectedHeight = 1;
-    private char[][]   furnishedTab   = {{'v'}};
+    /**
+     * The map
+     */
+    private Map map;
+    /**
+     * The expected height of the test
+     */
+    private int expectedWidth = 1;
+    /**
+     * The expected Width of the test
+     */
+    private int expectedHeight = 1;
+    /**
+     * A small tab used for testing purposes
+     */
+    private char[][] furnishedTab = {{'v'}};
 
     /**
      * Get the instance of the Map class and load a basic map in it.
