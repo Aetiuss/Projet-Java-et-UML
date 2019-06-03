@@ -22,7 +22,7 @@ public class Fallable
             setFalling(true);
             entity.map[entity.x][entity.y] = entity;
         } else if (entity.map[entity.x][entity.y + 1].getSprite() == 'p') {
-            BoardFrame.kill();
+            BoardFrame.kill(); //kill from BoardFrame
         } else {setFalling(false);}
     }
     public void setFalling(boolean b)

@@ -196,10 +196,17 @@ public class BoardFrame extends JFrame implements IBoard {
         this.getBoardPanel().setHeightLooped(heightLooped);
     }
 
+    /**
+     * end the game by opening a dialog box for the win
+     */
     public static final void end() {
         JOptionPane.showMessageDialog(null, "Bravo ! Vous avez gagné !");
     }
 
+    /**
+     * end the game by opening a dialog box for the loss
+     *
+     */
     public static final void kill() {
         JOptionPane.showMessageDialog(null, "Oh non ! Tu t'es fait écrasé comme la purée Musline!");
     }
