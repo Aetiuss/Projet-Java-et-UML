@@ -22,7 +22,7 @@ public class FallingRock extends Entity {
     }
 
     /**
-     *Return the sprite
+     * Return the sprite
      * @return Return the sprite of the class
      */
     @Override
