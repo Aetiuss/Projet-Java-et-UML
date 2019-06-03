@@ -49,10 +49,10 @@ public class Fallable {
 
         }
         if (Map.getInstance().getMap()[entity.x][entity.y + 1].getSprite() == 'f' || Map.getInstance().getMap()[entity.x][entity.y + 1].getSprite() == 'd') {
-            if (Map.getInstance().getMap()[entity.x - 1][entity.y + 1].getSprite() == 'v') {
+            if (Map.getInstance().getMap()[entity.x - 1][entity.y + 1].getSprite() == 'v' && Map.getInstance().getMap()[entity.x - 1][entity.y].getSprite() == 'v') {
                 entity.pushable.pushLeft();
             }
-            if (Map.getInstance().getMap()[entity.x + 1][entity.y + 1].getSprite() == 'v') {
+            if (Map.getInstance().getMap()[entity.x + 1][entity.y + 1].getSprite() == 'v' && Map.getInstance().getMap()[entity.x + 1][entity.y].getSprite() == 'v') {
                 entity.pushable.pushRight();
             }
         }
@@ -61,7 +61,7 @@ public class Fallable {
                 for (int j = 2; j >= 0; j--) {
                     Map.getInstance().getMap()[entity.x - 1 + i][entity.y + j] = new Empty(entity.x + i, entity.y - 1 + j, Map.getInstance().getMap());
                     Map.getInstance().getMap()[entity.x - 1 + i][entity.y + j] = new Diamond(entity.x + i, entity.y - 1 + j, Map.getInstance().getMap());
-                    Map.getInstance().getMap()[entity.x - 1 + i][entity.y + j].fallable.fall();
+                    //Map.getInstance().getMap()[entity.x - 1 + i][entity.y + j].fallable.fall();
                 }
             }
         }
