@@ -15,7 +15,7 @@ public class Fallable
     /**
      * this boolean is used to prevent the player from being squished when under a rock with no momentum
      */
-    public boolean falling = false;
+    boolean falling = false;
     public Fallable(Entity entity)
     {
         this.entity = entity;
@@ -108,7 +108,7 @@ public class Fallable
     /**
      * set the falling attribute
      */
-    public void setFalling(boolean b) {
+    void setFalling(boolean b) {
         falling = b;
     }
     

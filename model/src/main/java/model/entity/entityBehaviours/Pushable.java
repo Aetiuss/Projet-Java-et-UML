@@ -8,11 +8,11 @@ public class Pushable
     /**
      * the entity variable is used to allow the fallable class access to the variables of entity such as x, y, or map
      */
-    Entity entity;
+    private Entity entity;
 
     /**
      *
-     * @param entity
+     * @param entity The entity that you want to make pushable
      */
     public Pushable(Entity entity)
     {
