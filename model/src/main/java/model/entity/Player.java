@@ -35,13 +35,16 @@ public class Player extends Entity {
                 if (map[x][y - 1].getSprite() != 'f') {
                     if (map[x][y - 1].getSprite() == 'd') {
                         map[x][y - 1].collectibleP.collect();
-
+                        map[x][y] = new Empty(x, y, map);
+                        ourInstance.y--;
+                        map[x][y] = this;
                     } else if (map[x][y - 1].getSprite() == 'e') {
                         exit.exitOpen();
+                    } else {
+                        map[x][y] = new Empty(x, y, map);
+                        ourInstance.y--;
+                        map[x][y] = this;
                     }
-                    map[x][y] = new Empty(x, y, map);
-                    ourInstance.y--;
-                    map[x][y] = this;
                 }
             }
         }
@@ -56,12 +59,16 @@ public class Player extends Entity {
                 if (map[x][y + 1].getSprite() != 'f') {
                     if (map[x][y + 1].getSprite() == 'd') {
                         map[x][y + 1].collectibleP.collect();
+                        map[x][y] = new Empty(x, y, map);
+                        ourInstance.y++;
+                        map[x][y] = this;
                     } else if (map[x][y + 1].getSprite() == 'e') {
                         exit.exitOpen();
+                    } else {
+                        map[x][y] = new Empty(x, y, map);
+                        ourInstance.y++;
+                        map[x][y] = this;
                     }
-                    map[x][y] = new Empty(x, y, map);
-                    ourInstance.y++;
-                    map[x][y] = this;
                 }
 
             }
@@ -77,12 +84,17 @@ public class Player extends Entity {
                 if (map[x - 1][y].getSprite() != 'f') {
                     if (map[x - 1][y].getSprite() == 'd') {
                         map[x - 1][y].collectibleP.collect();
+                        map[x][y] = new Empty(x, y, map);
+                        ourInstance.x--;
+                        map[x][y] = this;
                     } else if (map[x - 1][y].getSprite() == 'e') {
                         exit.exitOpen();
+                    } else {
+                        map[x][y] = new Empty(x, y, map);
+                        ourInstance.x--;
+                        map[x][y] = this;
                     }
-                    map[x][y] = new Empty(x, y, map);
-                    ourInstance.x--;
-                    map[x][y] = this;
+
                 } else {
                     if (map[x - 2][y].getSprite() == 'v') {
                         map[x - 1][y].pushable.pushLeft();
@@ -104,12 +116,17 @@ public class Player extends Entity {
                 if (map[x + 1][y].getSprite() != 'f') {
                     if (map[x + 1][y].getSprite() == 'd') {
                         map[x + 1][y].collectibleP.collect();
+                        map[x][y] = new Empty(x, y, map);
+                        ourInstance.x++;
+                        map[x][y] = this;
                     } else if (map[x + 1][y].getSprite() == 'e') {
                         exit.exitOpen();
+                    } else {
+                        map[x][y] = new Empty(x, y, map);
+                        ourInstance.x++;
+                        map[x][y] = this;
                     }
-                    map[x][y] = new Empty(x, y, map);
-                    ourInstance.x++;
-                    map[x][y] = this;
+
                 } else {
                     if (map[x + 2][y].getSprite() == 'v') {
                         map[x + 1][y].pushable.pushRight();
