@@ -105,24 +105,14 @@ public class Ennemy extends Entity {
                         this.x--;
                         map[x][y] = this;
                     }
-                    else if (map[x - 1][y].getSprite() == 'p'){
-                        map[x][y] = new Empty(x, y, map);
-                        this.x--;
-                        map[x][y] = this;
-                        BoardFrame.kill();
-                    }
+
                 } else if (player.x > this.x) {
                     if (!(map[x + 1][y].getSprite() == 'r' || map[x + 1][y].getSprite() == 'w' || map[x + 1][y].getSprite() == 'd' || map[x + 1][y].getSprite() == 'f')) {
                         map[x][y] = new Empty(x, y, map);
                         this.x++;
                         map[x][y] = this;
                     }
-                    else if (map[x + 1][y].getSprite() == 'p'){
-                        map[x][y] = new Empty(x, y, map);
-                        this.x--;
-                        map[x][y] = this;
-                        BoardFrame.kill();
-                    }
+
                 }
             }
 
@@ -132,25 +122,22 @@ public class Ennemy extends Entity {
                     this.y--;
                     map[x][y] = this;
                 }
-                else if (map[x][y-1].getSprite() == 'p'){
-                    //map[x][y] = new Empty(x, y, map);
-                    //this.x--;
-                    //map[x][y] = this;
-                    BoardFrame.kill();
-                }
+
             } else if (player.y > this.y) {
                 if (!(map[x][y + 1].getSprite() == 'r' || map[x][y + 1].getSprite() == 'w' || map[x][y + 1].getSprite() == 'd' || map[x][y + 1].getSprite() == 'f')) {
                     map[x][y] = new Empty(x, y, map);
                     this.y++;
                     map[x][y] = this;
                 }
-                else if (map[x][y+1].getSprite() == 'p'){
-                    map[x][y] = new Empty(x, y, map);
-                    this.x--;
-                    map[x][y] = this;
-                    BoardFrame.kill();
-                }
             }
+            if (this.x == player.x && this.y == player.y) {
+                map[x][y] = new Empty(x, y, map);
+                this.x--;
+                map[x][y] = this;
+                BoardFrame.kill();
+                System.out.println("T MOR");
+            }
+
         }
     }
 }
