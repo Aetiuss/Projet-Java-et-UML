@@ -2,10 +2,9 @@ package model.entity;
 
 import javax.imageio.ImageIO;
 import java.io.IOException;
+import java.util.Objects;
 
 public class Empty extends Entity {
-
-    private char sprite = 'v';
 
     public Empty(int x, int y, Entity[][] map) {
         super(x, y, map);
@@ -13,13 +12,13 @@ public class Empty extends Entity {
 
     @Override
     public char getSprite() {
-        return sprite;
+        return 'v';
     }
 
     @Override
     public void loadImage() {
         try {
-            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/cobblestone.png"));
+            this.image = ImageIO.read(Objects.requireNonNull(getClass().getClassLoader().getResource("./sprites/cobblestone.png")));
             if (this.image == null) {
                 throw new IOException("File is nowhere to be found");
             }
@@ -27,5 +26,5 @@ public class Empty extends Entity {
             e.printStackTrace();
         }
     }
-    
+
 }

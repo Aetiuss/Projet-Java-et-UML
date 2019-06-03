@@ -29,7 +29,7 @@ class DBProperties extends Properties {
 	/**
 	 * Instantiates a new DB properties.
 	 */
-	public DBProperties() {
+	DBProperties() {
 		InputStream inputStream;
 
 		inputStream = this.getClass().getClassLoader().getResourceAsStream(DBProperties.PROPERTIES_FILE_NAME);
@@ -51,7 +51,7 @@ class DBProperties extends Properties {
 	 *
 	 * @return the url
 	 */
-	public String getUrl() {
+	String getUrl() {
 		return this.url;
 	}
 
@@ -70,7 +70,7 @@ class DBProperties extends Properties {
 	 *
 	 * @return the login
 	 */
-	public String getLogin() {
+	String getLogin() {
 		return this.login;
 	}
 
@@ -89,7 +89,7 @@ class DBProperties extends Properties {
 	 *
 	 * @return the password
 	 */
-	public String getPassword() {
+	String getPassword() {
 		return this.password;
 	}
 

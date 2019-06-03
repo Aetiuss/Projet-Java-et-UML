@@ -2,6 +2,7 @@ package main;
 
 import controller.Controller;
 import model.Model;
+import model.entity.Player;
 import view.View;
 
 /**
@@ -22,9 +23,8 @@ public abstract class Main {
         final Controller controller = new Controller(view, model);
         view.setController(controller);
         controller.run();
-        while (true)
-        {
+        do {
             controller.gravityThread();
-        }
+        } while (Player.getInstance().isAlive());
     }
 }

@@ -7,13 +7,12 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class PlayerTest {
-    
-    Player     player;
-    Entity[][] map;
+
+    private Player player;
 
     @Before
-    public void setUp() throws Exception {
-        map = new Entity[3][3];
+    public void setUp() {
+        Entity[][] map = new Entity[3][3];
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 map[i][j] = new Empty(i, j, map);
@@ -24,12 +23,12 @@ public class PlayerTest {
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown() {
     }
 
     @Test
     public void moveUpTest() {
-        int    expectedY = 0;
+        int expectedY = 0;
         Player expectedP = player;
         player.moveUp();
         assertEquals(expectedY, player.y);

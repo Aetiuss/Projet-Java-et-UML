@@ -5,6 +5,7 @@ import contract.showboard.BoardFrame;
 
 import javax.imageio.ImageIO;
 import java.io.IOException;
+import java.util.Objects;
 
 /**
  * Enemy with his AI
@@ -37,11 +38,7 @@ public class Enemy2 extends Entity {
      */
     @Override
     public char getSprite() {
-        /**
-         * The sprite of the player
-         */
-        char sprite = 'm';
-        return sprite;
+        return 'm';
     }
 
     /**
@@ -50,7 +47,7 @@ public class Enemy2 extends Entity {
     @Override
     public void loadImage() {
         try {
-            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/creeper.png"));
+            this.image = ImageIO.read(Objects.requireNonNull(getClass().getClassLoader().getResource("./sprites/creeper.png")));
             if (this.image == null) {
                 throw new IOException("File is nowhere to be found");
             }

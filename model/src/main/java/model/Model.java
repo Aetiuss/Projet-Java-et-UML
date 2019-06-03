@@ -11,53 +11,38 @@ import java.util.concurrent.TimeUnit;
  * @author Théo Weimann
  * @version 1.0
  */
-public final class Model extends Observable implements IModel
-{
-    
-    Map map = Map.getInstance();
-    
-    public Model()
-    {
+public final class Model extends Observable implements IModel {
+
+    private Map map = Map.getInstance();
+
+    public Model() {
         DAO.getInstance()
-           .acquireFromDB(5);
+                .acquireFromDB(5);
     }
-    public void run()
-    {
-    
+
+    public void run() {
+
     }
+
     @Override
-    public void gravity() throws InterruptedException
-    {
+    public void gravity() throws InterruptedException {
         for (int i = map.getHeight() - 1; i >= 0; i--) {
             for (int j = map.getWidth() - 1; j >= 0; j--) {
                 Map.getInstance().getMap()[i][j].setChecked(false);
             }
         }
 
-        for (int i = map.getHeight() - 1; i >= 0; i--)
-        {
+        for (int i = map.getHeight() - 1; i >= 0; i--) {
             for (int j = map.getWidth() - 1; j >= 0; j--) {
                 if (!Map.getInstance().getMap()[i][j].isChecked()) {
                     Map.getInstance().getMap()[i][j].setChecked(true);
                     switch (map.map[i][j].getSprite()) {
 
                         case 'd':
-                            try {
-                                Map.getInstance()
-                                        .getMap()[i][j].fallable.fall();
-                                break;
-                            } catch (Exception e) {
-                                e.getMessage();
-                            }
-
                         case 'f':
-                            try {
-                                Map.getInstance()
-                                        .getMap()[i][j].fallable.fall();
+
+                            Map.getInstance().getMap()[i][j].fallable.fall();
                                 break;
-                            } catch (Exception e) {
-                                e.getMessage();
-                            }
                         case 'm':
                             Map.getInstance()
                                     .getMap()[i][j].move();
@@ -68,8 +53,8 @@ public final class Model extends Observable implements IModel
             }
         }
         TimeUnit.MILLISECONDS.sleep(300);
-        
+
     }
-    
-    
+
+
 }

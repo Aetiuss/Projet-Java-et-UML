@@ -13,17 +13,17 @@ import java.awt.*;
  * @author Jean-Aymeric Diet
  */
 
-public abstract class Entity implements IPawn
-{
-    
-    public int               x;
-    public int               y;
-    public char              sprite;
-    public Entity[][]        map;
-    public Fallable          fallable;
-    public Pushable          pushable;
+public abstract class Entity implements IPawn {
+
+    public int x;
+    public int y;
+    public char sprite;
+    public Entity[][] map;
+    public Fallable fallable;
+    public Pushable pushable;
     public PlayerCollectible collectibleP;
-    Image    image;
+    Image image;
+    private boolean Checked;
 
     public Entity(int x, int y, Entity[][] map) {
         this.x = x;
@@ -32,8 +32,6 @@ public abstract class Entity implements IPawn
         this.map = map;
         loadImage();
     }
-
-    private boolean Checked;
 
     public Entity() {
     }
@@ -76,8 +74,9 @@ public abstract class Entity implements IPawn
     public void setImage(Image image) {
         this.image = image;
     }
-    
-    public void move() {}
+
+    public void move() {
+    }
 
     public boolean isChecked() {
         return Checked;

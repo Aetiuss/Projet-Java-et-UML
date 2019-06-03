@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
 
-public class ControllerTest {
+class ControllerTest {
 
     /**
      * Instance of the model
@@ -29,7 +29,7 @@ public class ControllerTest {
      * Test the method run.
      */
     @Test
-    public void run() {
+    void run() {
         try {
             controller.run();
         } catch (final Exception e) {
@@ -42,7 +42,7 @@ public class ControllerTest {
      * Test the method gravityThread.
      */
     @Test
-    public void gravityThread() {
+    void gravityThread() {
         try {
             controller.gravityThread();
         } catch (InterruptedException e) {
@@ -55,7 +55,7 @@ public class ControllerTest {
      * Test the method orderPerform.
      */
     @Test
-    public void orderPerform() {
+    void orderPerform() {
         view.run();
         int previousY = Player.getInstance().y;
         controller.orderPerform(ControllerOrder.Up);

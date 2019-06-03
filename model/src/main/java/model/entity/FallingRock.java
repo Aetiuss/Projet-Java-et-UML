@@ -5,13 +5,11 @@ import model.entity.entityBehaviours.Pushable;
 
 import javax.imageio.ImageIO;
 import java.io.IOException;
+import java.util.Objects;
 
-public class FallingRock extends Entity
-{
-    
-    private char sprite = 'f';
-    public FallingRock(int x, int y, Entity[][] map)
-    {
+public class FallingRock extends Entity {
+
+    public FallingRock(int x, int y, Entity[][] map) {
         super(x, y, map);
         fallable = new Fallable(this);
         pushable = new Pushable(this);
@@ -19,13 +17,13 @@ public class FallingRock extends Entity
 
     @Override
     public char getSprite() {
-        return sprite;
+        return 'f';
     }
+
     @Override
-    public void loadImage()
-    {
+    public void loadImage() {
         try {
-            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/gravel.png"));
+            this.image = ImageIO.read(Objects.requireNonNull(getClass().getClassLoader().getResource("./sprites/gravel.png")));
             if (this.image == null) {
                 throw new IOException("File is nowhere to be found");
             }

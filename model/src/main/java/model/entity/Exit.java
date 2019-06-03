@@ -4,9 +4,11 @@ import contract.showboard.BoardFrame;
 
 import javax.imageio.ImageIO;
 import java.io.IOException;
+import java.util.Objects;
 
 /**
  * The class exit that allow to create an object that can be used to end the game
+ *
  * @author Luc Anthoni
  * @version 1.2
  */
@@ -71,7 +73,7 @@ public class Exit extends Entity {
     public void loadImage() {
 
         try {
-            this.image = ImageIO.read(getClass().getClassLoader().getResource("sprites/portal.png"));
+            this.image = ImageIO.read(Objects.requireNonNull(getClass().getClassLoader().getResource("sprites/portal.png")));
             if (this.image == null) {
                 throw new IOException("File is nowhere to be found");
             }
@@ -97,7 +99,7 @@ public class Exit extends Entity {
     /**
      * Check if the exit can open
      */
-    public void exitOpen() {
+    void exitOpen() {
         if (score >= 100) {
             this.exitIsOpen = true;
             this.end();
@@ -110,7 +112,7 @@ public class Exit extends Entity {
      * End the game if the score is high enough
      */
     public void end() {
-        if (this.exitIsOpen == true) {
+        if (this.exitIsOpen) {
             Player.getInstance().die();
             BoardFrame.end();
         }

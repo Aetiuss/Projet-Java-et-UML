@@ -5,6 +5,7 @@ import contract.showboard.BoardFrame;
 
 import javax.imageio.ImageIO;
 import java.io.IOException;
+import java.util.Objects;
 
 import static java.lang.StrictMath.abs;
 
@@ -19,11 +20,7 @@ public class Enemy1 extends Entity {
     /**
      * The instance of the player
      */
-    Player player = Player.getInstance();
-    /**
-     * The sprite of the player
-     */
-    private char sprite = 'm';
+    private Player player = Player.getInstance();
 
     /**
      * Constructor of the class enemy.
@@ -43,7 +40,7 @@ public class Enemy1 extends Entity {
      */
     @Override
     public char getSprite() {
-        return sprite;
+        return 'm';
     }
 
     /**
@@ -52,7 +49,7 @@ public class Enemy1 extends Entity {
     @Override
     public void loadImage() {
         try {
-            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/zombie.png"));
+            this.image = ImageIO.read(Objects.requireNonNull(getClass().getClassLoader().getResource("./sprites/zombie.png")));
             if (this.image == null) {
                 throw new IOException("File is nowhere to be found");
             }

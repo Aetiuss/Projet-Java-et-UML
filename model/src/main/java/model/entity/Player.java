@@ -2,12 +2,12 @@ package model.entity;
 
 import javax.imageio.ImageIO;
 import java.io.IOException;
+import java.util.Objects;
 
 public class Player extends Entity {
 
     private static Player ourInstance = new Player();
-    Exit exit = Exit.getInstance();
-    private char sprite = 'p';
+    private Exit exit = Exit.getInstance();
     private boolean alive = true;
 
     private Player() {
@@ -141,14 +141,13 @@ public class Player extends Entity {
 
     @Override
     public char getSprite() {
-        return sprite;
+        return 'p';
     }
 
     @Override
     public void loadImage() {
         try {
-            this.image = ImageIO.read(getClass().getClassLoader()
-                    .getResource("./sprites/player.png"));
+            this.image = ImageIO.read(Objects.requireNonNull(getClass().getClassLoader().getResource("./sprites/player.png")));
             if (this.image == null) {
                 throw new IOException("File is nowhere to be found");
             }
@@ -159,6 +158,10 @@ public class Player extends Entity {
 
     public void die() {
         alive = false;
+    }
+
+    public boolean isAlive() {
+        return alive;
     }
 }
 

@@ -21,10 +21,6 @@ import java.awt.event.KeyListener;
 public final class View implements IView, Runnable, KeyListener {
 
     /**
-     * The size of each square that will be displayed.
-     */
-    final private int squareSize = 64;
-    /**
      * The unique instance of the map.
      */
     final private Map map = Map.getInstance();
@@ -82,12 +78,13 @@ public final class View implements IView, Runnable, KeyListener {
     }
 
     /**
-     *Implementation of the interface runnable, initialise the window.
+     * Implementation of the interface runnable, initialise the window.
      */
     public void run() {
         this.boardFrame = new BoardFrame("Boulder Dash");
         boardFrame.setDimension(new Dimension(this.map.getHeight(), this.map.getWidth()));
         boardFrame.setDisplayFrame(this.closeView);
+        int squareSize = 64;
         boardFrame.setSize(this.closeView.width * squareSize, this.closeView.height * squareSize);
         boardFrame.setHeightLooped(false);
         boardFrame.addKeyListener(this);
@@ -128,16 +125,6 @@ public final class View implements IView, Runnable, KeyListener {
         SwingUtilities.invokeLater(this::followPlayer);
     }
 
-
-    /**
-     * Set the view that will be displayed in the window.
-     *
-     * @param closeView The rectangle defining the view that will be used.
-     */
-    private void setCloseView(Rectangle closeView) {
-        this.closeView = closeView;
-    }
-
     /**
      * Invoked when a key has been typed.
      * See the class description for {@link KeyEvent} for a definition of
@@ -176,6 +163,7 @@ public final class View implements IView, Runnable, KeyListener {
 
     /**
      * Set the controller
+     *
      * @param controller The controller that you want to use.
      */
     public void setController(IController controller) {
@@ -183,66 +171,21 @@ public final class View implements IView, Runnable, KeyListener {
     }
 
     /**
-     * Get the square size
-     *
-     * @return Return the square size
-     */
-    public int getSquareSize() {
-        return squareSize;
-    }
-
-    /**
-     * Get the map instance
-     *
-     * @return Return the map instance
-     */
-    public Map getMap() {
-        return map;
-    }
-
-    /**
-     * Get the player instance
-     *
-     * @return Return the player instance
-     */
-    public Player getPlayer() {
-        return player;
-    }
-
-    /**
-     * Get the exit instance
-     *
-     * @return Return the exit instance.
-     */
-    public Exit getExit() {
-        return exit;
-    }
-
-    /**
      * Get the view around the player
      *
      * @return Return the view around the player
      */
-    public Rectangle getCloseView() {
+    Rectangle getCloseView() {
         return closeView;
     }
 
     /**
-     * Get the instance of the controller
+     * Set the view that will be displayed in the window.
      *
-     * @return Return the instance of the controller
+     * @param closeView The rectangle defining the view that will be used.
      */
-    public IController getController() {
-        return controller;
-    }
-
-    /**
-     * Get the boardFrame
-     *
-     * @return Return the boardFrame
-     */
-    public BoardFrame getBoardFrame() {
-        return boardFrame;
+    private void setCloseView(Rectangle closeView) {
+        this.closeView = closeView;
     }
 
 
