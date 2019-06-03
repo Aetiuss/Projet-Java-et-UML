@@ -6,6 +6,12 @@ import javax.imageio.ImageIO;
 import java.io.IOException;
 import java.util.Objects;
 
+/**
+ * The player class
+ *
+ * @author Victor Bernard
+ * @version 1.2
+ */
 public class Player extends Entity {
 
     /**
@@ -16,7 +22,7 @@ public class Player extends Entity {
     private boolean alive = true;
 
     /**
-     * return the player to Entity
+     * Constructor of the player
      */
     private Player() {
         super();
@@ -24,6 +30,7 @@ public class Player extends Entity {
     }
 
     /**
+     * Get the unique instance of the player
      * @return the instance of the player
      */
     public static Player getInstance() {
@@ -31,11 +38,10 @@ public class Player extends Entity {
     }
 
     /**
-     *
-     * @param x
-     * @param y
-     * @param map
-     * @return
+     * Create a player
+     * @param x The x position of the object
+     * @param y The y position of the object
+     * @param map The map
      */
     public static Player getInstance(int x, int y, Entity[][] map) {
         ourInstance.x = x;
@@ -170,7 +176,8 @@ public class Player extends Entity {
     }
 
     /**
-     * @return the sprite of the class
+     * Get the sprite of the class
+     * @return Return he sprite of the class
      */
     @Override
     public char getSprite() {
@@ -178,7 +185,7 @@ public class Player extends Entity {
     }
 
     /**
-     * load the image of the class
+     * Load the image of the class
      */
     @Override
     public void loadImage() {
@@ -193,14 +200,14 @@ public class Player extends Entity {
     }
 
     /**
-     * make the player unplayable
+     * Make the player unplayable
      */
     public void die() {
         alive = false;
     }
 
     /**
-     *
+     * Get if the player is still alive
      * @return if the player is alive
      */
     public boolean isAlive() {

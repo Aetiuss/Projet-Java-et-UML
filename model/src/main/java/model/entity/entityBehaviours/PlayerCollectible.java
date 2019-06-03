@@ -10,6 +10,7 @@ import java.util.Observer;
  * The Class PlayerCollectible.
  *
  * @author Luc Anthoni
+ * @version 1.0
  */
 
 public class PlayerCollectible implements Observer {

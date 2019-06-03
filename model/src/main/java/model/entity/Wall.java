@@ -7,16 +7,17 @@ import java.util.Objects;
 public class Wall extends Entity {
 
     /**
-     * @param x
-     * @param y
-     * @param map
+     * Create some wall
+     * @param x The x position of the object
+     * @param y The y position of the object
+     * @param map The map
      */
     public Wall(int x, int y, Entity[][] map) {
         super(x, y, map);
     }
 
     /**
-     * load the image of the class
+     * Load the image of the class
      */
     @Override
     public void loadImage() {
@@ -31,6 +32,7 @@ public class Wall extends Entity {
     }
 
     /**
+     * Gte the sprite of the wall
      * @return the sprite of the class
      */
     @Override

@@ -10,9 +10,10 @@ import java.util.Objects;
 public class Diamond extends Entity {
 
     /**
-     * @param x
-     * @param y
-     * @param map
+     * Create some diamonds
+     * @param x The x position of the object
+     * @param y The y position of the object
+     * @param map The map
      */
     public Diamond(int x, int y, Entity[][] map) {
         super(x, y, map);
@@ -21,8 +22,8 @@ public class Diamond extends Entity {
     }
 
     /**
-     *
-     * @return the sprite of the class
+     * Return the sprite
+     * @return Return the sprite of the class
      */
     @Override
     public char getSprite() {
@@ -30,7 +31,7 @@ public class Diamond extends Entity {
     }
 
     /**
-     * load the image of the class
+     * Load the image of the class
      */
     @Override
     public void loadImage() {
