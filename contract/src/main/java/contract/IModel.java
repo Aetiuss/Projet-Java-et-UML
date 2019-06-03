@@ -7,6 +7,7 @@ package contract;
  */
 public interface IModel {
     public void run();
-    void gravity();
+
+    void gravity() throws InterruptedException;
     
 }

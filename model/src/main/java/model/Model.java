@@ -3,6 +3,7 @@ package model;
 import contract.IModel;
 
 import java.util.Observable;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Model of the project contain all the basic information needed about data and their operations.
@@ -25,11 +26,12 @@ public final class Model extends Observable implements IModel
     
     }
     @Override
-    public void gravity()
+    public void gravity() throws InterruptedException
     {
-        for (int i = 0; i < map.getHeight(); i++)
+
+        for (int i = map.getHeight() - 1; i >= 0; i--)
         {
-            for (int j = 0; j < map.getWidth(); j++)
+            for (int j = map.getWidth() - 1; j >= 0; j--)
             {
                 switch (map.map[i][j].getSprite())
                 {
@@ -60,6 +62,7 @@ public final class Model extends Observable implements IModel
                 }
             }
         }
+        TimeUnit.MILLISECONDS.sleep(150);
         
     }
     
