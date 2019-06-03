@@ -4,19 +4,26 @@ import javax.imageio.ImageIO;
 import java.io.IOException;
 import java.util.Objects;
 
+/**
+ * The rock class
+ *
+ * @author Victor Bernard
+ * @version 1.0
+ */
 public class Rock extends Entity {
 
     /**
-     * @param x
-     * @param y
-     * @param map
+     * Create some rocks
+     * @param x The x position of the object
+     * @param y The y position of the object
+     * @param map The map
      */
     public Rock(int x, int y, Entity[][] map) {
         super(x, y, map);
     }
 
     /**
-     * load the image of the class
+     * Load the image of the class
      */
     @Override
     public void loadImage() {
@@ -31,8 +38,8 @@ public class Rock extends Entity {
     }
 
     /**
-     *
-     * @return the sprite of the class
+     *  Get the sprite of the rock
+     * @return The sprite of the class
      */
     @Override
     public char getSprite() {

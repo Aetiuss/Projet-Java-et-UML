@@ -7,12 +7,19 @@ import javax.imageio.ImageIO;
 import java.io.IOException;
 import java.util.Objects;
 
+/**
+ * Create some falling rocks
+ *
+ * @author Vixtor Bernard
+ * @version 1.0
+ */
 public class FallingRock extends Entity {
 
     /**
-     * @param x
-     * @param y
-     * @param map
+     * Create some falling rocks
+     * @param x The x position of the object
+     * @param y The y position of the object
+     * @param map The map
      */
     public FallingRock(int x, int y, Entity[][] map) {
         super(x, y, map);
@@ -21,8 +28,8 @@ public class FallingRock extends Entity {
     }
 
     /**
-     *
-     * @return the sprite of the class
+     * Return the sprite
+     * @return Return the sprite of the class
      */
     @Override
     public char getSprite() {
@@ -30,7 +37,7 @@ public class FallingRock extends Entity {
     }
 
     /**
-     * load the image of the class
+     * Load the image of the class
      */
     @Override
     public void loadImage() {
