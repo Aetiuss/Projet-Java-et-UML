@@ -135,7 +135,6 @@ public class Ennemy extends Entity {
                 this.x--;
                 map[x][y] = this;
                 BoardFrame.kill();
-                System.out.println("T MOR");
             }
 
         }
