@@ -27,7 +27,10 @@ public class Fallable
             setFalling(true);
             entity.map[entity.x][entity.y] = entity;
         }
-        else {entity.map[entity.x][entity.y].fallable.setFalling(false);}
+        else
+        {
+            entity.map[entity.x][entity.y].fallable.setFalling(false);
+        }
         if (entity.map[entity.x][entity.y + 1].getSprite() == 'p')
         {
             if (entity.map[entity.x][entity.y].fallable.falling == true)
@@ -39,6 +42,17 @@ public class Fallable
         else if (entity.map[entity.x][entity.y + 1].getSprite() == 'm')
         {
             entity.map[entity.x][entity.y] = new Empty(entity.x, entity.y, entity.map);
+        }
+        if (entity.map[entity.x][entity.y + 1].getSprite() == 'f' || entity.map[entity.x][entity.y + 1].getSprite() == 'd')
+        {
+            if (entity.map[entity.x - 1][entity.y + 1].getSprite() == 'v')
+            {
+                entity.pushable.pushLeft();
+            }
+            if (entity.map[entity.x + 1][entity.y + 1].getSprite() == 'v')
+            {
+                entity.pushable.pushRight();
+            }
         }
         if (entity.map[entity.x][entity.y + 1].getSprite() == 'm')
         {
