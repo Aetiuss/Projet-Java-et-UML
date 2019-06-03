@@ -2,12 +2,8 @@ package view;
 
 import model.Model;
 import model.entity.Player;
-import org.junit.jupiter.api.Test;
 
 import java.awt.*;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
 
 public class ViewTest {
 
@@ -19,6 +15,7 @@ public class ViewTest {
     /**
      * Test the method run.
      */
+    /*
     @Test
     public void run() {
         try {
@@ -28,15 +25,16 @@ public class ViewTest {
             fail("Can't create object boardFrame due to incorrect parameter");
         }
     }
-
+    */
     /**
      * Test the method followPlayer.
      */
+    /*
     @Test
     public void followPlayer() {
         this.view.run();
         this.view.followPlayer();
         assertEquals(expectedRectangle, this.view.getCloseView());
     }
-
+*/
 }

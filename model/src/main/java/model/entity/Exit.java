@@ -22,7 +22,7 @@ public class Exit extends Entity {
     /**
      * @return the instance of the singleton
      */
-    static public Exit getInstance() {
+    public static Exit getInstance() {
         return instance;
     }
 
@@ -31,7 +31,7 @@ public class Exit extends Entity {
      *
      * @return the instance of the singleton if not created with coordonate
      */
-    static public Exit getInstance(int x, int y, Entity[][] map) {
+    public static Exit getInstance(int x, int y, Entity[][] map) {
         instance.x = x;
         instance.y = y;
         instance.map = map;

@@ -8,6 +8,7 @@ import model.Map;
 import model.entity.Exit;
 import model.entity.Player;
 
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -124,6 +125,7 @@ public final class View implements IView, Runnable, KeyListener {
         this.closeView.x = player.x - 5;
         this.closeView.y = player.y - 5;
         this.boardFrame.repaint();
+        SwingUtilities.invokeLater(this::followPlayer);
     }
 
 

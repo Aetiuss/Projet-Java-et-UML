@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="189683bf-0321-4329-856f-c541c18ffd2c" name="Default Changelist" comment="">
+    <list default="true" id="189683bf-0321-4329-856f-c541c18ffd2c" name="Default Changelist" comment="Modify test and add the">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/controller/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/src/test/java/controller/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/src/test/java/controller/ControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/resources/jpublankproject.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/test/java/model/entity/ExitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/test/java/model/entity/ExitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/src/main/java/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/src/main/java/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/src/test/java/view/ViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/view/src/test/java/view/ViewTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/entity/target/surefire-reports/" />
     <ignored path="$PROJECT_DIR$/entity/target/test-classes/" />
@@ -13,43 +19,43 @@
     <ignored path="$PROJECT_DIR$/controller/target/test-classes/" />
     <ignored path="$PROJECT_DIR$/model/target/surefire/" />
     <manually-removed-from-ignored>
-      <directory path="$PROJECT_DIR$/contract/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/main/target/site/" />
-      <directory path="$PROJECT_DIR$/main/target/classes/" />
-      <directory path="$PROJECT_DIR$/controller/target/site/" />
-      <directory path="$PROJECT_DIR$/target/staging/" />
-      <directory path="$PROJECT_DIR$/main/target/" />
-      <directory path="$PROJECT_DIR$/model/target/site/" />
       <directory path="$PROJECT_DIR$/main/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/view/target/" />
-      <directory path="$PROJECT_DIR$/model/target/surefire-reports/" />
-      <directory path="$PROJECT_DIR$/view/target/classes/" />
-      <directory path="$PROJECT_DIR$/target/javadoc-bundle-options/" />
-      <directory path="$PROJECT_DIR$/out/" />
-      <directory path="$PROJECT_DIR$/contract/target/classes/" />
-      <directory path="$PROJECT_DIR$/contract/target/maven-archiver/" />
-      <directory path="$PROJECT_DIR$/controller/target/maven-status/" />
+      <directory path="$PROJECT_DIR$/main/target/classes/" />
       <directory path="$PROJECT_DIR$/controller/target/classes/" />
+      <directory path="$PROJECT_DIR$/model/target/classes/" />
+      <directory path="$PROJECT_DIR$/target/site/" />
+      <directory path="$PROJECT_DIR$/main/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/contract/target/site/" />
+      <directory path="$PROJECT_DIR$/model/target/site/" />
+      <directory path="$PROJECT_DIR$/contract/target/" />
+      <directory path="$PROJECT_DIR$/contract/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/main/target/" />
+      <directory path="$PROJECT_DIR$/view/target/" />
+      <directory path="$PROJECT_DIR$/out/" />
+      <directory path="$PROJECT_DIR$/target/" />
+      <directory path="$PROJECT_DIR$/controller/target/maven-status/" />
+      <directory path="$PROJECT_DIR$/model/target/test-classes/" />
+      <directory path="$PROJECT_DIR$/controller/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/entity/target/maven-status/" />
+      <directory path="$PROJECT_DIR$/entity/target/site/" />
+      <directory path="$PROJECT_DIR$/contract/target/classes/" />
+      <directory path="$PROJECT_DIR$/view/target/maven-archiver/" />
       <directory path="$PROJECT_DIR$/model/target/maven-archiver/" />
       <directory path="$PROJECT_DIR$/model/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/contract/target/" />
-      <directory path="$PROJECT_DIR$/entity/target/site/" />
-      <directory path="$PROJECT_DIR$/entity/target/classes/" />
-      <directory path="$PROJECT_DIR$/controller/target/maven-archiver/" />
-      <directory path="$PROJECT_DIR$/contract/target/site/" />
-      <directory path="$PROJECT_DIR$/model/target/test-classes/" />
-      <directory path="$PROJECT_DIR$/target/site/" />
-      <directory path="$PROJECT_DIR$/view/target/maven-archiver/" />
-      <directory path="$PROJECT_DIR$/entity/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/model/target/" />
-      <directory path="$PROJECT_DIR$/view/target/site/" />
       <directory path="$PROJECT_DIR$/view/target/maven-status/" />
-      <directory path="$PROJECT_DIR$/main/target/maven-archiver/" />
-      <directory path="$PROJECT_DIR$/model/target/classes/" />
+      <directory path="$PROJECT_DIR$/controller/target/site/" />
       <directory path="$PROJECT_DIR$/entity/target/" />
-      <directory path="$PROJECT_DIR$/entity/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/model/target/surefire-reports/" />
+      <directory path="$PROJECT_DIR$/model/target/" />
+      <directory path="$PROJECT_DIR$/target/staging/" />
       <directory path="$PROJECT_DIR$/controller/target/" />
-      <directory path="$PROJECT_DIR$/target/" />
+      <directory path="$PROJECT_DIR$/entity/target/classes/" />
+      <directory path="$PROJECT_DIR$/view/target/site/" />
+      <directory path="$PROJECT_DIR$/view/target/classes/" />
+      <directory path="$PROJECT_DIR$/entity/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/contract/target/maven-status/" />
+      <directory path="$PROJECT_DIR$/main/target/site/" />
+      <directory path="$PROJECT_DIR$/target/javadoc-bundle-options/" />
     </manually-removed-from-ignored>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +67,9 @@
     <option name="groupingKeys">
       <option value="directory" />
     </option>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="264" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -79,82 +88,102 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy.java">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+            <state relative-caret-position="408">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Pushable.java">
+        <entry file="file://$PROJECT_DIR$/model/src/test/java/model/DAOTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="168">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Model.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/resources/maps/Map2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/src/test/java/view/ViewTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="143" column="40" lean-forward="true" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4172#4173#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Entity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
-              <folding>
-                <element signature="docComment;class#Controller#0" />
-                <element signature="docComment;field#view#0;class#Controller#0" />
-                <element signature="docComment;field#model#0;class#Controller#0" />
-                <element signature="docComment;field#player#0;class#Controller#0" />
-                <element signature="docComment;method#Controller#0;class#Controller#0" />
-                <element signature="docComment;method#orderPerform#0;class#Controller#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/src/main/java/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="159" column="24" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="24" />
+            <state relative-caret-position="351">
+              <caret line="128" column="5" lean-forward="true" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contract/src/main/java/contract/showboard/BoardFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4392">
+              <caret line="213" selection-start-line="213" selection-end-line="213" />
+              <folding>
+                <element signature="e#1519#1520#0" expanded="true" />
+                <element signature="e#1565#1566#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/ExitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,7 +209,12 @@
       <find>$PROJECT_DIR$/../Projet-Java-et-UML\\</find>
       <find>SwingUtilities.invokeLater(this);</find>
       <find>displ</find>
-      <find>id</find>
+      <find>end</find>
+      <find>Show</find>
+      <find>cont</find>
+      <find>view</find>
+      <find>model</find>
+      <find>en</find>
     </findStrings>
     <replaceStrings>
       <replace>entity</replace>
@@ -207,10 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/entity/src/main/java/entity/Diamond.java" />
-        <option value="$PROJECT_DIR$/entity/src/test/java/entity/PlayerTest.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/model/src/test/java/model/DAOMapTest.java" />
         <option value="$PROJECT_DIR$/contract/src/main/java/contract/IMap.java" />
         <option value="$PROJECT_DIR$/model/pom.xml" />
         <option value="$PROJECT_DIR$/entity/pom.xml" />
@@ -233,31 +263,35 @@
         <option value="$PROJECT_DIR$/contract/src/main/java/contract/IView.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/DAO.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Indestructable.java" />
-        <option value="$PROJECT_DIR$/view/src/main/java/view/View.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/FallableTest.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Empty.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/Map.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Wall.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Factory.java" />
-        <option value="$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/PlayerCollectibleTest.java" />
         <option value="$PROJECT_DIR$/contract/src/main/java/contract/IModel.java" />
         <option value="$PROJECT_DIR$/main/src/main/java/main/Main.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Fallable.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/FallableTest.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/controller/Controller.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Entity.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Player.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/EnnemyTest.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/PlayerCollectibleTest.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java" />
         <option value="$PROJECT_DIR$/contract/src/main/java/contract/showboard/BoardFrame.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Fallable.java" />
+        <option value="$PROJECT_DIR$/model/src/test/java/model/entity/ExitTest.java" />
+        <option value="$PROJECT_DIR$/model/src/test/java/model/DAOTest.java" />
+        <option value="$PROJECT_DIR$/view/src/test/java/view/ViewTest.java" />
+        <option value="$PROJECT_DIR$/controller/src/test/java/controller/ControllerTest.java" />
+        <option value="$PROJECT_DIR$/controller/pom.xml" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/Model.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Pushable.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Player.java" />
+        <option value="$PROJECT_DIR$/view/src/main/java/view/View.java" />
       </list>
     </option>
   </component>
@@ -277,15 +311,31 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Master POM" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Master POM" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Master POM" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Master POM" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="surefire" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2743" />
-    <option name="y" value="-19" />
-    <option name="width" value="1152" />
-    <option name="height" value="628" />
+    <option name="x" value="1912" />
+    <option name="y" value="-380" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -339,73 +389,6 @@
               <item name="Projet Java et UML" type="58d84e3e:PackageViewProjectNode" />
               <item name="view" type="616d4139:PackageViewModuleNode" />
               <item name="view" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="entityBehaviours" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -554,6 +537,104 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="maps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -600,10 +681,10 @@
       <recent name="C:\Users\1944473\IdeaProjects\Projet-Java-et-UML\entity\src\Test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\model\src\main\resources" />
       <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\contract\src\main\java\contract\showboard" />
       <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\model\src\main\resources\sprites" />
       <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\model\src\main\java\model\entity" />
-      <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\model\src\main\resources" />
       <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\main" />
     </key>
   </component>
@@ -628,90 +709,34 @@
       </method>
     </configuration>
     <configuration name="All in Projet-Java-et-UML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="model" />
+      <module name="Projet-Java-et-UML" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnnemyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="model" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model.entity" />
-      <option name="MAIN_CLASS_NAME" value="model.entity.EnnemyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnnemyTest.move" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="model" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model.entity" />
-      <option name="MAIN_CLASS_NAME" value="model.entity.EnnemyTest" />
-      <option name="METHOD_NAME" value="move" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FallableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="model" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.entity.entityBehaviours.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model.entity.entityBehaviours" />
-      <option name="MAIN_CLASS_NAME" value="model.entity.entityBehaviours.FallableTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FallableTest.testfall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="model" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.entity.entityBehaviours.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model.entity.entityBehaviours" />
-      <option name="MAIN_CLASS_NAME" value="model.entity.entityBehaviours.FallableTest" />
-      <option name="METHOD_NAME" value="testfall" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="All in Projet-Java-et-UML" type="JUnit" factoryName="JUnit" temporary="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="JUnit.FallableTest" />
-      <item itemvalue="JUnit.FallableTest.testfall" />
-      <item itemvalue="JUnit.EnnemyTest" />
-      <item itemvalue="JUnit.EnnemyTest.move" />
       <item itemvalue="JUnit.All in Projet-Java-et-UML" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in Projet-Java-et-UML" />
-        <item itemvalue="JUnit.EnnemyTest.move" />
-        <item itemvalue="JUnit.EnnemyTest" />
-        <item itemvalue="JUnit.FallableTest.testfall" />
-        <item itemvalue="JUnit.FallableTest" />
+        <item itemvalue="JUnit.All in Projet-Java-et-UML" />
       </list>
     </recent_temporary>
   </component>
@@ -738,9 +763,8 @@
       <workItem from="1559036849975" duration="5271000" />
       <workItem from="1559061974056" duration="3135000" />
       <workItem from="1559067542527" duration="5147000" />
-      <workItem from="1559544664894" duration="1977000" />
-      <workItem from="1559547006207" duration="1678000" />
-      <workItem from="1559552163032" duration="1970000" />
+      <workItem from="1559544664894" duration="7889000" />
+      <workItem from="1559552596659" duration="2087000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1558537892456</created>
@@ -987,57 +1011,50 @@
       <option name="project" value="LOCAL" />
       <updated>1559546268642</updated>
     </task>
-    <task id="LOCAL-00036" summary="Added kill method">
-      <created>1559547213919</created>
+    <task id="LOCAL-00036" summary="Changing some tests to make them works.">
+      <created>1559546874566</created>
       <option name="number" value="00036" />
       <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1559547213919</updated>
+      <updated>1559546874566</updated>
     </task>
-    <task id="LOCAL-00037" summary="fixed insta kill">
-      <created>1559553314545</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1559553314545</updated>
-    </task>
-    <option name="localTasksCounter" value="38" />
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Projet-Java-et-UML - 2019.06.03 at 09h 10m 38s.xml">
+    <history-entry file="All_in_model - 2019.06.03 at 09h 33m 34s.xml">
+      <configuration name="All in model" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_model - 2019.06.03 at 09h 42m 08s.xml">
+      <configuration name="All in model" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_model - 2019.06.03 at 09h 51m 49s.xml">
+      <configuration name="All in model" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_model_(1) - 2019.06.03 at 09h 52m 35s.xml">
+      <configuration name="All in model (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_model_(1) - 2019.06.03 at 09h 56m 17s.xml">
+      <configuration name="All in model (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_view_(1) - 2019.06.03 at 10h 02m 00s.xml">
+      <configuration name="All in view (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_controller_(1) - 2019.06.03 at 10h 06m 01s.xml">
+      <configuration name="All in controller (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_model_(2) - 2019.06.03 at 10h 44m 56s.xml">
+      <configuration name="All in model (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Projet-Java-et-UML - 2019.06.03 at 10h 50m 22s.xml">
       <configuration name="All in Projet-Java-et-UML" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EnnemyTest_move - 2019.06.03 at 09h 13m 59s.xml">
-      <configuration name="EnnemyTest.move" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnnemyTest_move - 2019.06.03 at 09h 15m 21s.xml">
-      <configuration name="EnnemyTest.move" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnnemyTest_move - 2019.06.03 at 09h 17m 21s.xml">
-      <configuration name="EnnemyTest.move" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Projet-Java-et-UML - 2019.06.03 at 09h 18m 24s.xml">
-      <configuration name="All in Projet-Java-et-UML" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Projet-Java-et-UML - 2019.06.03 at 09h 18m 34s.xml">
-      <configuration name="All in Projet-Java-et-UML" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Projet-Java-et-UML - 2019.06.03 at 10h 59m 29s.xml">
-      <configuration name="All in Projet-Java-et-UML" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Projet-Java-et-UML - 2019.06.03 at 11h 00m 36s.xml">
-      <configuration name="All in Projet-Java-et-UML" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Projet-Java-et-UML - 2019.06.03 at 11h 01m 18s.xml">
-      <configuration name="All in Projet-Java-et-UML" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Projet-Java-et-UML - 2019.06.03 at 11h 03m 38s.xml">
+    <history-entry file="All_in_Projet-Java-et-UML - 2019.06.03 at 11h 00m 18s.xml">
       <configuration name="All in Projet-Java-et-UML" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106599000" />
+    <option name="totallyTimeSpent" value="110950000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1049,10 +1066,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1912" y="-380" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.13706666" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.17013334" />
       <window_info id="Structure" order="1" sideWeight="0.5005513" side_tool="true" weight="0.20149253" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1061,8 +1078,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928178" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22271223" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.49392265" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3325967" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.16574585" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928178" />
@@ -1071,18 +1088,18 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32928178" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3296582" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3263506" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32596686" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.2496" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" sideWeight="0.49928877" weight="0.30613333" />
+      <window_info anchor="right" id="Maven" order="5" sideWeight="0.49776787" weight="0.19893333" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.3296" />
       <window_info anchor="right" id="Key Promoter X" order="9" weight="0.3293092" />
-      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.50071126" side_tool="true" visible="true" weight="0.077292114" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5011136" side_tool="true" weight="0.3859275" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.16746667" />
@@ -1162,6 +1179,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="added new behaviours to entities." />
     <MESSAGE value="corrected cyclic dependency issues" />
     <MESSAGE value="corrected missing HelloWorld class." />
     <MESSAGE value="added diagrammes" />
@@ -1185,16 +1203,11 @@
     <MESSAGE value="Change exit behavior." />
     <MESSAGE value="Remove the dash over diamond." />
     <MESSAGE value="Resolving bugs on ennemyTest." />
-    <MESSAGE value="Added kill method" />
-    <MESSAGE value="fixed insta kill" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed insta kill" />
+    <MESSAGE value="Changing some tests to make them works." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing some tests to make them works." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Projet_Java_et_UML$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1559545346814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -1214,44 +1227,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/MapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/IDestructable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/resources/sprites/wall.png" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/javax/imageio/ImageIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="1300" column="18" selection-start-line="1300" selection-start-column="18" selection-end-line="1300" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/resources/sprites/rock.png" />
     <entry file="file://$PROJECT_DIR$/model/src/main/resources/sprites/74359.png" />
     <entry file="file://$PROJECT_DIR$/model/src/main/resources/sprites/74336.png" />
@@ -1274,6 +1249,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-99">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-227">
+          <caret line="185" column="17" lean-forward="true" selection-start-line="185" selection-start-column="17" selection-end-line="185" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1305,13 +1287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/PlayerCollectibleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/awt/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1323,6 +1298,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Fallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1362,10 +1349,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contract/src/main/java/contract/showboard/BoardPanel.java">
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2616">
-          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+        <state relative-caret-position="174">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1379,10 +1366,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="86" column="69" selection-start-line="86" selection-start-column="69" selection-end-line="86" selection-end-column="69" />
+          <folding>
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#2789#2790#0" expanded="true" />
+            <element signature="e#2815#2816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/main/java/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
+          <folding>
+            <element signature="docComment;class#Controller#0" />
+            <element signature="docComment;field#view#0;class#Controller#0" />
+            <element signature="docComment;field#model#0;class#Controller#0" />
+            <element signature="docComment;field#player#0;class#Controller#0" />
+            <element signature="docComment;method#Controller#0;class#Controller#0" />
+            <element signature="docComment;method#orderPerform#0;class#Controller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1420,22 +1445,233 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/EnnemyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="48">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/PlayerCollectibleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/contract.showboard.BoardFrame">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>contract.showboard.BoardFrame</OriginalElement>
+          <nodes>
+            <node x="533.6776315789474" y="18176.0">java.awt.Frame</node>
+            <node x="221.2500000000001" y="13896.0">java.awt.Window</node>
+            <node x="725.0" y="66.5">java.awt.MenuContainer</node>
+            <node x="1083.6776315789475" y="18814.5">javax.swing.RootPaneContainer</node>
+            <node x="820.6776315789474" y="18880.5">javax.swing.TransferHandler.HasGetTransferHandler</node>
+            <node x="0.0" y="11816.5">javax.accessibility.Accessible</node>
+            <node x="332.50000000000006" y="276.0">java.awt.Component</node>
+            <node x="402.00000000000006" y="0.0">java.awt.image.ImageObserver</node>
+            <node x="252.00000000000006" y="99.5">java.io.Serializable</node>
+            <node x="1108.75" y="20025.5">contract.showboard.IBoard</node>
+            <node x="287.00000000000006" y="9836.0">java.awt.Container</node>
+            <node x="788.7500000000001" y="19684.0">javax.swing.JFrame</node>
+            <node x="1337.6776315789475" y="18847.5">javax.swing.WindowConstants</node>
+            <node x="969.25" y="20576.0">contract.showboard.BoardFrame</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.awt.Window" target="javax.accessibility.Accessible">
+              <point x="-110.75000000000006" y="-2115.0" />
+              <point x="332.00000000000006" y="13871.0" />
+              <point x="200.25" y="13871.0" />
+              <point x="66.75" y="24.5" />
+            </edge>
+            <edge source="contract.showboard.BoardFrame" target="contract.showboard.IBoard">
+              <point x="54.5" y="-201.0" />
+              <point x="1132.75" y="20551.0" />
+              <point x="1217.75" y="20551.0" />
+              <point x="0.0" y="79.5" />
+            </edge>
+            <edge source="java.awt.Window" target="java.awt.Container">
+              <point x="110.74999999999994" y="-2115.0" />
+              <point x="0.0" y="2005.0" />
+            </edge>
+            <edge source="contract.showboard.BoardFrame" target="javax.swing.JFrame">
+              <point x="-54.5" y="-201.0" />
+              <point x="1023.75" y="20551.0" />
+              <point x="938.7500000000001" y="20551.0" />
+              <point x="0.0" y="421.0" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.MenuContainer">
+              <point x="147.33333333333337" y="-4755.0" />
+              <point x="700.8333333333335" y="251.0" />
+              <point x="778.25" y="251.0" />
+              <point x="-53.25" y="46.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="java.awt.Frame">
+              <point x="-60.0" y="-421.0" />
+              <point x="878.7500000000001" y="19654.0" />
+              <point x="667.1776315789474" y="19654.0" />
+              <point x="0.0" y="729.0" />
+            </edge>
+            <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+              <point x="0.0" y="-4755.0" />
+              <point x="0.0" y="113.0" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.swing.WindowConstants">
+              <point x="120.0" y="-421.0" />
+              <point x="1058.75" y="19664.0" />
+              <point x="1438.1776315789475" y="19664.0" />
+              <point x="0.0" y="57.5" />
+            </edge>
+            <edge source="java.awt.Component" target="java.io.Serializable">
+              <point x="-147.33333333333337" y="-4755.0" />
+              <point x="406.1666666666667" y="251.0" />
+              <point x="317.00000000000006" y="251.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="java.awt.Frame" target="java.awt.Window">
+              <point x="-66.75" y="-729.0" />
+              <point x="600.4276315789474" y="18151.0" />
+              <point x="442.7500000000001" y="18151.0" />
+              <point x="0.0" y="2115.0" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.swing.RootPaneContainer">
+              <point x="60.0" y="-421.0" />
+              <point x="998.7500000000001" y="19654.0" />
+              <point x="1200.6776315789475" y="19654.0" />
+              <point x="0.0" y="90.5" />
+            </edge>
+            <edge source="java.awt.Frame" target="java.awt.MenuContainer">
+              <point x="66.75" y="-729.0" />
+              <point x="733.9276315789474" y="18151.0" />
+              <point x="884.75" y="18151.0" />
+              <point x="53.25" y="46.5" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.swing.TransferHandler.HasGetTransferHandler">
+              <point x="0.0" y="-421.0" />
+              <point x="938.7500000000001" y="19664.0" />
+              <point x="942.1776315789474" y="19664.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="java.awt.Container" target="java.awt.Component">
+              <point x="0.0" y="-2005.0" />
+              <point x="0.0" y="4755.0" />
+            </edge>
+            <edge source="javax.swing.JFrame" target="javax.accessibility.Accessible">
+              <point x="-120.0" y="-421.0" />
+              <point x="818.7500000000001" y="19664.0" />
+              <point x="66.75" y="19664.0" />
+              <point x="-66.75" y="24.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="398.0" y="20561.0" />
+          <SelectedNodes>
+            <node>contract.showboard.BoardFrame</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contract/src/main/java/contract/showboard/BoardPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6050">
+          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="68" column="25" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/test/java/controller/ControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1117">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Results - All_in_model_(2).html" />
     <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+        <state relative-caret-position="408">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/DAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contract/src/main/java/contract/showboard/BoardFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4224">
-          <caret line="206" column="44" selection-start-line="206" selection-start-column="44" selection-end-line="206" selection-end-column="44" />
+        <state relative-caret-position="4392">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
           <folding>
             <element signature="e#1519#1520#0" expanded="true" />
             <element signature="e#1565#1566#0" expanded="true" />
@@ -1443,160 +1679,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java">
+    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/ExitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="384">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/PlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/DBProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-738">
-          <caret line="34" column="87" selection-start-line="34" selection-start-column="87" selection-end-line="34" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/DAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="86" column="69" selection-start-line="86" selection-start-column="69" selection-end-line="86" selection-end-column="69" />
-          <folding>
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#2789#2790#0" expanded="true" />
-            <element signature="e#2815#2816#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="172" column="23" selection-start-line="172" selection-start-column="23" selection-end-line="172" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/FallableDestrutable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Fallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="480">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy.java">
+    <entry file="file://$PROJECT_DIR$/model/src/main/resources/maps/Map2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+        <state relative-caret-position="216">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/view/src/test/java/view/ViewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
-          <folding>
-            <element signature="docComment;class#Controller#0" />
-            <element signature="docComment;field#view#0;class#Controller#0" />
-            <element signature="docComment;field#model#0;class#Controller#0" />
-            <element signature="docComment;field#player#0;class#Controller#0" />
-            <element signature="docComment;method#Controller#0;class#Controller#0" />
-            <element signature="docComment;method#orderPerform#0;class#Controller#0" />
-          </folding>
+        <state relative-caret-position="440">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/src/main/java/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="159" column="24" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="24" />
+        <state relative-caret-position="351">
+          <caret line="128" column="5" lean-forward="true" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/FallingRock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Pushable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="143" column="40" lean-forward="true" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4172#4173#0" expanded="true" />
           </folding>
         </state>
       </provider>

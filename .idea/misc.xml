@@ -4,6 +4,11 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Desktop/javadoc" />
+    <option name="OPTION_SCOPE" value="private" />
+    <option name="HEAP_SIZE" value="50000" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
