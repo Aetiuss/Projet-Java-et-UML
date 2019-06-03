@@ -5,30 +5,43 @@ import contract.showboard.BoardFrame;
 import javax.imageio.ImageIO;
 import java.io.IOException;
 
+/**
+ * The class exit that allow to create an object that can be used to end the game
+ */
 public class Exit extends Entity {
-    
+
+    /**
+     * The unique instance of the class exit
+     */
     static private Exit instance = new Exit();
-    private        char sprite   = 'e';
-
-
+    /**
+     * Define if the exit can be used or not
+     */
+    private boolean exitIsOpen;
+    /**
+     * The score of the game
+     */
     private int score = 0;
-    boolean exitIsOpen;
-    
-    private Exit()
-    {
+
+    /**
+     * Constructor of the class Exit
+     */
+    private Exit() {
         super();
         loadImage();
     }
 
     /**
-     * @return the instance of the singleton
+     * Get the unique instance of the class Exit
+     *
+     * @return Return the unique instance of the class Exit
      */
     public static Exit getInstance() {
         return instance;
     }
 
     /**
-     *
+     * Allow the user to redefine coordinate while getting the instance
      *
      * @return the instance of the singleton if not created with coordinate
      */
@@ -40,19 +53,17 @@ public class Exit extends Entity {
     }
 
     /**
+     * Get the sprite
      *
-     *
-     * @return the sprite
+     * @return Return the sprite of the exit
      */
     @Override
     public char getSprite() {
-        return sprite;
+        return 'e';
     }
 
     /**
-     *
-     *
-     * load the sprite
+     * Load an image from local folders
      */
     @Override
     public void loadImage() {
@@ -68,27 +79,21 @@ public class Exit extends Entity {
     }
 
     /**
-     *
-     *
-     * get the Score
+     * Get the score
      */
     public int getScore() {
         return score;
     }
 
     /**
-     *
-     *
-     * set the Score
+     * Set the Score
      */
     public void setScore(int score) {
         this.score = score;
     }
 
     /**
-     *
-     *
-     * check if the exit can open
+     * Check if the exit can open
      */
     public void exitOpen() {
         if (score >= 100) {
@@ -100,9 +105,7 @@ public class Exit extends Entity {
     }
 
     /**
-     *
-     *
-     * end the game if the score is high enough
+     * End the game if the score is high enough
      */
     public void end() {
         if (this.exitIsOpen == true) {

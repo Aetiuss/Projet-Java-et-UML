@@ -7,7 +7,7 @@ package contract;
  */
 public interface IView
 {
-    public void run();
+    void run();
 
-    public void followPlayer();
+    void followPlayer();
 }
