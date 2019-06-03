@@ -1,15 +1,26 @@
 package model.entity;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * The test of the class player
+ *
+ * @author Victor Bernard
+ * @version 1.0
+ */
 public class PlayerTest {
 
+    /**
+     * The player
+     */
     private Player player;
 
+    /**
+     * The setup of the tests
+     */
     @Before
     public void setUp() {
         Entity[][] map = new Entity[3][3];
@@ -22,10 +33,10 @@ public class PlayerTest {
         player.map[1][1] = player;
     }
 
-    @After
-    public void tearDown() {
-    }
 
+    /**
+     * Test of the method to move UP
+     */
     @Test
     public void moveUpTest() {
         int expectedY = 0;
@@ -35,6 +46,9 @@ public class PlayerTest {
         assertEquals(expectedP, player.map[player.x][player.y]);
     }
 
+    /**
+     * Test of the method to move DOWN
+     */
     @Test
     public void moveDownTest() {
         int expectedY = 2;
@@ -42,6 +56,9 @@ public class PlayerTest {
         assertEquals(expectedY, player.y);
     }
 
+    /**
+     * Test of the method to move LEFT
+     */
     @Test
     public void moveLeftTest() {
         int expectedX = 0;
@@ -49,6 +66,9 @@ public class PlayerTest {
         assertEquals(expectedX, player.x);
     }
 
+    /**
+     * Test of the method to move RIGHT
+     */
     @Test
     public void moveRightTest() {
         int expectedX = 2;
@@ -56,6 +76,9 @@ public class PlayerTest {
         assertEquals(expectedX, player.x);
     }
 
+    /**
+     * Test of the method to get the sprite
+     */
     @Test
     public void getSprite() {
         char expectedSprite = 'p';

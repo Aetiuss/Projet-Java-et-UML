@@ -1,16 +1,24 @@
 package model.entity;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
+/**
+ * The tests of the pushable class
+ */
 public class PushableTest {
 
+    /**
+     * A falling rock
+     */
     private FallingRock fallingRock;
 
+    /**
+     * The setup of the test
+     */
     @Before
     public void setUp() {
         Entity[][] map = new Entity[3][1];
@@ -18,10 +26,10 @@ public class PushableTest {
         fallingRock.map[1][0] = fallingRock;
     }
 
-    @After
-    public void tearDown() {
-    }
 
+    /**
+     * Test of the method push right
+     */
     @Test
     public void testPushRight() {
         fallingRock.pushable.pushRight();
@@ -30,6 +38,9 @@ public class PushableTest {
         assertNotNull(fallingRock.map[2][0]);
     }
 
+    /**
+     * The test of the method push left
+     */
     @Test
     public void testPushLeft() {
         fallingRock.pushable.pushLeft();
