@@ -1,7 +1,5 @@
 package model.entity;
 
-import model.entity.entityBehaviours.FallableDestrutable;
-import model.entity.entityBehaviours.IDestructable;
 
 import javax.imageio.ImageIO;
 import java.io.IOException;
@@ -9,14 +7,12 @@ import java.io.IOException;
 import static java.lang.StrictMath.abs;
 
 public class Ennemy extends Entity {
-
-    IDestructable destructableF;
+    
     Player player = Player.getInstance();
     private char sprite = 'm';
 
     public Ennemy(int x, int y, Entity[][] map) {
         super(x, y, map);
-        destructableF = new FallableDestrutable();
     }
 
     @Override
