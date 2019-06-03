@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="189683bf-0321-4329-856f-c541c18ffd2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="189683bf-0321-4329-856f-c541c18ffd2c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/entity/target/surefire-reports/" />
     <ignored path="$PROJECT_DIR$/entity/target/test-classes/" />
     <ignored path="C:\Users\theow\Projet\Code\Projet-Java-et-UML\.idea\shelf/" />
@@ -95,7 +93,7 @@
               <entry file="file://$PROJECT_DIR$/model/src/test/java/model/ModelTest.java">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="432">
-                    <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+                    <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
                   </state>
                 </provider>
               </entry>
@@ -118,7 +116,7 @@
               <entry file="file://$PROJECT_DIR$/view/src/test/java/view/ViewTest.java">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="360">
-                    <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+                    <caret line="39" selection-start-line="39" selection-end-line="39" />
                     <folding>
                       <element signature="docComment;class#ViewTest#0" />
                       <element signature="docComment;field#expectedRectangle#0;class#ViewTest#0" />
@@ -138,7 +136,7 @@
               <entry file="file://$PROJECT_DIR$/controller/src/test/java/controller/ControllerTest.java">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="168">
-                    <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                    <caret line="19" selection-start-line="19" selection-end-line="19" />
                     <folding>
                       <element signature="docComment;class#ControllerTest#0" />
                       <element signature="docComment;field#model#0;class#ControllerTest#0" />
@@ -163,7 +161,7 @@
               <entry file="file://$PROJECT_DIR$/model/src/test/java/model/MapTest.java">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="336">
-                    <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+                    <caret line="30" selection-start-line="30" selection-end-line="30" />
                     <folding>
                       <element signature="docComment;class#MapTest#0" />
                       <element signature="docComment;field#map#0;class#MapTest#0" />
@@ -186,7 +184,7 @@
               <entry file="file://$PROJECT_DIR$/model/src/test/java/model/DAOTest.java">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="360">
-                    <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+                    <caret line="35" selection-start-line="35" selection-end-line="35" />
                     <folding>
                       <element signature="docComment;class#DAOTest#0" />
                       <element signature="docComment;method#setup#0;class#DAOTest#0" />
@@ -206,126 +204,7 @@
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2782">
-              <caret line="215" column="1" lean-forward="true" selection-start-line="215" selection-start-column="1" selection-end-line="215" selection-end-column="1" />
-              <folding>
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/PlayerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="85" column="5" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/PushableTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/site/xref/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="61" column="68" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/site/apidocs/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Enemy1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="98" selection-start-line="98" selection-end-line="98" selection-end-column="29" />
-              <folding>
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Wall.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
-              <folding>
-                <element signature="method#Diamond#0;class#Diamond#0" />
-                <element signature="docComment;method#loadImage#0;class#Diamond#0" />
-                <element signature="method#loadImage#0;class#Diamond#0" />
-                <element signature="e#728#994#0" />
-                <element signature="e#899#984#1" />
-                <element signature="e#1023#1067#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Enemy2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-              <folding>
-                <element signature="docComment;class#Enemy2#0" />
-                <element signature="docComment;field#player#0;class#Enemy2#0" />
-                <element signature="docComment;method#Enemy2#0;class#Enemy2#0" />
-                <element signature="docComment;method#getSprite#0;class#Enemy2#0" />
-                <element signature="docComment;method#loadImage#0;class#Enemy2#0" />
-                <element signature="method#loadImage#0;class#Enemy2#0" />
-                <element signature="e#932#1194#0" />
-                <element signature="e#1099#1184#1" />
-                <element signature="e#1223#1267#0" />
-                <element signature="docComment;method#move#0;class#Enemy2#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -460,6 +339,12 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Master POM" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Master POM" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="javadoc" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -870,13 +755,6 @@
             <path>
               <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="apidocs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -932,11 +810,11 @@
       <recent name="C:\Users\1944473\IdeaProjects\Projet-Java-et-UML\entity\src\Test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\target\site" />
       <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\model\src\main\resources\sprites" />
       <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\model\src\main\resources" />
       <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\contract\src\main\java\contract\showboard" />
       <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\model\src\main\java\model\entity" />
-      <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\main" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -1101,34 +979,6 @@
       <workItem from="1559544664894" duration="7889000" />
       <workItem from="1559552596659" duration="3165000" />
       <workItem from="1559579204743" duration="5056000" />
-    </task>
-    <task id="LOCAL-00009" summary="corrected missing HelloWorld class.">
-      <created>1558688943496</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1558688943496</updated>
-    </task>
-    <task id="LOCAL-00010" summary="added diagrammes">
-      <created>1558689148487</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1558689148487</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Added singleton Player.">
-      <created>1558690588537</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1558690588537</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Corrected constructor parameters and added new Exit class.">
-      <created>1558691030666</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1558691030666</updated>
     </task>
     <task id="LOCAL-00013" summary="Entity package edited and tested partially.">
       <created>1558950953814</created>
@@ -1445,7 +1295,35 @@
       <option name="project" value="LOCAL" />
       <updated>1559596489279</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="The documentation">
+      <created>1559596581287</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1559596581287</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Cleaning">
+      <created>1559596632750</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1559596632750</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Test apidocs.">
+      <created>1559596798073</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1559596798073</updated>
+    </task>
+    <task id="LOCAL-00061" summary="moving surefire">
+      <created>1559597003703</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1559597003704</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1481,7 +1359,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132435000" />
+    <option name="totallyTimeSpent" value="132931000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1495,7 +1373,7 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.14666666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.14666666" />
       <window_info id="Structure" order="1" sideWeight="0.5005513" side_tool="true" weight="0.20149253" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1521,7 +1399,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info active="true" anchor="right" id="Maven" order="5" sideWeight="0.49723756" visible="true" weight="0.16106667" />
+      <window_info anchor="right" id="Maven" order="5" sideWeight="0.49723756" visible="true" weight="0.16106667" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.3296" />
@@ -1608,10 +1486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove the dash over diamond." />
-    <MESSAGE value="Resolving bugs on ennemyTest." />
-    <MESSAGE value="Changing some tests to make them works." />
-    <MESSAGE value="Refresh update" />
     <MESSAGE value="Modification test for ennemy" />
     <MESSAGE value="They finally got the taste for blood. O:3" />
     <MESSAGE value="oupsie" />
@@ -1633,7 +1507,11 @@
     <MESSAGE value="Adding some javadoc again and again and again and again." />
     <MESSAGE value="Adding some tests and generating test report an JRX aggregation." />
     <MESSAGE value="Enemy2 now kill again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enemy2 now kill again" />
+    <MESSAGE value="The documentation" />
+    <MESSAGE value="Cleaning" />
+    <MESSAGE value="Test apidocs." />
+    <MESSAGE value="moving surefire" />
+    <option name="LAST_COMMIT_MESSAGE" value="moving surefire" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1808,7 +1686,7 @@
     <entry file="file://$PROJECT_DIR$/view/src/test/java/view/ViewTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="docComment;class#ViewTest#0" />
             <element signature="docComment;field#expectedRectangle#0;class#ViewTest#0" />
@@ -1826,7 +1704,7 @@
     <entry file="file://$PROJECT_DIR$/controller/src/test/java/controller/ControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="docComment;class#ControllerTest#0" />
             <element signature="docComment;field#model#0;class#ControllerTest#0" />
@@ -1849,7 +1727,7 @@
     <entry file="file://$PROJECT_DIR$/model/src/test/java/model/MapTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="docComment;class#MapTest#0" />
             <element signature="docComment;field#map#0;class#MapTest#0" />
@@ -1878,7 +1756,7 @@
     <entry file="file://$PROJECT_DIR$/model/src/test/java/model/DAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="docComment;class#DAOTest#0" />
             <element signature="docComment;method#setup#0;class#DAOTest#0" />
@@ -1893,7 +1771,7 @@
     <entry file="file://$PROJECT_DIR$/model/src/test/java/model/ModelTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -2055,35 +1933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="method#Diamond#0;class#Diamond#0" />
-            <element signature="docComment;method#loadImage#0;class#Diamond#0" />
-            <element signature="method#loadImage#0;class#Diamond#0" />
-            <element signature="e#728#994#0" />
-            <element signature="e#899#984#1" />
-            <element signature="e#1023#1067#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Wall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/EnemyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -2096,10 +1945,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/xref/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="61" column="68" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/apidocs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/PushableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2782">
-          <caret line="215" column="1" lean-forward="true" selection-start-line="215" selection-start-column="1" selection-end-line="215" selection-end-column="1" />
+          <caret line="215" column="1" selection-start-line="215" selection-start-column="1" selection-end-line="215" selection-end-column="1" />
           <folding>
             <element signature="e#581#582#0" expanded="true" />
             <element signature="e#615#616#0" expanded="true" />
@@ -2107,17 +1984,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/PlayerTest.java">
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="85" column="5" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/PushableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="48">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -2132,10 +2002,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Wall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="method#Diamond#0;class#Diamond#0" />
+            <element signature="docComment;method#loadImage#0;class#Diamond#0" />
+            <element signature="method#loadImage#0;class#Diamond#0" />
+            <element signature="e#728#994#0" />
+            <element signature="e#899#984#1" />
+            <element signature="e#1023#1067#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Enemy2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+        <state relative-caret-position="353">
+          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
           <folding>
             <element signature="docComment;class#Enemy2#0" />
             <element signature="docComment;field#player#0;class#Enemy2#0" />
@@ -2148,20 +2040,6 @@
             <element signature="e#1223#1267#0" />
             <element signature="docComment;method#move#0;class#Enemy2#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/site/xref/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="61" column="68" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/site/apidocs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
         </state>
       </provider>
     </entry>
