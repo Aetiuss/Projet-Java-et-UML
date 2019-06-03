@@ -78,7 +78,13 @@ public class Map{
                         this.map[i][j] = new FallingRock(i,j,map);
                         break;
                     case 'm':
-                        this.map[i][j] = new Ennemy(i,j,map);
+                        long random = Math.round(Math.random());
+                        if (random == 0) {
+                            this.map[i][j] = new Enemy1(i, j, map);
+                        } else if (random == 1) {
+                            this.map[i][j] = new Enemy2(i, j, map);
+                        }
+
                         break;
                     case 'p':
                         this.map[i][j] = Player.getInstance(i,j,map);

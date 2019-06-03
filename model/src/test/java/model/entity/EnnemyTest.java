@@ -10,14 +10,14 @@ public class EnnemyTest
 {
     
     Entity[][] map;
-    Ennemy     ennemy;
+    Enemy1 ennemy;
     Wall wall1, wall2, wall3, wall4, wall5, wall6;
     Empty empty;
     @Before
     public void setUp() throws Exception
     {
         map = new Entity[4][4];
-        ennemy = new Ennemy(1, 1, map);
+        ennemy = new Enemy1(1, 1, map);
         wall1 = new Wall(0, 1, map);
         wall2 = new Wall(1, 0, map);
         wall3 = new Wall(1, 2, map);

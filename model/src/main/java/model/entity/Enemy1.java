@@ -14,7 +14,7 @@ import static java.lang.StrictMath.abs;
  * @author Luc Anthoni
  * @version 1.1
  */
-public class Ennemy extends Entity {
+public class Enemy1 extends Entity {
 
     /**
      * The instance of the player
@@ -32,7 +32,7 @@ public class Ennemy extends Entity {
      * @param y   The Y coordinate of the future object.
      * @param map The map.
      */
-    public Ennemy(int x, int y, Entity[][] map) {
+    public Enemy1(int x, int y, Entity[][] map) {
         super(x, y, map);
     }
 

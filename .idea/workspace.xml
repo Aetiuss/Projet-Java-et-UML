@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="189683bf-0321-4329-856f-c541c18ffd2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/resources/sprites/creeper.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/test/java/model/entity/EnnemyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/test/java/model/entity/EnnemyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/entity/target/surefire-reports/" />
     <ignored path="$PROJECT_DIR$/entity/target/test-classes/" />
@@ -90,87 +95,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="103" column="6" lean-forward="true" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-              <folding>
-                <element signature="docComment;field#player#0;class#Ennemy#0" />
-                <element signature="docComment;field#sprite#0;class#Ennemy#0" />
-                <element signature="docComment;method#Ennemy#0;class#Ennemy#0" />
-                <element signature="docComment;method#getSprite#0;class#Ennemy#0" />
-                <element signature="docComment;method#loadImage#0;class#Ennemy#0" />
-                <element signature="method#loadImage#0;class#Ennemy#0" />
-                <element signature="e#489#726#0" />
-                <element signature="e#631#716#1" />
-                <element signature="method#move#0;class#Ennemy#0" />
-                <element signature="e#1033#2910#1" />
-                <element signature="e#1080#2900#1" />
-                <element signature="e#1121#1469#1" />
-                <element signature="e#1293#1450#1" />
-                <element signature="e#1498#1846#1" />
-                <element signature="e#1669#1827#1" />
-                <element signature="e#1886#2233#1" />
-                <element signature="e#2057#2214#1" />
-                <element signature="e#2262#2608#1" />
-                <element signature="e#2433#2590#1" />
-                <element signature="e#2672#2886#1" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Model.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contract/src/main/java/contract/showboard/BoardFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="208" column="73" selection-start-line="208" selection-start-column="73" selection-end-line="208" selection-end-column="73" />
-              <folding>
-                <element signature="e#4888#4889#0" expanded="true" />
-                <element signature="e#4968#4969#0" expanded="true" />
-                <element signature="e#5087#5088#0" expanded="true" />
-                <element signature="e#5166#5167#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="135">
+              <caret line="81" column="39" lean-forward="true" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
                 <element signature="e#559#560#0" expanded="true" />
                 <element signature="e#2789#2790#0" expanded="true" />
                 <element signature="e#2815#2816#0" expanded="true" />
@@ -180,41 +111,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Entity.java">
+        <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/EnnemyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="75" column="39" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
-                <element signature="e#1525#1526#0" expanded="true" />
-                <element signature="e#1562#1563#0" expanded="true" />
-                <element signature="e#1623#1624#0" expanded="true" />
-                <element signature="e#1675#1676#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-134">
-              <caret line="120" column="41" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4638#4639#0" expanded="true" />
-                <element signature="e#5087#5088#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Fallable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            <state relative-caret-position="423">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,19 +122,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/controller/Controller.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+            <state relative-caret-position="432">
+              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding>
-                <element signature="docComment;class#Controller#0" />
-                <element signature="docComment;field#view#0;class#Controller#0" />
-                <element signature="docComment;field#model#0;class#Controller#0" />
-                <element signature="docComment;field#player#0;class#Controller#0" />
-                <element signature="docComment;method#Controller#0;class#Controller#0" />
-                <element signature="docComment;method#orderPerform#0;class#Controller#0" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -246,8 +151,8 @@
       <list>
         <option value="Singleton" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -289,15 +194,12 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy2.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/model/src/main/java/model/DAO.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/EnnemyDestructable.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/FallableDestrutable.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/HelloWorld.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/IDestructable.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/PlayerDestructable.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Pushable.java" />
@@ -315,7 +217,6 @@
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Indestructable.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/FallableTest.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Empty.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/Map.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Wall.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Factory.java" />
@@ -325,7 +226,6 @@
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/FallableTest.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Diamond.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java" />
-        <option value="$PROJECT_DIR$/model/src/test/java/model/entity/EnnemyTest.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/PlayerTest.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/PlayerCollectibleTest.java" />
         <option value="$PROJECT_DIR$/model/src/test/java/model/entity/ExitTest.java" />
@@ -343,8 +243,14 @@
         <option value="$PROJECT_DIR$/contract/src/main/java/contract/showboard/BoardFrame.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Exit.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Player.java" />
-        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Fallable.java" />
         <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Fallable.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Mob.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/EnnemyRoot.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy1.java" />
+        <option value="$PROJECT_DIR$/model/src/test/java/model/entity/EnnemyTest.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/Map.java" />
+        <option value="$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy2.java" />
       </list>
     </option>
   </component>
@@ -701,17 +607,6 @@
               <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="entityBehaviours" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet Java et UML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Java-et-UML" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -766,6 +661,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="model.entity.entityBehaviours" />
       <recent name="model" />
       <recent name="entity" />
     </key>
@@ -774,9 +670,9 @@
       <recent name="C:\Users\1944473\IdeaProjects\Projet-Java-et-UML\entity\src\Test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\model\src\main\resources\sprites" />
       <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\model\src\main\resources" />
       <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\contract\src\main\java\contract\showboard" />
-      <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\model\src\main\resources\sprites" />
       <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\model\src\main\java\model\entity" />
       <recent name="C:\Users\theow\Projet\Code\Projet-Java-et-UML\main" />
     </key>
@@ -1158,7 +1054,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559572327743</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="JavaDoc to enemy">
+      <created>1559573696004</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1559573696004</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1194,7 +1097,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122609000" />
+    <option name="totallyTimeSpent" value="123874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1209,7 +1112,7 @@
     <frame x="1912" y="-380" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.12686567" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.1977612" />
       <window_info id="Structure" order="1" sideWeight="0.5005513" side_tool="true" weight="0.20149253" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1218,7 +1121,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928178" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.03314917" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0961326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.057458565" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1320,7 +1223,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Entity package edited and tested partially." />
     <MESSAGE value="Added constructor parameters and edited Player class to set x and y coordinates." />
     <MESSAGE value="Finished factory class" />
     <MESSAGE value="Added destructable behaviour with strategy pattern." />
@@ -1345,7 +1247,8 @@
     <MESSAGE value="oupsie" />
     <MESSAGE value="End is now an end" />
     <MESSAGE value="Rocks kill you now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rocks kill you now" />
+    <MESSAGE value="JavaDoc to enemy" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaDoc to enemy" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1380,24 +1283,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/awt/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="6503" column="5" lean-forward="true" selection-start-line="6503" selection-start-column="5" selection-end-line="6503" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/entityBehaviours/FallableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Factory.java" />
     <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Rock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1614,16 +1499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1719,13 +1594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/EnnemyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/FallableDestrutable.java" />
     <entry file="file://$PROJECT_DIR$/main/src/main/java/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1738,25 +1606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#2789#2790#0" expanded="true" />
-            <element signature="e#2815#2816#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1775,10 +1624,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Model.java">
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+        <state relative-caret-position="-134">
+          <caret line="120" column="41" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4639#4640#0" expanded="true" />
+            <element signature="e#5088#5089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Fallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1802,13 +1663,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contract/src/main/java/contract/showboard/BoardFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="406">
           <caret line="208" column="73" selection-start-line="208" selection-start-column="73" selection-end-line="208" selection-end-column="73" />
           <folding>
             <element signature="e#4888#4889#0" expanded="true" />
             <element signature="e#4968#4969#0" expanded="true" />
             <element signature="e#5087#5088#0" expanded="true" />
             <element signature="e#5166#5167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/PlayerCollectible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1820,53 +1708,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Player.java">
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Mob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="120" column="41" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
+        <state relative-caret-position="264">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4638#4639#0" expanded="true" />
-            <element signature="e#5087#5088#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/entityBehaviours/Fallable.java">
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        <state relative-caret-position="183">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="81" column="39" lean-forward="true" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#2789#2790#0" expanded="true" />
+            <element signature="e#2815#2816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/src/test/java/model/entity/EnnemyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy.java">
+    <entry file="file://$PROJECT_DIR$/model/src/main/java/model/entity/Ennemy2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        <state relative-caret-position="432">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding>
-            <element signature="docComment;field#player#0;class#Ennemy#0" />
-            <element signature="docComment;field#sprite#0;class#Ennemy#0" />
-            <element signature="docComment;method#Ennemy#0;class#Ennemy#0" />
-            <element signature="docComment;method#getSprite#0;class#Ennemy#0" />
-            <element signature="docComment;method#loadImage#0;class#Ennemy#0" />
-            <element signature="method#loadImage#0;class#Ennemy#0" />
-            <element signature="e#489#726#0" />
-            <element signature="e#631#716#1" />
-            <element signature="method#move#0;class#Ennemy#0" />
-            <element signature="e#1033#2910#1" />
-            <element signature="e#1080#2900#1" />
-            <element signature="e#1121#1469#1" />
-            <element signature="e#1293#1450#1" />
-            <element signature="e#1498#1846#1" />
-            <element signature="e#1669#1827#1" />
-            <element signature="e#1886#2233#1" />
-            <element signature="e#2057#2214#1" />
-            <element signature="e#2262#2608#1" />
-            <element signature="e#2433#2590#1" />
-            <element signature="e#2672#2886#1" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
           </folding>
         </state>
       </provider>
