@@ -55,6 +55,12 @@ public class BoardFrame extends JFrame implements IBoard {
         this.setVisible(true);
     }
 
+    /**
+     * Get the Score.
+     * <p>
+     * <p>
+     * the title
+     */
     public void getScore(int score) {
         boardPanel.displayScore(score);
     }
