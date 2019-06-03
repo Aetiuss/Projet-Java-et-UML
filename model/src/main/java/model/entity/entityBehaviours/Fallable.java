@@ -4,6 +4,7 @@ import contract.showboard.BoardFrame;
 import model.entity.Diamond;
 import model.entity.Empty;
 import model.entity.Entity;
+import model.entity.Player;
 
 public class Fallable
 {
@@ -34,6 +35,7 @@ public class Fallable
         {
             if (entity.map[entity.x][entity.y].fallable.falling == true)
             {
+                Player.getInstance().die();
                 BoardFrame.kill(); //kill from BoardFrame
             }
         }

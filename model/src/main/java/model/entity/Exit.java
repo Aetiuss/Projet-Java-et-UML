@@ -17,6 +17,7 @@ public class Exit extends Entity {
     private Exit()
     {
         super();
+        loadImage();
     }
 
     /**
@@ -29,7 +30,7 @@ public class Exit extends Entity {
     /**
      *
      *
-     * @return the instance of the singleton if not created with coordonate
+     * @return the instance of the singleton if not created with coordinate
      */
     public static Exit getInstance(int x, int y, Entity[][] map) {
         instance.x = x;
@@ -57,7 +58,7 @@ public class Exit extends Entity {
     public void loadImage() {
 
         try {
-            this.image = ImageIO.read(getClass().getClassLoader().getResource("./sprites/nether_portal.png"));
+            this.image = ImageIO.read(getClass().getClassLoader().getResource("sprites/portal.png"));
             if (this.image == null) {
                 throw new IOException("File is nowhere to be found");
             }
@@ -105,6 +106,7 @@ public class Exit extends Entity {
      */
     public void end() {
         if (this.exitIsOpen == true) {
+            Player.getInstance().die();
             BoardFrame.end();
         }
     }
