@@ -90,7 +90,7 @@ public class Exit extends Entity {
      * check if the exit can open
      */
     public void exitOpen() {
-        if (score == 100) {
+        if (score >= 100) {
             this.exitIsOpen = true;
             this.end();
         } else {
