@@ -78,7 +78,7 @@ public class Player extends Entity
                 ourInstance.y++;
                 map[x][y] = this;
             }
-    
+
     
         }
     }
@@ -100,6 +100,8 @@ public class Player extends Entity
                 map[x][y] = new Empty(x, y, map);
                 ourInstance.x--;
                 map[x][y] = this;
+            } else {
+                map[x - 1][y].pushable.pushLeft();
             }
         }
     }
@@ -121,8 +123,9 @@ public class Player extends Entity
                 map[x][y] = new Empty(x, y, map);
                 ourInstance.x++;
                 map[x][y] = this;
+            } else {
+                map[x + 1][y].pushable.pushRight();
             }
-    
         }
     }
     @Override
