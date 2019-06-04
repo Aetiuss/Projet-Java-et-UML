@@ -22,7 +22,7 @@ public final class Model extends Observable implements IModel {
      * Constructor of the class model
      */
     public Model() {
-        DAO.getInstance().acquireFromDB(5);
+        DAO.getInstance().acquireFromDB(1);
     }
 
 

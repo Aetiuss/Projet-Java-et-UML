@@ -50,7 +50,6 @@ public class Fallable
             }
             catch (Exception e)
             {
-                System.out.print("");
             }
             
         }
@@ -62,7 +61,6 @@ public class Fallable
             }
             catch (final Exception e)
             {
-                System.out.print("");
             }
         }
             if (entity.map[entity.x][entity.y].fallable.falling)
@@ -86,7 +84,10 @@ public class Fallable
             {
                 for (int j = 2; j >= 0; j--)
                 {
-                    entity.map[entity.x - 1 + i][entity.y + j] = new Diamond(entity.x + i, entity.y - 1 + j, entity.map);
+                    if (entity.map[entity.x - 1 + i][entity.y + j].getSprite() != 'w') {
+                        entity.map[entity.x - 1 + i][entity.y + j] = new Diamond(entity.x + i, entity.y - 1 + j, entity.map);
+                    }
+
                 }
             }
         }
