@@ -50,7 +50,6 @@ public class Fallable
             }
             catch (Exception e)
             {
-                System.out.print("");
             }
             
         }
@@ -62,7 +61,6 @@ public class Fallable
             }
             catch (final Exception e)
             {
-                System.out.print("");
             }
         }
             if (entity.map[entity.x][entity.y].fallable.falling)
